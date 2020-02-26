@@ -1,0 +1,2123 @@
+## intent:greet
+- hey
+- hello
+- hi
+- good morning
+- good evening
+- hey there
+- hello man
+- Hello
+
+## intent:goodbye
+- bye!
+- goodbye!
+- see you around!
+- see you later!
+- bye
+- Thank you so much, bye.
+
+## intent:affirm
+- yes
+- indeed
+- of course
+- that sounds good
+- correct
+- absolutely
+- yeah
+- si
+- yes dude
+- yes thank you
+
+## intent:deny
+- no
+- never
+- I don't think so
+- don't like that
+- no way
+- not really
+
+## intent:inform
+- [restaurant](restaurant_type)
+- a [restaurant](restaurant_type)
+- I need a [restaurant](restaurant_type)
+- [Japan](country)
+- in [Japan](country)
+- [8](party_size_number)
+- [RI](state)
+- [Sandstone](city)
+- [Kandy](city)
+- [Colombo](city)
+- [Madison Park](city)
+- [Matale](city)
+- [Jacksboro](city)
+- in [Sandstone](city)
+- on [midday](timeRange)
+- [midday](timeRange)
+- around [midday](timeRange)
+- In [Allison](city)
+- for [3](party_size_number) people
+- at [midnight](timeRange)
+- for [7](party_size_number) people
+- [Kolannawa](city)
+- around [6 O'clock](timeRange)
+
+## intent:mood_great
+- perfect
+- very good
+- great
+- amazing
+- wonderful
+- I am feeling very good
+- I am great
+- I'm good
+- I am good
+- I am great!
+- I am fine
+
+## intent:mood_unhappy
+- sad
+- very sad
+- unhappy
+- bad
+- very bad
+- awful
+- terrible
+- not very good
+- extremely sad
+- so sad
+- not good
+- not very well
+- I am not fine
+
+## intent:bot_challenge
+- are you a bot?
+- are you a human?
+- am I talking to a bot?
+- am I talking to a human?
+- what you can do?
+
+## intent:book_reservation
+- book [The Middle East](restaurant_name) [restaurant](restaurant_type) in [IN](state) for [noon](timeRange)
+- Book a table at [T-Rex](restaurant_name) [distant](spatial_relation) from [Halsey St](poi).
+- I'd like to eat at a [taverna](restaurant_type) that serves [chili con carne](served_dish) for a party of [10](party_size_number)
+- I have a party of [four](party_size_number) in [Japan](country) and need a reservation at [Rimsky-Korsakoffee House](restaurant_name) on [Aug. the 3rd](timeRange).
+- Please make a [restaurant](restaurant_type) reservation for somewhere in [Mondovi](city), [Connecticut](state).
+- book a spot [far](spatial_relation) from [Åland](country)
+- I'd like to eat at the [best](sort) [restaurant](restaurant_type) in [Coalton](city)
+- book a [taverna](restaurant_type) that serves [vichyssoise](served_dish) [within walking distance](spatial_relation) in [OH](state)
+- I want to book a [popular](sort) [tyrolean](cuisine) [steakhouse](restaurant_type) in [Madison Park](city) [WA](state) [in 1 hour nine minutes and one second](timeRange)
+- Find a table for [8](party_size_number) somewhere in [Bonaire](country) [in 345 days](timeRange)
+- Book a [restaurant](restaurant_type) with [parking](facility) facility for [3](party_size_number).
+- please book a room in [Spaghetti Warehouse](restaurant_name) for [catalina, delores and brandie mendoza](party_size_description) at [12 AM](timeRange)
+- I need a table for [1](party_size_number) at a [highly rated](sort) [restaurant](restaurant_type) [next autumn](timeRange) in [Emmons](city), [RI](state)
+- book a spot [in 1 second](timeRange) that is [neighboring](spatial_relation) [robin's hotel](poi)
+- [patty and I](party_size_description) need a table booked at a [highly rated](sort) [restaurant](restaurant_type) in [Sandstone](city).
+- Make a reservation for [four](party_size_number) at a [pub](restaurant_type) in [Sugarville](city).
+- book a table for a [Macedonia](country) [restaurant](restaurant_type)
+- I'd like to go to a [halal](cuisine) [restaurant](restaurant_type) [in twenty minutes](timeRange) [around](spatial_relation) the [District Of Columbia](state) and book seats for [four](party_size_number)
+- Book a table for [10](party_size_number) people at [Dunbrody Country House Hotel](restaurant_name) in [Strandburg](city).
+- Book a table in a [Haines Borough](poi) [restaurant](restaurant_type) for [nine](party_size_number) that is [within walking distance](spatial_relation).
+- book [midday](timeRange) at a [faraway](spatial_relation) [cuban](cuisine) place for [five](party_size_number) at a [top-rated](sort) [bakery](restaurant_type) in [Grainola](city)
+- Book a [bakery](restaurant_type) with [smoking room](facility) for [nine](party_size_number) in [Niger](country).
+- Book a [restaurant](restaurant_type) for [ten](party_size_number) in [OK](state).
+- Book the [Gus Stevens Seafood Restaurant & Buccaneer Lounge](restaurant_name) in [Papua New Guinea](country) for [one](party_size_number) person.
+- book a [Boon Brick Store](restaurant_name) for [my grandkid and I](party_size_description) at [Evans Mills](city)
+- Book a [pub](restaurant_type) with [fisn'n chips](served_dish) in [Timberville](city).
+- [Restaurant](restaurant_type) [near](spatial_relation) [in town](poi) uses [in two years](timeRange)
+- Book seating at a [restaurant](restaurant_type) in [Topton](city)
+- I need a table for [four](party_size_number) at a [pub](restaurant_type) in [Heard Island and McDonald Islands](country)
+- I want to go to [Antigua and Barbuda](country) and eat at a table for [4](party_size_number).
+- I want to eat at a [scandinavian](cuisine) [restaurant](restaurant_type) that is [highly rated](sort) in [Bonita](city) [Texas](state)
+- I want to eat for [two](party_size_number) at a [brasserie](restaurant_type) in [Gwynedd Valley](city) [TN](state) with [pickled cucumber](served_dish) [in one second](timeRange)
+- book on [feb. the twenty-sixth, 2026](timeRange) in [Tracyton](city) for [two](party_size_number) at a [cafe](restaurant_type)
+- I'd like to eat in [Iran](country) with a party of [9](party_size_number) on [sep. the 12th](timeRange)
+- Book [The Oriel](restaurant_name) in [Allison](city) for a party of [four](party_size_number).
+- book a table on [6/14/2035](timeRange) at a [bakery](restaurant_type) [within walking distance](spatial_relation) of [Equatorial Guinea](country) that serves [paella](served_dish)
+- book me [top-rated](sort) [restaurant](restaurant_type) for [9](party_size_number) members for [midnight](timeRange) at [Fair Bluff](city) [RI](state)
+- book a [Ukraine](country) [pub](restaurant_type) serves [mineiro](cuisine)
+- Book a [restaurant](restaurant_type) in [Mauritania](country) for [1](party_size_number) person.
+- [me and my niece](party_size_description) want to eat somewhere [close by](spatial_relation) [Hopatcong](poi)
+- Can you book me a table for [9](party_size_number) in [DE](state)?
+- I need a reservation for a [pizzeria](restaurant_type) [nearby](spatial_relation) [Vigus](city)
+- I want to book a [restaurant](restaurant_type) [neighboring](spatial_relation) [Livonia Av](poi)
+- Book me a table for [seven](party_size_number) people at a [bar](restaurant_type) with a [pool](facility).
+- Book a spot for [kelli, jean and I](party_size_description) at a [pub](restaurant_type) at [elevenses](timeRange)
+- book a [gastropub](restaurant_type) serves [waffle](served_dish) for [8](party_size_number)
+- I need a reservation for [7](party_size_number) people at a [bar](restaurant_type) in [Chile](country) that serves [bio](served_dish).
+- I need to book a table at a [food court](restaurant_type) in [NH](state) that serves [smelt](served_dish)
+- Book a [restaurant](restaurant_type) in [MP](state) at [3 pm](timeRange) with [pigs in blankets](served_dish)
+- Book an [australian](cuisine) [restaurant](restaurant_type) in [Jacksboro](city) [three weeks from now](timeRange) for [my step father and I](party_size_description).
+- Please book reservations at a [restaurant](restaurant_type) that serves [empanada](served_dish), party for three with [betty and dolly](party_size_description).
+- I need a table at [The Ledbury](restaurant_name) at [18 o'clock](timeRange)
+- At [four pm](timeRange). I need a table for [8](party_size_number) at a [restaurant](restaurant_type) in [Guernsey](country) that serves [salade](served_dish).
+- book a table [1 year from now](timeRange) for [corinne, tisha and I](party_size_description) at a [restaurant](restaurant_type) in [Guernsey](country) that is [top-rated](sort)
+- I'm looking to reserve a table at a [pasta](served_dish) [restaurant](restaurant_type) in [Serbia](country).
+- Book me a reservation for [Ad Hoc](restaurant_name) in [Brazil](country) for a party of [7](party_size_number)
+- Lets go eat in [Friday](city) [43 days from now](timeRange)
+- I need a reservation for a [brasserie](restaurant_type) that serves [ankimo](served_dish) in [PW](state)
+- Please book reservations for [3](party_size_number) people at a [restaurant](restaurant_type) in [Alderwood Manor](city)
+- book a table in [MT](state) for [3](party_size_number) for [now](timeRange) at a [pub](restaurant_type) that serves [south indian](cuisine)
+- Book a table in [Belhaven](city) for a party of [seven](party_size_number) at the [Great House at Sonning](restaurant_name)
+- I want to book a [restaurant](restaurant_type) [near](spatial_relation) [Wyoming](state) for [5](party_size_number) people.
+- Get me a table at [Eighth Step Coffee House](restaurant_name) in [Germania](city) for [7](party_size_number)
+- Locate the [best](sort) [pub](restaurant_type) in [Apache Junction](city)
+- book a [restaurant](restaurant_type) in [McMurray](city) on [august seventeenth](timeRange) for [marjorie vasquez, edith and martina](party_size_description)
+- Book a table for [mindy and angelita](party_size_description) at a [restaurant](restaurant_type) which serves [café liégeois](served_dish)
+- I need a table for [ten](party_size_number) on [april the eighteenth, 2030](timeRange)
+- book a [popular](sort) [restaurant](restaurant_type) of [thai](cuisine) cuisine
+- I want to book a [pastelaria](cuisine) [cafe](restaurant_type) in [Alabama](state) for [me and my great grandfather](party_size_description).
+- I need a reservation for [apr. the sixteenth, 2027](timeRange) in [Cazenovia](city), [CA](state)
+- Book a table at a [bar](restaurant_type) in [Moody](city) for [deloris, ester and petra alvarez](party_size_description).
+- Can you find me reservations for this [morning](timeRange) at a [restaurant](restaurant_type) that serves [stracciatella](served_dish)?
+- Book the [best](sort) [joint](restaurant_type) for [3](party_size_number) people.
+- book a spot for [me, tiffany and sondra](party_size_description) at a [top-rated](sort) [restaurant](restaurant_type) in [MS](state) with [udupi](cuisine)
+- Please book a [restaurant](restaurant_type) room which serves [hangtown fry](served_dish) dish in [Jagual](city)
+- I need a reservation for the [best](sort) [asian](cuisine) [joint](restaurant_type) on [Jan. 3](timeRange) in [Bradford](city) [Alabama](state) for a party of [9](party_size_number)
+- Book a [gastropub](restaurant_type) that has [balinese](cuisine) food [in twenty hours](timeRange) in [Comunas](city) for [my nephew and I](party_size_description)
+- I need to book a [Theme restaurant](restaurant_name) [this month](timeRange) in [Chile](country)
+- Book a table for [ten](party_size_number) people at a [restaurant](restaurant_type) which serves [snack](served_dish).
+- I would like to book a [restaurant](restaurant_type) in [Lebanon](country)
+- Book the [Fashion Café](restaurant_name) for [elevenses](timeRange).
+- book a spot for [me and my great grandfather](party_size_description) at a [brasserie](restaurant_type) with a [pool](facility) at [7 am](timeRange)
+- I need a table at [T-Rex](restaurant_name) for [nine](party_size_number) in [Brunei](country)
+- Book a table for [two](party_size_number) for [this autumn](timeRange)
+- book a spot at a [restaurant](restaurant_type) with [wifi](facility) that is [neighboring](spatial_relation) [Suriname](country)
+- Book a [restaurant](restaurant_type) in [Papua New Guinea](country) for [me and my daughters](party_size_description)
+- book a spot at a [highly rated](sort) [tavern](restaurant_type) in [Colombia](country)
+- Make a reservation at a [tavern](restaurant_type) which serves [clam cake](served_dish) for a party of [8](party_size_number) in [Western Sahara](country).
+- Make me a reservation in [South Carolina](state)
+- Book a table for [2](party_size_number) at a [restaurant](restaurant_type) in [Follett](city)
+- book a [sushis](served_dish) serving [restaurant](restaurant_type) in [Uzbekistan](country)
+- I need a table for [8](party_size_number) during [midday](timeRange) in [Montana](state)
+- book a table in [California](state) for [rita and brenda](party_size_description) at [Hurley Mountain Inn](restaurant_name) on [january the 11th](timeRange)
+- [me and my grandmother](party_size_description) want to eat [umbrian](cuisine) food on [January the 7th](timeRange) at a [brasserie](restaurant_type).
+- book a [restaurant](restaurant_type) for [4](party_size_number) that's [not far](spatial_relation) from [CA](state)
+- Book me a [restaurant](restaurant_type) please.
+- book for [five](party_size_number) in [Georgia](state) at [The Coffee Bean & Tea Leaf](restaurant_name)
+- Book a table for [6](party_size_number) in [New Hampshire](state) for [next week](timeRange).
+- book a table at [SkyCity](restaurant_name) in [Salado](city) for [me and hannah](party_size_description)
+- book a [eastern european](cuisine) cuisine [restaurant](restaurant_type) in [midday](timeRange) for [four](party_size_number) in [Meers](city),[MP](state)
+- Book a [highly rated](sort) [northeast indian](cuisine)  [brasserie](restaurant_type) in [Kenova](city) for [nannie and I](party_size_description) at [14:41](timeRange).
+- [gwen carter and I](party_size_description) want a reservation in the [Dominican Republic](country)
+- [1 minute from now](timeRange), I will need reservations at a [restaurant](restaurant_type) in [Vanlue](city).
+- Book a reservation for a [brasserie](restaurant_type) serving [soupe](served_dish) in [Tokelau](country)
+- I'd like to have [southeastern brazilian](cuisine) at the [pub](restaurant_type) in [Dominica](country)
+- Book a reservation for [6](party_size_number) at a [restaurant](restaurant_type) in [Deersville](city)
+- book a spot at [Colony](restaurant_name)
+- book a spot for [2](party_size_number) at a [brasserie](restaurant_type) that has [hot dog](served_dish) in [WA](state) at [twelve AM](timeRange)
+- Book a [restaurant](restaurant_type) [neighboring](spatial_relation) [IL](state) for [me, rachelle and wilda](party_size_description).
+- Reserve a table for [3](party_size_number) people at [The Cubby Bear](restaurant_name),  in [Comoros](country).
+- Book a spot for [nine](party_size_number) at [The Cubby Bear](restaurant_name) in [Luxor](city)
+- Find a reservation for a [tavern](restaurant_type) that serves [pizzas](served_dish) for a party of [6](party_size_number)
+- Find a reservation for [3](party_size_number) people
+- I need a reservation for [Harveys](restaurant_name) [this Winter](timeRange) in [neighboring](spatial_relation) [Wisconsin](state) for [terri and I](party_size_description)
+- Reserve me a table a [bar](restaurant_type) that serves [african](cuisine) food for [thirteen o'clock](timeRange) for [1](party_size_number) in [Moravian Falls](city).
+- book [Tun Tavern](restaurant_name) for [morning](timeRange) in [Norfolk Island](country)
+- book a [highly rated](sort) [bar](restaurant_type) in [Curacao](country) for [one](party_size_number)
+- I want to go to that [popular](sort) [ethiopian](cuisine) [restaurant](restaurant_type)
+- I need a reservation for a [gastropub](restaurant_type) that serves a [maple bacon donut](served_dish)
+- I need a table at [Eddie’s Attic](restaurant_name) in [Nevada](state) for [one](party_size_number)
+- I need a [restaurant](restaurant_type) on [july 18th](timeRange) in [Rose Bud](city)
+- Book a [restaurant](restaurant_type) with [wifi](facility) for [nine](party_size_number) people.
+- book a spot at [Bobcat Bite](restaurant_name) in [Needmore](city) for [ten am](timeRange)
+- I want reservations at a [restaurant](restaurant_type) in [Robert Lee](city) for [21:05:17](timeRange).
+- Book a reservation for [nine](party_size_number) at an [outdoor](facility) [restaurant](restaurant_type)
+- book me a [Rustic inn](restaurant_name) [restaurant](restaurant_type) for [8](party_size_number) members at [Nappanee](city)
+- Book a [highly rated](sort) [restaurant](restaurant_type) for [one](party_size_number) person in [Rainbow Lakes](city).
+- book a [restaurant](restaurant_type) for [nine](party_size_number) on [16 hours from now](timeRange)
+- [me and imelda](party_size_description) want a reservation in [Missouri](state) at [seven am](timeRange)
+- Book a [nearby](spatial_relation) [northeast indian](cuisine) [restaurant](restaurant_type) in [North Carolina](state) for [ten](party_size_number) people at [six am](timeRange).
+- Book me a [restaurant](restaurant_type) where I can get a [burrito](served_dish)
+- I want to get reservations at a place [close by](spatial_relation) for [6](party_size_number) people to eat in [SC](state).
+- Make me a reservation [within walking distance](spatial_relation) in [WY](state) for [6 pm](timeRange)
+- Need to book a table [downtown](poi) [within walking distance](spatial_relation) of me at [J.G. Melon](restaurant_name)
+- Make a booking for the [highly rated](sort) [food court](restaurant_type) in [Montenegro](country).
+- Book a table for [6](party_size_number) in [Verona](city).
+- Book the [Slippery Noodle Inn](restaurant_name) in [Gober](city).
+- book a [restaurant](restaurant_type) [within the same area](spatial_relation) as [Saratoga Av](poi)
+- Please book a [joint](restaurant_type) type [restaurant](restaurant_type) room with [spa](facility) facility to accommodate [8](party_size_number) members
+- My group of [seven](party_size_number) wants to eat at [Yogurt Mountain](restaurant_name) in [Slick](city) [tonight](timeRange).
+- Reserve a table for [two](party_size_number) for [jun. 13th](timeRange) in a [neighboring](spatial_relation) [bistro](restaurant_type) which serves [mongolian](cuisine) food in [Northway](city).
+- Book a [restaurant](restaurant_type) [not far](spatial_relation) in [Milladore](city) for [6](party_size_number) people.
+- Book reservations at a [restaurant](restaurant_type) in [MI](state) [seven weeks from now](timeRange)
+- I need a reservation for [National Coney Island](restaurant_name) with a party of [8](party_size_number) in [NV](state)
+- book a [brasserie](restaurant_type) with [internet](facility) fascility for [5](party_size_number) [in a year ](timeRange) in [Oklahoma](state)
+- Book the [Boon Brick Store](restaurant_name) for [nine](party_size_number) people.
+- Book a table at a [restaurant](restaurant_type) in the [Cayman Islands](country) [two hundred ninety six days from now](timeRange)
+- book a [cafeteria](restaurant_type) having [pool](facility) for [four](party_size_number) in [Algeria](country)
+- find and book a [restaurant](restaurant_type) that serves [dumplings](served_dish)
+- Book a [brasserie](restaurant_type) in [Samoa](country) for [four](party_size_number) people.
+- book a [restaurant](restaurant_type) in [Puerto Rico](state)
+- book in [OH](state) in [Gurabo](city) for [velma and gloria](party_size_description)
+- book a [restaurant](restaurant_type) for [me, angela and mercedes](party_size_description) in [Cimarron City](city), [Colorado](state)
+- Book a table for [9](party_size_number) people for [four pm](timeRange) in [Johnson](city).
+- book me a [restaurant](restaurant_type) that serves [green bean casserole](served_dish) for [five](party_size_number) people
+- book at [Dutchess Manor](restaurant_name) in [Portugal](country) for [6](party_size_number)
+- [restaurant](restaurant_type) in [Bulgaria](country) [this week](timeRange) party for [9](party_size_number) numbers
+- Make me a reservation for a party of [eight](party_size_number) in [Ledoux](city)
+- book [this week](timeRange) for [their step sister's workplace](poi) [close](spatial_relation)
+- I need a party of [two](party_size_number) reservation [faraway](spatial_relation) from [Atlantic Av-Barclays Ctr](poi) at a [spa](facility) for [fast food](restaurant_type)
+- book a spot in [Malin](city) [KY](state)
+- book a spot [in the same area](spatial_relation) as [Yankee Doodle Coffee Shop](restaurant_name) in [Madagascar](country)
+- book a [food court](restaurant_type) in [supper](timeRange) time [distant](spatial_relation) from [Northern Mariana Islands](state) for [me, winnie and courtney](party_size_description)
+- Book a [restaurant](restaurant_type) that serves [capicollo](served_dish) in [Kit Carson](city) with [ilene and aisha](party_size_description).
+- book [James D. Conrey House](restaurant_name) for [madeleine, keisha and clara alvarez](party_size_description) [far](spatial_relation) from [your colleague's college](poi)
+- I want to book a [meal](timeRange) at a [restaurant](restaurant_type) that searves [kouglof](served_dish).
+- Book [Laurelhurst Theater](restaurant_name) for [8](party_size_number) people.
+- I want to book a [restaurant](restaurant_type) for [supper](timeRange) in [Kellerton](city) for [2](party_size_number)
+- Can you book a table for a party of [6](party_size_number) [close](spatial_relation) to [DeKalb Av](poi)
+- I would like to book a [restaurant](restaurant_type) [within the same area](spatial_relation) as [Myrtle Av](poi) for [6](party_size_number)
+- I have [six](party_size_number) people who would like to eat at a [cafe](restaurant_type) that serves [american chinese cuisine](served_dish) in [TX](state).
+- I'd like to get a [restaurant](restaurant_type) booked on [mar. fourteenth](timeRange) in [MD](state).
+- book a [mexican](cuisine) [brasserie](restaurant_type) [close by](spatial_relation) [Woodcliff Lake](poi) for a party of [7](party_size_number) on [April 25, 2026](timeRange)
+- book a table for [seven](party_size_number) in [Walpole](city)
+- Can you get seating for a group of [6](party_size_number) at [twenty o'clock](timeRange) at a [restaurant](restaurant_type) and [spa](facility) [faraway](spatial_relation) from [Palmyra](poi)
+- I want to go to the [Freight House](restaurant_name) in [Gabon](country)
+- I need a table for [nine](party_size_number) at a [restaurant](restaurant_type) in [Pelican Bay](city) serving [chips](served_dish) on [December 6, 2031](timeRange)
+- book a spot for [robyn martinez, maude and I](party_size_description) at a [steakhouse](restaurant_type) [not far](spatial_relation) from [their place](poi)
+- I would like to book a [restaurant](restaurant_type) in [Poncha Springs](city) for [8](party_size_number) at [00:32 am](timeRange)
+- book in [South Dakota](state) for [lobster newberg](served_dish) at a [pub](restaurant_type)
+- book a [masala](served_dish) [bar](restaurant_type) on [march 6, 2034](timeRange)
+- Book a reservation for [ten](party_size_number) at a [restaurant](restaurant_type) in [AMerican Samoa](state) at [2 am](timeRange)
+- Book a [restaurant](restaurant_type) for [ten](party_size_number) in [Germfask](city).
+- book a spot for [8](party_size_number) in [Hungary](country) on [february the 14th](timeRange)
+- Book a [churrascaria restaurant](restaurant_type) that serves [chips](served_dish) for [five](party_size_number) people.
+- Find a reservation at [Sunset](timeRange) at a [gastropub](restaurant_type) for [2](party_size_number) people
+- Lets go [far](spatial_relation) to [The Wolseley](restaurant_name) in [Maine](state)
+- book a spot for [eight](party_size_number) at a [pub](restaurant_type) in [New Mexico](state)
+- Book a [restaurant](restaurant_type) with [parking](facility) for [kirsten morris and I](party_size_description).
+- Book a [restaurant](restaurant_type) for [ten](party_size_number) in [Exmore](city) at [sunset](timeRange)
+- Can you book reservations for [jeanne and charlotte](party_size_description) at a [diner](restaurant_type) in [Mayotte](country)
+- I'm hoping to find a table for [six](party_size_number) at a [pub](restaurant_type) on [jul. 19, 2029](timeRange).
+- [21 weeks from now](timeRange) [elinor, crystal turner and nita](party_size_description) want to eat [german](cuisine) food at a [bar](restaurant_type) in [distant](spatial_relation) [California](state)
+- Find a place for me to eat in [Connecticut](state) for [9 and a half months from now](timeRange)
+- I want to take [my bf and I](party_size_description) to get some [pain perdu](served_dish) from a [food truck](restaurant_type)
+- I'd like a table for [five](party_size_number) at any [restaurant](restaurant_type)
+- I'd like to book [4](party_size_number) seats at a [restaurant](restaurant_type).
+- I want to make a reservation for a group of [4](party_size_number) at a [churrascaria](restaurant_type) type [spa](facility)
+- Schedule the [food truck](restaurant_type) to be at [your place](poi) in the [distant](spatial_relation) future.
+- Can you make reservations at a [restaurant](restaurant_type) that serves [mashed pumpkin](served_dish) for [six PM](timeRange)
+- Book [The Crown at Whitebrook](restaurant_name) in [RI](state) for [2](party_size_number) people.
+- i need to book a [restaurant](restaurant_type) for [five](party_size_number) in [Liberia](country) at [The Maisonette](restaurant_name)
+- Book spot for [eight](party_size_number) at [bar](restaurant_type) that serves [potée](served_dish)
+- table for [6](party_size_number) at a [brasserie](restaurant_type)
+- Book reservations at [James D. Conrey House](restaurant_name) at [1 PM](timeRange) for a party of [nine](party_size_number)
+- Book a [fast food restaurant](restaurant_type).
+- I want to book a [doughnut](served_dish) [bar](restaurant_type) in [AMerican Samoa](state)
+- Need a table  for party of [five](party_size_number) for [December 26, 2040](timeRange) in the state of [MT](state)
+- I want to book an [ethiopian](cuisine) [bar](restaurant_type) for this [Afternoon](timeRange).
+- I need to book a table for [4](party_size_number)
+- book a [taverna](restaurant_type) for [10](party_size_number) for [NY](state)
+- I need a table for [4](party_size_number) in [Florida](state)
+- book a table in [Fort Loudon](city) at a [restaurant](restaurant_type) for [5](party_size_number)
+- I want to go to the [popular](sort) [pub](restaurant_type) at [ten PM](timeRange)
+- I need a [popular](sort) [moroccan](cuisine) [cafeteria](restaurant_type)
+- please book [highly rated](sort) [restaurant](restaurant_type)  with [food truck](restaurant_type) [tuscan](cuisine) for [me and adela](party_size_description) in [Hallam](city) [Indiana](state)
+- Book reservations at a  for [seven](party_size_number) at a [highly rated](sort) [restaurant](restaurant_type) that serves [kosher](cuisine) food in [VI](state)
+- I need to book the [Fashion Cafe](restaurant_name) for [meal](timeRange) in [Lavina](city)
+- book an [oyster bar](restaurant_type) in [AMerican Samoa](state) for [lunch](timeRange)
+- I want to book a [restaurant](restaurant_type) with a [pool](facility) for [five](party_size_number) in [Conehatta](city)
+- book a spot for [krista, yolanda and I](party_size_description) in [New Mexico](state)
+- Can you get me seating for a party of [4](party_size_number)
+- book a [cafe](restaurant_type) for [one](party_size_number) in the [Cocos Islands](country)
+- Book the [best](sort) [eastern european](cuisine) [restaurant](restaurant_type) for [5](party_size_number) people at [two o'clock](timeRange) in [Cohocton](city) [WY](state).
+- I need a table for [5](party_size_number) at the [restaurant](restaurant_type) I ate at [last Oct.](timeRange)
+- Book a table for [January the twentieth](timeRange) at a place [far](spatial_relation) from [your daughter's campus](poi)
+- [holly and brittany](party_size_description) need a reservation for a [sardinian](cuisine) [tea house](restaurant_type) [close by](spatial_relation) [CO](state)
+- I need to book a table at a place [around](spatial_relation) here in [PA](state) for a party of [two](party_size_number)
+- Book a reservation for [5](party_size_number) people [next week](timeRange) at [The Pump Room, Chicago](restaurant_name)
+- I need a [fast food restaurant](restaurant_type) that will seat [two](party_size_number) in a [smoking room](facility).
+- Please book a [restaurant](restaurant_type) for [45 weeks from now](timeRange) in [FM](state)
+- Find a [coffeehouse](restaurant_type) in [Illinois](state) for [three](party_size_number)
+- Book a  table for [9](party_size_number)  scheduled for [april the 8th](timeRange) in [NJ](state).
+- book a spot for [2](party_size_number) at a [restaurant](restaurant_type) in [Mayotte](country) at [06:13 AM](timeRange)
+- I want to book a spot at a [bar](restaurant_type) in [Henniker](city), [North Dakota](state).
+- Book a table for [4](party_size_number) in [California](state)
+- [me, maggie and ellen](party_size_description) want to eat at [Lentil as Anything](restaurant_name)
+- Book seating for [one](party_size_number) person at a [food truck](restaurant_type)
+- Please book a table for [6](party_size_number) people [in the same area](spatial_relation) as [Bedford Park Blvd-Lehman College](poi)
+- Book a reservation for a parry of [eight](party_size_number) for a [restaurant](restaurant_type) in [Birch River](city), [MO](state)
+- book [San Francisco Brewing Company](restaurant_name) for [two](party_size_number) located at [AL](state)
+- Book a table for [kirsten price, audra and I](party_size_description) [faraway](spatial_relation) from [our location](poi) at an [outdoor](facility) [taverna](restaurant_type)
+- Book a table for [1](party_size_number) at [RingSide Steakhouse](restaurant_name) in [Hurricane](city).
+- book at [The Halal Guys](restaurant_name) on [Oct. 17](timeRange)
+- book a spot at a [pizza](served_dish) place [nine weeks from now](timeRange) in [Wisconsin](state)
+- I need to make a reservation at a [top-rated](sort) [moroccan](cuisine) [restaurant](restaurant_type) in [Bone](city) that is [nearby](spatial_relation) and can seat [8](party_size_number)
+- need a table somewhere in [McLaurin](city) [Connecticut](state)
+- I want to book a reservation [within the same area](spatial_relation) of [AMelia Court House](city) for [4](party_size_number).
+- book me a [diner](restaurant_type) [close-by](spatial_relation) [Benin](country) that serves [strolghino](served_dish) for [eight](party_size_number) people
+- book a [taverna](restaurant_type) for a party of [10](party_size_number)
+- Book a [restaurant](restaurant_type) for [three](party_size_number) people in [Jenkins](city).
+- Book a table for [eight](party_size_number) [this month](timeRange) in [Maldives](country).
+- I am looking for a [top-rated](sort) [restaurant](restaurant_type) [near](spatial_relation) [bougatsa](cuisine) that can feed [3](party_size_number) that is [close](spatial_relation) to [Pelham Bay Park](poi)
+- I want to book an [oyster bar](restaurant_type) for [five](party_size_number) people.
+- Give me a [top-rated](sort) [restaurant](restaurant_type) that's [eastern european](cuisine)
+- book a [tea house](restaurant_type) on [5/20/2028](timeRange) in [Pataskala](city) that serves [crepe](served_dish) in [NC](state) for [five](party_size_number)
+- book a spot for [1](party_size_number) [close](spatial_relation) to [geraldine's house](poi)
+- I want to eat [breakfast](timeRange) at the [Green Restaurant Certification](restaurant_name)
+- I want to book a [restaurant](restaurant_type) in [Wallsburg](city), [Missouri](state) for [michele, diann and pam](party_size_description)
+- Book a table at a [brasserie](restaurant_type) [far](spatial_relation) from my [Livonia Av](poi).
+- Where can I book a table [close](spatial_relation) to me in [Moon Run](city) at [sixteen o'clock](timeRange) that will take [three](party_size_number) people
+- I'd like a table for [my step grandfather and I](party_size_description) at [Five Fifty-Five](restaurant_name) in [NV](state)
+- [pizzeria restaurant](restaurant_type) in [Kellnersville](city) [HI](state) that is [outdoor](facility) for [ten](party_size_number)
+- I need a reservation for [ten](party_size_number) at a [tavern](restaurant_type) in [West Virginia](state)
+- book a [delicatessen](restaurant_type) that is [indoor](facility) for [3](party_size_number)
+- I'd like to eat at a [restaurant](restaurant_type) [around](spatial_relation) [China](country) with a party of [7](party_size_number) anywhere that serves [ouzeri](cuisine)
+- Book a table for [10](party_size_number) people at a [restaurant](restaurant_type) which offers [internet](facility).
+- book a spot for [6](party_size_number) at a [gateau](served_dish) [restaurant](restaurant_type)
+- book a spot for [nine](party_size_number) [near](spatial_relation) [Togo](country)
+- I need a reservation for an [indoor](facility) [restaurant](restaurant_type) in [China](country)
+- book a table for [one](party_size_number) in a [bar](restaurant_type) serving [saucisse](served_dish) for [meal](timeRange) in [Calistoga](city) [CO](state)
+- Book a [bakery](restaurant_type) at [zero o'clock](timeRange) for [5](party_size_number) people.
+- I need a reservation that has [spanish rice](served_dish) at a [cafeteria](restaurant_type) with [ten](party_size_number) people [today](timeRange)
+- I want a table for [five](party_size_number) at a place in [Russia](country) on [4/4/2036](timeRange)
+- Book a reservation for [me, marva and barbara](party_size_description) at a [restaurant](restaurant_type) with [parking](facility)
+- Find a reservation for a party of [six](party_size_number) in [Tuvalu](country)
+- I need a reservation for [The Original House of Pies](restaurant_name) with [three](party_size_number) people in [Plandome Manor](city) [PA](state)
+- I need to book a [restaurant](restaurant_type) [in the same area](spatial_relation)  as [Thompsontown](poi) for [emma and karen johnson](party_size_description)
+- book for [one](party_size_number) in [Indiana](state) at a [restaurant](restaurant_type)
+- I'd like a table for [eight](party_size_number) at a [close-by](spatial_relation) place in [Carpenterville](city)
+- Book a [tea](timeRange) place at [seven](party_size_number)
+- book for [2](party_size_number) at a [cafe](restaurant_type) for [burgers](served_dish) in [Gasport](city)
+- book a spot at the [food truck](restaurant_type) in [MA](state)
+- Book a table for [five](party_size_number) at [The Training Table](restaurant_name).
+- I want to book [The Hat](restaurant_name) for [my grandfather and I](party_size_description) in [Arkansas](state).
+- I'm looking to book a spot at a [restaurant](restaurant_type) in [RI](state).
+- I need to book a [restaurant](restaurant_type) for [five](party_size_number) [in 1 minute](timeRange) that serves [chichi](served_dish) in [East Prairie](city)
+- book a [restaurant](restaurant_type) for [2](party_size_number) in [Cross Timbers](city), [District Of Columbia](state)
+- Find and book me a [taverna restaurant](restaurant_type) in [Gilluly](city) that serves [lobster newberg](served_dish)
+- I'd like to eat at a [highly rated](sort) [swiss](cuisine) [restaurant](restaurant_type) in [Irma](city) at [two pm](timeRange)
+- book for [8](party_size_number) for [argentinian](cuisine) food at a [bakery](restaurant_type)
+- Book a [popular](sort) [bar](restaurant_type) in [Chowchilla](city)
+- Book a table for [2](party_size_number) at a [FM](state) [restaurant](restaurant_type) serving [grits](served_dish) for the next [meal](timeRange).
+- book a spot [distant](spatial_relation) from the [neighborhood](poi) on the [Week-end](timeRange)
+- I'd like a table for [Midday](timeRange) at [The Unseen Bean](restaurant_name)
+- Find me a table for a [cafe](restaurant_name) during my [Guinea](country) trip for [one](party_size_number).
+- I require a reservation for [one](party_size_number) at the most [highly rated](sort) [restaurant](restaurant_type) in [Uzbekistan](country).
+- Book the [nearby](spatial_relation) [Meriton Grand Hotel Tallinn](restaurant_name) in [Missouri](state).
+- I need a table at a [tavern](restaurant_type) that has [bougatsa](cuisine)
+- I need to take [three](party_size_number) people to eat
+- Book a reservation [not far](spatial_relation) from [8th St](poi)
+- Make a [restaurant](restaurant_type) reservation for [me and my son](party_size_description) at [twenty three o'clock](timeRange).
+- Book a reservation for [2](party_size_number) at a [food truck](restaurant_type) with [pool](facility) in [New York](state)
+- I need seats for [6](party_size_number) at a place in [AK](state)
+- Get me a table at [The Hand & Flowers](restaurant_name) for [sixteen hours](timeRange).
+- Book [osteria restaurant](restaurant_type) for [1](party_size_number) person in [MI](state).
+- I'm in [MI](state) and want to eat somwhere [nearby](spatial_relation) [Midday](timeRange).
+- book a spot at the [best](sort) [brasserie](restaurant_type) [near](spatial_relation) [Saudi Arabia](country)
+- book me a [restaurant](restaurant_type) in [Freshwater Bay](city) for [ava and I](party_size_description) in [Alaska](state)
+- Book a [restaurant](restaurant_type) in [Liechtenstein](country) for [seven](party_size_number) people.
+- book a table at [04:36:28](timeRange) at the [northeast indian](cuisine) [restaurant](restaurant_type)
+- Book a [cafeteria](restaurant_type) that serves [bagels](served_dish) for [six](party_size_number) people.
+- Book a [northeastern brazilian](cuisine) [restaurant](restaurant_type) for [10 am](timeRange)
+- I need a reservation for a [restaurant](restaurant_type) [now](timeRange) with a party of [9](party_size_number) in [Hilt](city)
+- I want to eat [in 19 hours](timeRange)  at [NM](state)
+- book [trentino](cuisine) serving [bar](restaurant_type) for [4](party_size_number)
+- I want to book reservations for [8](party_size_number) at an [indoor](facility) [restaurant](restaurant_type).
+- I want a table for [9](party_size_number) at the [taverna](cuisine) [pub](restaurant_type)
+- Book a [restaurant](restaurant_type) [within the same area](spatial_relation) of [Earls Court](poi) for [lucille and marina](party_size_description).
+- book for [six](party_size_number) on [jan. 18, 2029](timeRange)
+- I need to book a table for [7](party_size_number) in [Estonia](country)
+- Book a table for [six](party_size_number) [around](spatial_relation) [yolanda's apartment](poi).
+- I'm in [Bowling Green](poi). Please book a [restaurant](restaurant_type) for [1](party_size_number) [close by](spatial_relation).
+- Book the [best](sort) [halal](cuisine) [restaurant](restaurant_type) in [Slovakia](country) for [brigitte taylor, katelyn and natalie](party_size_description) on [jun. 2](timeRange).
+- book a table for [ten](party_size_number) in [Pollock](city) [PA](state)
+- book a [brasserie](restaurant_type)
+- Book a table for [10](party_size_number) people at [Harry’s Bar](restaurant_name), [Benin](country).
+- I need seating for [ten](party_size_number) people at a [bar](restaurant_type) that serves [czech](cuisine) cuisine
+- I need a table at a [restaurant](restaurant_type) that serves [toast](served_dish) [eleven months from now](timeRange)
+- [restaurant](restaurant_type) in [Watauga](city) for [me and my aunt](party_size_description)
+- book a table for [10](party_size_number) in [CHAR No.4](restaurant_name) in [Colombia](country)
+- I need to book a table for [claudia and imelda](party_size_description) at a [brasserie](restaurant_type) that is [top-rated](sort)
+- I want to eat [close by](spatial_relation) [East Brady](poi) for [seven](party_size_number)  people
+- book a table in [Arizona](state) serving [italian-american cuisine](served_dish) in a [tavern](restaurant_type) for [2](party_size_number)
+- Book a [gastropub](restaurant_type) in [Rose Creek](city) for [elevenses](timeRange).
+- Book a table for [nine](party_size_number) people at a [brasserie](restaurant_type) on [Jan. 16, 2034](timeRange)
+- Book a table for [6](party_size_number) at a [top-rated](sort) [restaurant](restaurant_type) in [North AMityville](city) [MA](state) that serves [south tyrolean](cuisine) food
+- book a [fried fish](served_dish) serving [restaurant](restaurant_type) for [one](party_size_number) at [20 hours from now](timeRange)
+- I'd like to book at a place in [Michigan](state) for a party of [3](party_size_number), name of the restaurant is [Carter House Inn](restaurant_name).
+- I need a table for [4](party_size_number) at a [restaurant](restaurant_type) around [0 AM](timeRange).
+- Find a reservation for a [highly rated](sort) [brasserie](restaurant_type) for [me and my step sister](party_size_description)
+- Book a table for [1](party_size_number) at [Thomas Hynes House](restaurant_name).
+- Please book a [restaurant](restaurant_type) in [Village Green](city), [CA](state).
+- I'd like to eat in [Montana](state) on [10/22/2030](timeRange)
+- book [in town](poi) for [3](party_size_number) at a [restaurant](restaurant_type) [outdoor](facility) that is [not far](spatial_relation)
+- book a [brasserie](restaurant_type) for [connie scott and madeline](party_size_description) in [Northern Mariana Islands](state) [in eleven hours](timeRange)
+- I need reservations in [ND](state) in the city of [Briarwood](city) for [me and my colleagues](party_size_description).
+- I have a party of [10](party_size_number) that would like to eat [outdoor](facility) at a [tavern](restaurant_type).
+- I want to book a table for [two](party_size_number) at a [close by](spatial_relation) [bar](restaurant_type) in [Kuwait](country).
+- book me a reservation at a [bar](restaurant_type) [around](spatial_relation) [Juliff](city) for [three](party_size_number) people that serves [bucatini](served_dish) for [now](timeRange)
+- I'd like to eat at a [pub](restaurant_type) in [Arkport](city)
+- book an [australian](cuisine) [restaurant](restaurant_type) in [Moldova](country)
+- Book an [indonesian](cuisine) [brasserie](restaurant_type) for [seven](party_size_number) people [the day after tomorrow](timeRange) in [Hawaii](state).
+- book me [best](sort) [joint restaurant](restaurant_type) for [2](party_size_number) members at [AMerican Samoa](country) [today](timeRange)
+- I want a table for [9](party_size_number) in [Loyola](city) at [Gus Stevens Seafood Restaurant & Buccaneer Lounge](restaurant_name)
+- Please book a table for [four](party_size_number) at a [restaurant](restaurant_type) in [TN](state)
+- I want to eat at the [Trout Creek](city) [restaurant](restaurant_type) for [9](party_size_number) people for [bougatsa](cuisine) that is the [best](sort)
+- I want to book a [delicatessen](restaurant_type) serving [testaroli](served_dish) in [Somalia](country) for [7/25/2027](timeRange).
+- Please book me a table for [three](party_size_number) at an [american](cuisine) [gastropub](restaurant_type)
+- Book reservations at a restaurant in [Olton](city) around [supper](timeRange) time
+- book [now](timeRange) in [KY](state) at [Loveless Cafe](restaurant_name)
+- I'd like to take a party of [five](party_size_number) [today](timeRange) to a place in [Colorado](state)
+- Reserve a table for [7](party_size_number) at a [cafeteria](restaurant_type) in [Lafe city](city).
+- Book a [neighboring](spatial_relation) [coffeehouse](restaurant_type) with [internet](facility) in [Shingleton](city).
+- book a spot for [two](party_size_number) at [Sale Creek](city) at [eight AM](timeRange)
+- [charlene and I](party_size_description) and are are in [Liechtenstein](country) and want [restaurant](restaurant_type) reservations at [midnight](timeRange).
+- Book an [outdoor](facility) [restaurant](restaurant_type) in [MD](state) at [11 pm](timeRange) for [8](party_size_number).
+- book a [pub](restaurant_type) for [pepperoni](served_dish) [near](spatial_relation) [their house](poi) and [not far](spatial_relation)
+- I need to book a [restaurant](restaurant_type) in [Utah](state) in [5 years and a half from now](timeRange)
+- Book a reservation for [seven](party_size_number) people at a [bakery](restaurant_type) in [Osage City](city)
+- I would like to book a [restaurant](restaurant_type) [in the same area](spatial_relation) as [Tremont Av](poi) for [nadine, sherrie and I](party_size_description) on [3/21/2018](timeRange)
+- Find a [restaurant](restaurant_type) for [marylou and I](party_size_description) [within walking distance](spatial_relation) of [my mum's hotel](poi)
+- Book the [City Tavern](restaurant_name) in [Holiday](city) [KS](state).
+- book a [english](cuisine) [pub](restaurant_type) for [me, belinda and dena](party_size_description) [close-by](spatial_relation) [Syria](country) [next dec](timeRange).
+- book a spot for [8](party_size_number) at a [tavern](restaurant_type) on [Jun. the 11th, 2034](timeRange)
+- I need a reservation for [4](party_size_number) in [Illinois](state)
+- I want a table for [four](party_size_number) for [2 years from now](timeRange)
+- book a table in [Alberton](city) for [me and my mother in law](party_size_description) at a [restaurant](restaurant_type)
+- Book a table for [8](party_size_number) people at [Robinson House](restaurant_name).
+- Book a table for [one](party_size_number) at a [highly rated](sort) [bistro](restaurant_type)
+- Book a [restaurant](restaurant_type) for [august fourth](timeRange) [not far](spatial_relation) from the [Marshall Islands](country).
+- book a [highly rated](sort) place for [8](party_size_number) at a [restaurant](restaurant_type)
+- book a table in [Cottondale](city) [not far](spatial_relation) for [in two hundred sixty nine days](timeRange)
+- Please reserve a table at the [food truck](restaurant_type) in [Wheeler](city) for [december 4th, 2019](timeRange)
+- I need a table for [six](party_size_number) at a [bar](restaurant_type) that serves [varenyky](cuisine)
+- Book a [restaurant](restaurant_type) in [Pinecliffe](city) [Missouri](state) [this month](timeRange).
+- I want to book a [restaurant](restaurant_type) for [four](party_size_number) people in [Eminence](city).
+- Book [Coney Island](restaurant_name) [neighboring](spatial_relation) [VA](state) for [marina and I](party_size_description).
+- I need a reservation for a [restaurant](restaurant_type) [close by](spatial_relation) [their hostel](poi)
+- book a table for [10](party_size_number) at a [restaurant](restaurant_type) in [Federated States Of Micronesia](state)
+- Please book me a reservation [this year](timeRange) for a [restaurant](restaurant_type) [within the same area](spatial_relation) of [my office](poi)
+- book [The Fry Bread House](restaurant_name) for [seven](party_size_number) in [Olive](city)
+- I need a table for [4](party_size_number) at [The Brass Rail](restaurant_name).
+- Book a table in [eastern european](cuisine) [restaurant](restaurant_type) in [Macedonia](country).
+- Need a table for a party of [eight](party_size_number) [one hour from now](timeRange) in [Exira](city) [SD](state) in a [pub](restaurant_type) that serves [oysters rockefeller](served_dish)
+- Book a [restaurant](restaurant_type) in [Eleele](city) on [October the fifth](timeRange) for [3](party_size_number) people.
+- Book a table at [Top Pot Doughnuts](restaurant_name) in [Greensburg](city), [AMerican Samoa](state)
+- book me a table at a [bistro](restaurant_type) that serves [maple syrup](served_dish) for a party of [10](party_size_number)
+- Looking for a [tibetan](cuisine) [restaurant](restaurant_type) and need reservations for [1](party_size_number).
+- Reserve a table for [my bf and I](party_size_description) at [Montreal Pool Room](restaurant_name) in [Indiahoma](city)
+- book a spot for [me and sonja](party_size_description) at a [popular](sort) [pizzeria](restaurant_type)
+- [courtney and ruby](party_size_description) want to eat at a [restaurant](restaurant_type) [three years from now](timeRange)
+- Find a reservation [far](spatial_relation) from [my work location](poi) [in eight hours](timeRange) for [8](party_size_number) people at [Union Auto Company](restaurant_name)
+- Book a table at a [restaurant](restaurant_type) which serves [sushis](served_dish) [next week](timeRange)
+- I need to book the [Beardslee Castle](restaurant_name) in [Albania](country) for [me, cassie and lesley](party_size_description)
+- I'd like to eat a [restaurant](restaurant_type) in or [nearby](spatial_relation) [Pelahatchie](city) at [12 o'clock](timeRange)
+- Book a [bar](restaurant_type) that serves [stracciatella](served_dish) in [North Dakota](state) for [four](party_size_number) at [four am](timeRange)
+- I want to get [nine](party_size_number) seats at a [restaurant](restaurant_type) that serves [ice cream cake](served_dish).
+- Make me a reservation somewhere [near](spatial_relation) here for [me and my step brother](party_size_description) by [adeline's apartment](poi)
+- Book a table for [two](party_size_number) at a [restaurant](restaurant_type) [faraway](spatial_relation) from [office](poi) in [California](state).
+- Book a table for [four](party_size_number) in [Orchard Grass Hills](city), [NV](state)
+- book a [top-rated](sort) [osteria](restaurant_type) [seven weeks from now](timeRange)
+- Book a [top-rated](sort) [food court](restaurant_type) in [GU](state).
+- book a spot for [ten](party_size_number), [tomorrow](timeRange) at a [popular](sort) [vegan](cuisine) [restaurant](restaurant_type) that is [close](spatial_relation) to [Alabama](state)
+- Make dinner reservation for [3](party_size_number) people on [june 23rd, 2040](timeRange) in [Blodgett](city).
+- Book a table for [8](party_size_number) right [now](timeRange) for a [restaurant](restaurant_type) in [Meadow Vale](city)
+- Book a [popular](sort) [tuscan](cuisine) [restaurant](restaurant_type) for [7](party_size_number) people in [West Richfield](city)
+- I want to book a [restaurant](restaurant_type) [next year](timeRange) in [Glazier](city) for [6](party_size_number) people.
+- book a spot for [marci, marylou and amelia](party_size_description) [far](spatial_relation) from [North Korea](country)
+- I want to eat at the [bar](restaurant_type) [Saint Vincent and the Grenadines](country) at [thursday](timeRange) for [five](party_size_number) people
+- Book a [restaurant](restaurant_type) [this year](timeRange) in [Pagosa Junction](city) for a [romanian](cuisine) stle cusine for a party of [two](party_size_number)
+- Book reservations at a [diner](restaurant_type) that serves [ribs](served_dish) [not far](spatial_relation) from [Lexington Av-53rd St](poi)
+- Book reservations at the [Laurelhurst Theater](restaurant_name) for a party of [7](party_size_number)
+- book a spot for [nine](party_size_number) in [Lavalette](city) [Guam](state)
+- Book me a table for [nine](party_size_number) at a [bar](restaurant_type) with [parking](facility) in [Qatar](country)
+- book a table at a [churrascaria](restaurant_type) for [august 5](timeRange) that has [parking](facility)
+- I need a reservation for [eight](party_size_number) at a [diner](restaurant_type) that has [desserts](served_dish) in [Ashmore](city) [TN](state)
+- Please book a [coffeehouse restaurant](restaurant_type) type room to accommodate [gretchen, trisha and amber](party_size_description) which serves [pastelaria](cuisine) dish
+- I need a [restaurant](restaurant_type) [now](timeRange) for a party of [ten](party_size_number)
+- I need a reservation for [Red Square](restaurant_name) on [aug. the 9th](timeRange)
+- book a [highly rated](sort) place for [my momy and I](party_size_description) for [mughlai](cuisine) food at a [restaurant](restaurant_type)
+- Book a reservation for [Gaslight Tavern](restaurant_name) on [may the twenty-seventh](timeRange)
+- I would like to book an [AMerican Samoa](state) [restaurant](restaurant_type) for [8](party_size_number)
+- Make me a reservation for a party of [six](party_size_number) at [The K Club](restaurant_name) on [feb. 7th](timeRange)
+- Book a table for [1](party_size_number) somewhere in [Andorra](country)
+- Book me a reservation for a [mediterranean](cuisine) [restaurant](restaurant_type) on [Confederate Memorial Day](timeRange) [nearby](spatial_relation) [Ocean Grove](poi)
+- Book a table for [tomorrow](timeRange) for [five](party_size_number) people.
+- book a spot at a [highly rated](sort) [pub](restaurant_type) in [Woodston](city)
+- Book a reservation for [4](party_size_number) at a [bar](restaurant_type) serving [corn relish](served_dish)
+- I need a reservation for [3](party_size_number) at [Clinton Street Baking Company & Restaurant](restaurant_name)
+- I'd like to eat at a [restaurant](restaurant_type) with [wifi](facility)
+- Book reservations at a [restaurant](restaurant_type) for [eight](party_size_number) people in [New Jersey](state)
+- I'd like a table for [7](party_size_number) at [ten pm](timeRange) at a [cafeteria](restaurant_type) in [AL](state) that serves [malaysian](cuisine) food
+- Book a [restaurant](restaurant_type) that serves [scampi](served_dish) for [10](party_size_number) people.
+- book a spot that is [faraway](spatial_relation) from the [Municipal Borough of Farnworth](poi) [in 16 minutes](timeRange)
+- book a table for [me, leanne and tami](party_size_description) at a [restaurant](restaurant_type) serving [caucasian](cuisine) [food](restaurant_type)
+- Book a table for [10](party_size_number) at the [Dunbrody Country House Hotel](restaurant_name) in [Serbia](country)
+- Book reservations at a [restaurant](restaurant_type) in [New Zealand](country) with [tammi, beverly and alba](party_size_description)
+- book a spot for [three](party_size_number) at a [bakery](restaurant_type) in [Grand Portage](city)
+- I want to book a [restaurant](restaurant_type) [within walking distance](spatial_relation) of my [neighborhood](poi).
+- Find an [Oasis Drive-In](restaurant_name) [close-by](spatial_relation) [Beach 105th St](poi).
+- Book a table for [5](party_size_number) people in [Goodland](city), [AK](state).
+- Book a reservation for a [pub](restaurant_type) with [ma po tofu](served_dish) in [Moldova](country)
+- I would like to book a [goan](cuisine) [restaurant](restaurant_type) for [8](party_size_number)
+- book a restautant in [North Dakota](state) at a [bistro](restaurant_type) that is [indoor](facility)
+- want to eat at [Diners of Allentown, Pennsylvania](restaurant_name) on [purim](timeRange)
+- I need a reservation for [four](party_size_number) at a [bar](restaurant_type)
+- I need a table for [6](party_size_number) to eat at [nearby](spatial_relation) in [Clinchco](city).
+- [my father in law and I](party_size_description) would like to go to a [highly rated](sort) [bar](restaurant_type)
+- book a [food court](restaurant_type) [indoor](facility) at [Penermon](city) for [my step father and I](party_size_description)
+- I need a table at a [czech](cuisine) [pub](restaurant_type) at [seven](party_size_number)
+- [Restaurant](restaurant_type) in [Brokaw](city) for a cuisine [russian](cuisine) [far](spatial_relation) [restaurant](restaurant_type)
+- book table to a [tavern](restaurant_type) for a [scrapple](served_dish) for [harriett, deanne and I](party_size_description)
+- book a [Steinway St](poi) place for [8](party_size_number) that is [close](spatial_relation)
+- book a [restaurant](restaurant_type) [close by](spatial_relation) [my daughters's work location](poi) with [burrito](served_dish) [three years from now](timeRange)
+- I'd like to eat [in 1 minute](timeRange) at a [neighboring](spatial_relation) [neighborhood](poi) [restaurant](restaurant_type)
+- book a [restaurant](restaurant_type) for [me and rosemary](party_size_description) at [1 am](timeRange)
+- book a spot for [tommie and vera rogers](party_size_description) in [Irvine](city) at [7 AM](timeRange)
+- book a [restaurant](restaurant_type) [163 days from now](timeRange)
+- [restaurant](restaurant_type) in [Kuwait](country) for [seven](party_size_number), [Mar. eighteenth, 2030](timeRange)
+- I want to eat at a [highly rated](sort) [food court](restaurant_type)
+- book a [restaurant](restaurant_type) for [me, valarie and caroline](party_size_description) [in 56 weeks](timeRange)  in [Soldier Pond](city)
+- Book reservation in [Gasconade](city) at the [best](sort) [restaurant](restaurant_type) in [DC](state)
+- I need a reservation for [The Berghoff](restaurant_name) in [Jamaica](country) [in 18 seconds](timeRange)
+- I'd like a table for [two](party_size_number) at a place in [West Whittier](city) [Nevada](state) on [indigenous people's day](timeRange)
+- I would like to book a [restaurant](restaurant_type) in [Niagara Falls](city) for [8](party_size_number) on [June nineteenth](timeRange)
+- book a spot for [six](party_size_number) friends
+- Find a [popular](sort) [diner](restaurant_type) that serves [brazilian](cuisine) [close by](spatial_relation) [Oklahoma](state) for [nine](party_size_number) people.
+- I need a reservation for [ten](party_size_number) in [Wisconsin](state)
+- Find a reservation at the [Roseland Theater](restaurant_name) at [10 pm](timeRange)
+- Book a [bar](restaurant_type) that serves [italian-american cuisine](served_dish) [neighboring](spatial_relation) [Wilson Av](poi) for [one](party_size_number) person.
+- Book the [Bobcat Bite](restaurant_name).
+- Book a [restaurant](restaurant_type) in [Myanmar](country) for [4](party_size_number).
+- I want a table for [4](party_size_number) at any kind of [goiano](cuisine) [bar](restaurant_type)
+- book a table for [five](party_size_number) at a [restaurant](restaurant_type) with the [best](sort) rating
+- book a spot for [3](party_size_number) at [supper](timeRange) time in [IL](state)
+- Get me a table for [one](party_size_number)  at a [popular](sort) [brasserie](restaurant_type)
+- book a spot at an [osteria](restaurant_type) that has [goiano](cuisine) in [Ward Springs](city)
+- book a spot for [seven](party_size_number) in [8 seconds from now](timeRange)
+- Find a reservation for a [tea house](restaurant_type) in [Lorain](city)
+- I need a reservation for [8](party_size_number) at a [top-rated](sort) [restaurant](restaurant_type) in [Hagaman](city)
+- book a spot for [connie, earline and rose](party_size_description) at an [oyster bar](restaurant_type) that serves [chicken fried bacon](served_dish) in [Beauregard](city) [Delaware](state)
+- Lets get a table for [10](party_size_number) at [Space Aliens Grill & Bar](restaurant_name)
+- Book the [Union Oyster House](restaurant_name) in [Guanica](city) [Puerto Rico](state).
+- Book a reservation for [6](party_size_number) in [Belle Plaine](city), [NE](state)
+- book me a reservation at an [oyster bar](restaurant_type) that serves [crab cake](served_dish) for [two](party_size_number) people
+- i need to book a table for [three](party_size_number) in [Lesotho](country)
+- Book a reservation for a [pub](restaurant_type) with [internet](facility) for [2](party_size_number) people
+- Would like a table right [now](timeRange) for [leonor mendoza, imogene and lisa sanchez](party_size_description)
+- I want to book a [churrascaria](restaurant_type) restaurant for [ten](party_size_number) people.
+- party for [ten](party_size_number) at [National Coney Island](restaurant_name) in [DE](state)
+- Book a table for [three](party_size_number) at a restarunt in [Federal Hill](city)
+- book a spot for [8](party_size_number) at [The Kitchin](restaurant_name) on [october the 13th, 2039](timeRange)
+- Book a reservation for [8](party_size_number) at a [restaurant](restaurant_type) that serves [chicken fried bacon](served_dish) in [Aruba](country)
+- Please make reservations for [nine](party_size_number) at [3 am](timeRange).
+- Book a table at a [pub](restaurant_type) in [China](country).
+- I need a reservation for a [restaurant](restaurant_type) in [Bangladesh](country) on [feb. the 11th, 2032](timeRange)
+- book a spot for [ten](party_size_number) at a [pizzeria](restaurant_type) that has [tourte](served_dish) in [Minnesota](state) [in 22 and a half weeks](timeRange) in [Yamhill](city)
+- book a table at [Black Rapids Roadhouse](restaurant_name) in [Antarctica](country) for [nine](party_size_number)
+- Book a table at [The Vortex Bar & Grill](restaurant_name) on [Alaska Day](timeRange) in the state of [Rhode Island](state)
+- Reserve a table for [two](party_size_number) at a  [restaurant](restaurant_type) which serves [creole](cuisine) [around](spatial_relation) here in [Myanmar](country).
+- [my brother in law and I](party_size_description) would like to go to [Guinea-Bissau](country) for food
+- Please get seating at [Bouchon](restaurant_name) in [Tonga](country) for [jimmie and chasity howard](party_size_description)
+- Book a [restaurant](restaurant_type) in [Michigan](state) for [4](party_size_number) people.
+- I need a reservation for [next week](timeRange) with a party of [six](party_size_number)
+- please book a [restaurant](restaurant_type) with [parking](facility) facility at [taverna](restaurant_type)
+- call for a table of [3](party_size_number) at the [Tavern on the Green](restaurant_name) in [South Farmingdale](city)
+- Book a [restaurant](restaurant_type) for [monique stewart, arlene and jami](party_size_description).
+- Book reservations to a [cafeteria](restaurant_type) in [Brockway](city) [Colorado](state) that serves [thai](cuisine) food for [six](party_size_number) people
+- book a table for [7](party_size_number) at a [churrascaria](restaurant_type) that is [highly rated](sort)
+- Take me to the [top-rated](sort) [taverna](restaurant_type) in [Sealy](city) for [trattoria](cuisine) [next week](timeRange) for [5](party_size_number)
+- I need a reservation for [me, edna and alyson](party_size_description) at the [steakhouse](restaurant_type) called [smoking room](facility)
+- [susanne and carey phillips](party_size_description) want to go to a [brasserie](restaurant_type) [not far](spatial_relation) from [Pricedale](city) that serves [southern brazilian](cuisine)
+- I want a table for [my grandson and I](party_size_description) somewhere in [Arkansas](state)
+- I want a table for [3](party_size_number) at a [restaurant](restaurant_type)
+- book [near](spatial_relation) [Montana](state) [restaurant](restaurant_type) serving [sri lankan](cuisine) food for [6](party_size_number) that is [highly rated](sort) on [tues.](timeRange)
+- I need a reservation for the [Oasis Drive-In](restaurant_name) for a party of [four](party_size_number)
+- I need a [diner](restaurant_type)
+- book a [restaurant](restaurant_type) for [four](party_size_number) in [Trinidad and Tobago](country)
+- I would like to book a [puglia](cuisine) [food court](restaurant_type) in [KY](state)
+- Lets take [me, cherry and tracie](party_size_description) to a [Noyack](city) [bar](restaurant_type)
+- Book a reservation for a [top-rated](sort) [lebanese](cuisine) [fast food](restaurant_type) place
+- book a [osteria](restaurant_type) with [smoking room](facility) in [Creola](city)
+- I need a table for [four](party_size_number) at a [restaurant](restaurant_type) in [AL](state)
+- I need to book a [restaurant](restaurant_type) for [seven](party_size_number) people at [elevenses](timeRange) [Seafood restaurant](restaurant_name)
+- I'd like to book a table at [Black Horse Tavern](restaurant_name) in [Georgia](state) at [4 am](timeRange)
+- book [Tartine](restaurant_name) in [Mississippi](state) for [5](party_size_number)
+- I'd like to eat at the [best](sort) [restaurant](restaurant_type)
+- Book a table for [ten](party_size_number) for [breakfast](timeRange) in [Minnesota](state).
+- Please book a room to accommodate [one](party_size_number) [in 11 weeks](timeRange)  [near](spatial_relation) [Bahamas](country) [restaurant](restaurant_type)
+- Lets eat at [Newport Creamery](restaurant_name) in [Carnot](city)
+- I need a reservation for [four](party_size_number) at a [restaurant](restaurant_type) [in 1 hour and 1 second](timeRange)
+- book any [popular](sort) [puglia](cuisine) serving [oyster bar](restaurant_type) for [10](party_size_number) in [Jemez Springs](city)
+- Book a table at [South Street Diner](restaurant_name) [close](spatial_relation) to [your teenager's college](poi).
+- I want to book a [restaurant](restaurant_type) in [Keeling Islands](country) for a party of [ten](party_size_number)
+- I need a reservation for a [churrascaria](restaurant_type) in [Oneonta](city) [Wyoming](state) for a party of [4](party_size_number)
+- book a spot for [7](party_size_number) at an [outdoor](facility) [food court](restaurant_type) in [Denmark](country)
+- Book a [restaurant](restaurant_type) in [Almyra](city) [in 10 years](timeRange)
+- Find a reservation [within walking distance](spatial_relation) of [pauline's place](poi) for a party of [10](party_size_number) at [fourteen o'clock](timeRange) at a [restaurant](restaurant_type) that serves [aioli](served_dish)
+- Can you make a reservation for [next year](timeRange) in [Modesto](city) for [joanna and ella](party_size_description)
+- Want a table at [Monty’s Hotel, Secunderabad](restaurant_name)  in the state of [Vermont](state)
+- I would like reservations made for [Masonville](city), [Vermont](state) [nov. 7](timeRange)
+- book a [socca](served_dish) serving [steakhouse](restaurant_type) for [2](party_size_number) in [Saint James](city) [Alabama](state)
+- Book a table for [nine](party_size_number) people in [Svalbard and Jan Mayen](country).
+- I need to find a table for [4](party_size_number) at a [brasserie](restaurant_type) that has [fondue](served_dish)
+- I need a [restaurant](restaurant_type) that can seat [3](party_size_number) in [Cochran](city) that has [wifi](facility).
+- I need a table for [10](party_size_number) at the [best](sort) [gastropub](restaurant_type)
+- Make me a reservation that serves [kebab](served_dish) at a [delicatessen](restaurant_type) in [AMbler](city)
+- Book a table at a [french](cuisine) [restaurant](restaurant_type) for [fern and I](party_size_description)
+- I need a reservation for a [highly rated](sort) [bistro](restaurant_type) for a party of [10](party_size_number).
+- I want to book a [pub](restaurant_type) in [Juniper](city) for [8](party_size_number) that serves [bûche de noël](served_dish)
+- book a [mediterranean](cuisine) [restaurant](restaurant_type) for [my sister and I](party_size_description)
+- book a [pub](restaurant_type) in [Clermont](city) for [8](party_size_number) people
+- Book reservations at [restaurant](restaurant_type) in [Edgemoor](city) [NM](state) on [august 3, 2024](timeRange)
+- I would like to book a [restaurant](restaurant_type) for [two](party_size_number) in [42 weeks from now](timeRange) in [Wagram](city)
+- Book a [restaurant](restaurant_type) in [Everson](city) [Nevada](state) that serves [conchiglie](served_dish) for [two](party_size_number) people.
+- Please book a [restaurant](restaurant_type) for [ten](party_size_number) members [near](spatial_relation) [downtown](poi) at [20:38](timeRange)
+- Book a table for [6](party_size_number) in [The Cheese Course](restaurant_name), [Blocher](city) on [February the 10th](timeRange).
+- Book a table for [me, naomi and elisabeth](party_size_description) at a [brasserie](restaurant_type) with [wifi](facility)
+- need a table at a [highly rated](sort) [south tyrolean](cuisine) [joint](restaurant_type)
+- Make me a reservation for a party of [6](party_size_number) at a [pub](restaurant_type) at [five o'clock](timeRange) in [Arizona](state) that serves [waffles](served_dish) in the city of [Hat Creek](city)
+- [restaurant](restaurant_type) [scandinavian](cuisine) in [Grenada](country)
+- Can I get some [russian](cuisine) cuisine at a [restaurant](restaurant_type) with [shari and I](party_size_description)?
+- Can you get me a table reserved for [three hundred thirty three days from now](timeRange) for [eight](party_size_number) people at a [highly rated](sort) [fast food](restaurant_type) place that serves [north indian](cuisine) food [not distant](spatial_relation) from [Moores Mill](city)
+- Book an [osteria](restaurant_type) that serves [blini](served_dish) for [9](party_size_number) people.
+- Please book a [brasserie restaurant](restaurant_type) for [eight](party_size_number) in [Ireland](country)
+- book a table for [2](party_size_number) in [Gleed](city)
+- Book reservations at a [restaurant](restaurant_type) that serves [brazilian](cuisine) food for [9](party_size_number) people
+- Book an [outdoor](facility) [restaurant](restaurant_type).
+- book [verdure](served_dish) serving [restaurant](restaurant_type) in [Bloom City](city)
+- book a [restaurant](restaurant_type) in [AL](state) at [Oak Ridge](city)
+- I want to take [nine](party_size_number) people to a [diner](restaurant_type) [close](spatial_relation) to the [spa](facility)
+- book a spot at a [highly rated](sort) [afghan](cuisine) [restaurant](restaurant_type)
+- Book a reservation for [Thomas Hynes House](restaurant_name) on [jan. the third](timeRange) in [Netherlands](country)
+- Book a reservation for [leticia, melva and twila edwards](party_size_description) at [Glassy Junction](restaurant_name) for [five pm](timeRange) [within the same area](spatial_relation) of [our secondary residence](poi)
+- I want to book a [food court](restaurant_type)  for [5](party_size_number) at [1 am](timeRange)
+- Find a reservation at [Berowra Waters Inn](restaurant_name) in [Australia](country) [in 2 years](timeRange)
+- book a table in [Fullerville](city) at a [highly rated](sort) [bar](restaurant_type)
+- Can you get seating for [my father and I](party_size_description) at a [restaurant](restaurant_type) in [Birch Run](city)
+- Book a [best](sort) [restaurant](restaurant_type) in [Wrigley](city).
+- I need a table for [8](party_size_number) people at a [highly rated](sort) [pub](restaurant_type) that serves [umbrian](cuisine) cuisine
+- I'd like seats for [ten](party_size_number) at a [highly rated](sort) [brasserie](restaurant_type) in [Kyrgyzstan](country)
+- Book a [restaurant](restaurant_type) with [parking](facility) for [three](party_size_number) people.
+- Book a table for [2](party_size_number) at [The Mustard Seed](restaurant_name), [Agate](city).
+- Book me a [bar](restaurant_type) where I can get a [bear claw](served_dish) in [AS](state)
+- Find me a table for [me and my grandkid](party_size_description) in [Union Square Cafe](restaurant_name)
+- [stacy watson and adriana](party_size_description) want to go to the [best](sort) [osteria](restaurant_type) in [Hallowell](city) [Minnesota](state) this [afternoon](timeRange)
+- I'd like to eat at [Old Dutch](restaurant_name) [in 15 seconds](timeRange) in [Northern Mariana Islands](state)
+- book a table at a [pool](facility) [bar](restaurant_type)
+- I want to eat [Louisiana Fried Chicken](restaurant_name) in [McColl](city), [IA](state)
+- book a table in [Tennessee](state) for [1](party_size_number) for [next August](timeRange)
+- I'd like to eat at the [oyster bar](restaurant_type) for a party of [one](party_size_number) that has [internet](facility)
+- I would like a table for [jacqueline wilson and deanna](party_size_description) at [David Carpenter House](restaurant_name) in [Uncas](city) [FM](state)
+- Book a [restaurant](restaurant_type) for [one](party_size_number) person at [7 AM](timeRange)
+- Book a [brasserie](restaurant_type) that serves [mezzes](served_dish) in [Iowa](state).
+- Would like to book a [restaurant](restaurant_type) the [last day of sukkot](timeRange) for [lee and ines](party_size_description)
+- book [Red Crown Tourist Court](restaurant_name) [now](timeRange) for [ten](party_size_number) [not far](spatial_relation) from [Tin City](city)
+- I would like to find a [cafe](restaurant_type) that serves [grilled meat](served_dish) [close by](spatial_relation) in [Tunisia](country) and need a table for [2](party_size_number) [one second from now](timeRange).
+- at [4 am](timeRange) book a [bar](restaurant_type) in the [spa](facility) in [Shamrock](city) for [eight](party_size_number)
+- Book a table at an [indoor](facility) [restaurant](restaurant_type) [now](timeRange).
+- I want a table for [8](party_size_number) in [Plain](city) on [Aug. 5](timeRange)
+- Book a [highly rated](sort) [coffeehouse](restaurant_type) for [four](party_size_number) people.
+- I want to eat [supper](timeRange) at a [Lesotho](country) plaCE
+- [Restaurant](restaurant_type) in [Durant](city) for [3 PM](timeRange)
+- Lets go to the [Rainforest Cafe](restaurant_name) that is [in the same area](spatial_relation) as [135th St](poi)
+- I'd like a [bar](restaurant_type) with [hawaiian](cuisine) food in [ND](state)
+- Book a table for [1](party_size_number) on [November the first, 2022](timeRange)
+- Can you get me seating for a party of [5](party_size_number)
+- Book a [popular](sort) [restaurant](restaurant_type) in [New Jersey](state).
+- Book a [bar](restaurant_type) which serves [chicken french](served_dish) at [Robinson](city).
+- Find me a [creole](served_dish) [restaurant](restaurant_type)
+- I'd like to get reservations at a [top-rated](sort) [restaurant](restaurant_type) in [Arkansas](state).
+- I want to book a [bistro](restaurant_type) that serves [pasta salad](served_dish) in [Brazil](country).
+- Make me a reservation somewhere [outdoor](facility) in [Port Wentworth](city) for a party of [five](party_size_number) at a [coffeehouse](restaurant_type) [in ten months](timeRange)  that is [distant](spatial_relation)
+- book a spot at a [steakhouse](restaurant_type) with [internet](facility)
+- Book a table for [cherie and josephine](party_size_description) in [Indonesia](country)
+- book a spot at the [top-rated](sort) [pub](restaurant_type) in [Garner](city)
+- Book a table at a [faraway](spatial_relation) [brasserie](restaurant_type) in [NJ](state).
+- book a table in [Greece](country) for [4](party_size_number)
+- I need to book a table at a [fast food](restaurant_type) spot that serves [slinger](served_dish) in [PR](state)
+- book a spot for [one](party_size_number) at a [pub](restaurant_type) that serves [som tam](served_dish)
+- Book a [distant](spatial_relation) [restaurant](restaurant_type) that serves [blini](served_dish) on [103rd St](poi) for [6](party_size_number) people.
+- [casey chavez, lucinda and karina](party_size_description) want to eat at a [diner](restaurant_type) on [december the 7th](timeRange)
+- Book a [restaurant](restaurant_type) for [9](party_size_number) people.
+- book a table at [Serendipity 3](restaurant_name) in [Veyo](city) for [now](timeRange)
+- book a [best](sort) [steakhouse](restaurant_type) for [2](party_size_number) in [Montserrat](country) on [79 days and a half from now](timeRange)
+- book a [bar](restaurant_type) for [2](party_size_number) in [Hayden Row](city) on [friday](timeRange)
+- I want to book the [best](sort) [pub](restaurant_type) for [6](party_size_number) in [New Mexico](state)
+- [bar restaurant](restaurant_type) for [November the twelfth, 2030](timeRange) that is [popular](sort) and for a party of [ten](party_size_number)
+- book a [pizza](served_dish) serving [tavern](restaurant_type) for [me and my brother](party_size_description)
+- I'd like to reserve a table in [Northcote](restaurant_name).
+- Please book a [restaurant](restaurant_type) for [six](party_size_number) members on [Jul. 13, 2036](timeRange)
+- Book a [restaurant](restaurant_type) with a [spa](facility) in [Connecticut](state)
+- book a spot for [elise and alma](party_size_description) at a [brasserie](restaurant_type) in [Ravensdale](city) [MH](state) for [this week](timeRange)
+- book a spot for [five](party_size_number) at a [brasserie](restaurant_type) on [jan. 7, 2023](timeRange)
+- Book a [bar](restaurant_type) with a [pool](facility) in [Mountain Iron](city).
+- book a table with [wifi](facility) in [Delaware](state) at a [restaurant](restaurant_type) [in one minute](timeRange)
+- I need to book a [highly rated](sort) [restaurant](restaurant_type) in [Coronado](city)
+- Make me a reservation in [Cedarburg](city) at [0 pm](timeRange)
+- Book a reservation for a [trentino](cuisine) [restaurant](restaurant_type) in [Kansas](state)
+- book [me and my grandparents](party_size_description) a [restaurant](restaurant_type) in [Saint Helens](city) [South Dakota](state)
+- Reserve a table for [teresa and elnora](party_size_description) at a [fast food joint](restaurant_type) which serves [fish and chips](served_dish)
+- I want a [restaurant](restaurant_type) reservation for a party of [8](party_size_number) at a [vegetarian](cuisine) [tea house](restaurant_type).
+- I need a reservation for [four](party_size_number) [this year](timeRange) at a [restaurant](restaurant_type)
+- book a table in [Fairview](poi) [neighboring](spatial_relation) the [area](spatial_relation)
+- Need a [jewish](cuisine) in [Maine](state) to book a [restaurant](restaurant_type)
+- book spot at a [balinese](cuisine) [joint](restaurant_type)
+- I want a [restaurant](restaurant_type) in [Idaho](state) for [2](party_size_number) of us.
+- Book a [tyrolean](cuisine) [restaurant](restaurant_type) in [Crocker](city) [Indiana](state) [now](timeRange) for [3](party_size_number) people.
+- Can I book a [restaurant](restaurant_type) that serves [pastelaria](cuisine) in [Takilma](city), [Virgin Islands](state)?
+- I want to book an [indoor](facility) [brasserie](restaurant_type) [within walking distance](spatial_relation) in [ME](state).
+- I want to go to the [pub](restaurant_type) with [angelita, susan reed and ashlee watson](party_size_description) after us [parking](facility)
+- Book a [restaurant](restaurant_type) in [Gate City](city) for [5](party_size_number) people.
+- book a spot for [six](party_size_number) at a [restaurant](restaurant_type) that serves [fish and chips](served_dish)
+- book a spot for [9](party_size_number) at [Dinner in the Sky](restaurant_name) in [SC](state)
+- Book a [taverna](restaurant_type) in [Equatorial Guinea](country) [this month](timeRange) for [nine](party_size_number) people.
+- book a [stracciatella](served_dish) provider [coffeehouse](restaurant_type)  for [10](party_size_number)
+- Book reservations at a [faraway](spatial_relation) [restaurant](restaurant_type) in [Newtown](poi) at [meal](timeRange) time
+- reserve a spotat the [food truck](restaurant_type) [twelve weeks from now](timeRange)
+- Book a reservation for a [restaurant](restaurant_type) in [Palau](state) [in six years](timeRange)
+- [restaurant](restaurant_type) in [West Virginia](state) for [my son and I](party_size_description)
+- I'd like to reserve a table at a [pub](restaurant_type) that serves [andouillettes](served_dish) [within the same area](spatial_relation) in [San Marino](country).
+- Book me a reestaurant that is [close](spatial_relation) in the country of [Cocos Islands](country)
+- I need a table for [10](party_size_number) at [Thomas Hynes House](restaurant_name) [nineteen minutes from now](timeRange)
+- Please find a [restaurant](restaurant_type) in [Sierraville](city) [Wyoming](state) that has room for [6](party_size_number)
+- Need a table for [sep. first](timeRange) in [Haiti](country) for a party of [three](party_size_number)
+- Table for [five](party_size_number) at a [restaurant](restaurant_type) in [Lavina](city)
+- book me a [taverna restaurant](restaurant_type)
+- I want to book the [best](sort) [steakhouse](restaurant_type) with [south american](cuisine) cuisines in [Alaska](state)
+- Find a reservation for [mar. 20th](timeRange) in [Winnie](city) at any [restaurant](restaurant_type)
+- Book a [food truck](restaurant_type) in [MP](state) for [me and my ex husband](party_size_description).
+- I need a table for [3](party_size_number) at [David Whitney House](restaurant_name) in [Brazil](country)
+- book a table for [2](party_size_number) guests at a [restaurant](restaurant_type) in [Lazy Mountain](city) [NY](state)
+- Find a table [close by](spatial_relation) in the [downtown](poi) [area](spatial_relation) for [sherri and I](party_size_description)
+- [sofia phillips and winifred walker](party_size_description) want to dine at a [mughlai](cuisine) [restaurant](restaurant_type) in [LA](state) on [Nov. the 1st](timeRange)
+- Can you book a table for [eight](party_size_number) people at a [spa](facility) type [restaurant](restaurant_type) [within walking distance](spatial_relation) of the [Metropolitan Borough of Lambeth](poi)
+- book a spot for [me and my sister](party_size_description) at a [restaurant](restaurant_type) that has [clafoutis](served_dish)
+- make a table reservation at the [top-rated](sort) [brasserie](restaurant_type) in [Cotton Center](city)
+- [restaurant](restaurant_type) in [South Sudan](country) for [6](party_size_number)
+- Book a party for [7](party_size_number) at a [food court](restaurant_type) with [potato salad](served_dish) in [Alabama](state) [in eleven hours](timeRange)
+- [in 1 second](timeRange) I need a [restaurant](restaurant_type) in [San Marino](country) for [9](party_size_number)
+- I want to reserve a [gastropub](restaurant_type) that has a [spa](facility).
+- book a spot at the [best](sort) [steakhouse](restaurant_type) in [Florida](state)
+- Find a reservation at a [restaurant](restaurant_type) that serves [gougère](served_dish) in [Laneville](city) with a party of [nine](party_size_number)
+- book a [restaurant](restaurant_type) for [six](party_size_number) in [MP](state)
+- book a table in [Glennie](city) for [1](party_size_number) in the [Northern Mariana Islands](state)
+- I want a table for [2](party_size_number) at a [restaurant](restaurant_type) late at [night](timeRange).
+- [restaurant](restaurant_type) in [Elberta](city) for [alma, deana and olga](party_size_description) at [18:49:20](timeRange) that serves [tsipouro](cuisine)
+- I'd like a table for [ten](party_size_number) [in 2 minutes](timeRange) at [French Horn, Sonning Eye](restaurant_name)
+- book [close-by](spatial_relation) for [1](party_size_number) in [South Dakota](state)
+- Book a table for [chasity ruiz and mary](party_size_description) at [The Fat Duck](restaurant_name) in [Puerto Rico](country)
+- I would like to book a [restaurant](restaurant_type) [neighboring](spatial_relation) [Lincoln Beach](city)
+- Book a spot for [one](party_size_number) at a [fish](served_dish) [restaurant](restaurant_type)
+- Lets eat [now](timeRange) somewhere in [Roach](city)
+- [my colleagues and I](party_size_description) would like a [restaurant](restaurant_type) in [Snow Lake](city)
+- book [tea](timeRange) at [The Hamburger Wagon](restaurant_name) for [3](party_size_number) [vickie reed, melody and I](party_size_description) in [Georgia](country)
+- book a [cafeteria](restaurant_type) for [5](party_size_number) in [Turkmenistan](country)
+- I want to eat [close](spatial_relation) to [Bowlegs](city) [seven years from now](timeRange)
+- book a spot for [seven](party_size_number) at a [brasserie](restaurant_type) with [ginestrata](served_dish)
+- I'd like to eat at a [bar](restaurant_type) that serves [corn relish](served_dish) with a party of [five](party_size_number)
+- Can you get me seating for [5](party_size_number) people [1 minute from now](timeRange) in [Tuvalu](country)
+- Book me a reservation for [6](party_size_number) at a [highly rated](sort) [pub](restaurant_type)
+- I want a table for [7](party_size_number) at a [popular](sort) [cafeteria](restaurant_type) on [Holy Saturday](timeRange) in [GA](state)
+- Find a reservation for [three](party_size_number) in [Ansonia](city) [MI](state)
+- book a table at the [Irma Hotel](restaurant_name) in [Mount Repose](city)
+- I'd like seats for [one](party_size_number) at a [restaurant](restaurant_type) [in 1 hour](timeRange) at a place in [La Madera](city) that has [parking](facility)
+- book a [brasserie](restaurant_type) with a [pool](facility) [within the same area](spatial_relation) as my [neighborhood](poi) for [5](party_size_number) people at [19:26](timeRange)
+- Book a [joint restaurant](restaurant_type) for [four](party_size_number) with an [outdoor](facility) [area within the same area](spatial_relation) as [Borough de Denali](poi)
+- Find a reservation at [Boone Tavern](restaurant_name) for [4](party_size_number) people in [10:24](timeRange)
+- book a [restaurant](restaurant_type) for [Jul. 27](timeRange)
+- book a [restaurant](restaurant_type) on [martin luther king jr. day](timeRange) with [parking](facility)
+- I want to be [Main Deli Steak House](restaurant_name) [near](spatial_relation) [Hendley](city).
+- I need a reservation for [3 hours from now](timeRange) with a party of [nine](party_size_number) in [neighboring](spatial_relation) [Sweden](country)
+- Want to eat at [The Meatball Shop](restaurant_name) that's [within walking distance](spatial_relation) of [erica's campus](poi)
+- book a spot for [five](party_size_number) [in the same area](spatial_relation) as [72nd St](poi)
+- Find me a table at a [european](cuisine) [bar](restaurant_type) for [six](party_size_number) in the [neighboring](spatial_relation) [downtown](poi) [area](spatial_relation)
+- I'd like to eat [salads](served_dish) at a [restaurant](restaurant_type)
+- Book a table for [3](party_size_number) at one of the [Restaurants in Washington, D.C.](restaurant_name) in [Riverview](city)
+- book a spot for [one](party_size_number) at [four AM](timeRange)
+- Book a [close by](spatial_relation) [brasserie](restaurant_type) in [NC](state).
+- book a [meal](timeRange) for [four](party_size_number) in [DC](state)
+- Book reservations [not far](spatial_relation) from our [neighborhood](poi) for a party of [2](party_size_number)
+- Book a [bar](restaurant_type) for [six](party_size_number) on [July eighth, 2023](timeRange)  [in the same area](spatial_relation) in [Equatorial Guinea](country) which serves [rillettes](served_dish).
+- Find me a table for [four](party_size_number) somewhere
+- Book [Mars 2112](restaurant_name) in [Rwanda](country) for [4](party_size_number) people.
+- Book a [restaurant](restaurant_type) that serves [pasta](served_dish) for [5](party_size_number) people.
+- Book a [restaurant](restaurant_type) for [3](party_size_number) people at [eighteen](timeRange) oclock in [Saint Vincent and the Grenadines](country).
+- I want to eat at a [Escondida](city) [South Carolina](state) [restaurant](restaurant_type) for [8](party_size_number) people
+- book a table for [ten](party_size_number) [downtown](poi) at a [close-by](spatial_relation) [restaurant](restaurant_type)
+- Book a [restaurant](restaurant_type) for [3](party_size_number) in [New Mexico](state).
+- I need a [pub](restaurant_type) with a [smoking room](facility) in [Ucolo](city) reserved.
+- I'd like a reservation at a place in [Iran](country) for [neva, alice and maggie parker](party_size_description).
+- book a [restaurant](restaurant_type) for [4](party_size_number) by [shawn's work](poi) [close by](spatial_relation)
+- I'd like to eat at an [outdoor](facility) [restaurant](restaurant_type)
+- I want to go to [88th St-Boyd Av](poi) or [close](spatial_relation) by and book seats for [10](party_size_number)
+- Can I get a table at [The Fort](restaurant_name)?
+- Lets go eat [this fall](timeRange) at any [restaurant](restaurant_type) that has [parking](facility) in [Finland](country)
+- book a spot for [gay ramos, janice gonzales and I](party_size_description) at a [bar](restaurant_type) in [Timbo](city)
+- I want to book a [restaurant](restaurant_type) [in the same area](spatial_relation) where I live in [MA](state) for [ebony and yolanda](party_size_description).
+- Book me a [restaurant](restaurant_type) for [nine](party_size_number) in [Statham](city)
+- book [french](cuisine) food for [me and angeline](party_size_description) at a [restaurant](restaurant_type)
+- I need a table [in one hour](timeRange) from now at somewhere [not far](spatial_relation) from [LA](state)
+- Book reservations at a [restaurant](restaurant_type) in [Niue](country) for [me, edna and glenda](party_size_description)
+- book a [highly rated](sort) place in [IN](state) [in seven years ](timeRange) at a [pub](restaurant_type)
+- book a spot for [seven](party_size_number) at a [bar](restaurant_type) with [chicken french](served_dish)
+- Please book me a [restaurant](restaurant_type) reservation at [First Watch](restaurant_name) in [Douglas](city), [Maine](state).
+- book a spot at a [pub](restaurant_type) that has [trottole](served_dish) for their [meal](timeRange)
+- I want to dine in [Luray](city)
+- book in [Bolivia](country) a [brasserie](restaurant_type) for [tourte](served_dish) food
+- I'd like to eat at a [neighboring](spatial_relation) [downtown](poi) [restaurant](restaurant_type) with a party of [2](party_size_number)
+- book [Bridge Round House](restaurant_name) for [one](party_size_number) at [meal](timeRange) time in [Democratic Republic of the Congo](country) [close](spatial_relation)
+- book a [restaurant](restaurant_type) for [tortelloni](served_dish) for [eight](party_size_number)
+- I would like to book [Thomas Hynes House](restaurant_name) for [6](party_size_number) in [Minnesota](state)
+- Book a table for [my granddaughter and I](party_size_description) at the [restaurant](restaurant_type).
+- Book a [restaurant](restaurant_type) reservation in [Hong Kong](country)
+- find an [outdoor](facility) facility for [midday](timeRange) in [Datil](city) at a [pub](restaurant_type) for [six](party_size_number)
+- Book a table for [10](party_size_number) at [Top Pot Doughnuts](restaurant_name)
+- book a table for [chasity and I](party_size_description) in [Vanuatu](country)
+- Please book seating for [one](party_size_number) person at an [indoor](facility) [restaurant](restaurant_type) that serves [breakfast](timeRange) in [Nicholasville](city), [Tennessee](state)
+- I'd like to go to a [pizzeria](restaurant_type) [within walking distance](spatial_relation) of [Hutchinson](city)
+- Get me reservations for [seven](party_size_number) at a [restaurant](restaurant_type) in [PW](state) that serves [tourte](served_dish).
+- book a [restaurant](restaurant_type) in [Fort Gates](city), [FL](state)
+- I'd like to go to the [Venetian Theatre](restaurant_name) in [Gabon](country), party of [seven](party_size_number)
+- Book me a [restaurant](restaurant_type) that serves [festoni](served_dish) for [eight](party_size_number) in [New Hampshire](state)
+- book a spot for [one](party_size_number) at a [food court](restaurant_type) in [Riddlesburg](city)
+- Book a party of [4](party_size_number) at [Eddie’s Attic](restaurant_name)
+- Find me a nice [restaurant](restaurant_type) in [Mulvane](city).
+- [my great grandfather and I](party_size_description) would like to get together at a [taverna](restaurant_type).
+- book a table in [Mississippi](state) on [May nineteenth, 2034](timeRange) for [me, silvia and sandy](party_size_description)
+- [in eight seconds](timeRange), I'd like reservations at a [food court](restaurant_type) that serves [sardinian](cuisine) food in [Pidcoke](city).
+- I want to book a [restaurant](restaurant_type) for [ten](party_size_number) [this summer](timeRange)
+- Book a reservation for [one](party_size_number) at an [italian](cuisine) [taverna](restaurant_type) for [two PM](timeRange) in [Hutchings](city), [North Dakota](state)
+- book a [churrascaria](restaurant_type) in [Macao](country) on [May the twenty-third](timeRange)
+- Book a reservation for a [pub](restaurant_type) serving [gateau](served_dish) in [MS](state)
+- Book a reservation for [six](party_size_number) for a [tyrolean](cuisine) [oyster bar](restaurant_type)
+- Book me a reservation for [Fatty Crew](restaurant_name) [in 13 weeks](timeRange) in [Haskell](city)
+- Make me a reservation at a [fast food restaurant](restaurant_type) for [elba and corina](party_size_description) at a [restaurant](restaurant_type) with [parking](facility)
+- book [Itsu](restaurant_name) for [Tonight](timeRange)
+- book [The Kegs Drive-In](restaurant_name) [in 37 weeks](timeRange)  in [Saudi Arabia](country)
+- I'd like a table at a [top-rated](sort) [tea house](restaurant_type) with [javanese](cuisine) cuisine [this week](timeRange) in [Germany](country)
+- book a [restaurant](restaurant_type) for [me and my mother in law](party_size_description) in [Montserrat](country)
+- Book me a table at a [top-rated](sort) [tea house](restaurant_type) in [Suriname](country)
+- I want seats for [four](party_size_number) at a place in [RI](state)
+- book a spot for [selma and molly](party_size_description) at a [steakhouse](restaurant_type) with [saucisse](served_dish) that is [close-by](spatial_relation) [McSherrystown](poi)
+- Book a [restaurant](restaurant_type) in the [Maldives](country) [in one second](timeRange).
+- Reserve me a resturant for [5](party_size_number) at [seventeen o'clock](timeRange)
+- book a [tavern](restaurant_type) on [lincoln's birthday/lincoln's day](timeRange)
+- Book a table for [three](party_size_number) people at [John Pearson Soda Works](restaurant_name) in [Mauritius](country).
+- I need a table in [neighboring](spatial_relation) [Carencro](city) at the [Bridge Round House](restaurant_name)
+- I need seats for [10](party_size_number) at a [highly rated](sort) [restaurant](restaurant_type)
+- book a spot for [9](party_size_number) [in thirty three days](timeRange)  at [Ringlestone Inn](restaurant_name) [close](spatial_relation) to [Grenada](country)
+- I'd like a table for [10](party_size_number) at a [distant](spatial_relation) place [downtown](poi) for [next fall](timeRange)
+- Book a [restaurant](restaurant_type) for [eight](party_size_number) people [in six years](timeRange)  .
+- I would like a table at a [taverna](restaurant_type) with [croquembouche](served_dish) for [1 minute from now](timeRange)
+- Reserve a table for [8](party_size_number) in [neighboring](spatial_relation) [Hitchland](city).
+- I want to book a [highly rated](sort) [fast food restaurant](restaurant_type) [now](timeRange).
+- Find a table somewhere for [me and my step mother](party_size_description) in [Graniteville](city) [DE](state)
+- Please reserve a spot at [Ballachulish House](restaurant_name).
+- I would like an [outdoor](facility) [cafeteria](restaurant_type) for [3](party_size_number)
+- book a table for [ten](party_size_number) people at a [restaurant](restaurant_type) that serves [noodle](served_dish)
+- Book a table for a party of [7](party_size_number) [next year](timeRange) in [ID](state).
+- Book me a reservation at a [burger](served_dish) [joint](restaurant_type) [close-by](spatial_relation) [Choate](city) on [july 16th, 2022](timeRange)
+- table for [two](party_size_number) on [Nov. fifteenth](timeRange)
+- book a spot at a [restaurant](restaurant_type) [faraway](spatial_relation) from [138th St](poi)
+- Reserve a table for [1](party_size_number) person in [WI](state).
+- I would like to book a [restaurant](restaurant_type) for [9](party_size_number) on [Dec. 13](timeRange)
+- Book a [bar](restaurant_type) for [6](party_size_number) that has [stuffed ham](served_dish) and isn't too [faraway](spatial_relation) from [Canarsie - Rockaway Parkway](poi) on [bennington battle day](timeRange).
+- book a spot for [ten](party_size_number) in [Upper Marlboro](city) [PR](state)
+- I would like to book a table at a [delicatessen](restaurant_type) in [punjabi](cuisine) for [me, angela and vilma](party_size_description)
+- Get me a table for [sonya, rebekah and I](party_size_description) at a [restaurant](restaurant_type) in [Latvia](country).
+- book a table for [3](party_size_number) [far](spatial_relation) from [Tullytown](poi) at a [coffeehouse](restaurant_type) with a [smoking room](facility)
+- Book a reservation for a [restaurant](restaurant_type) in [Stonewood](city), [GU](state)
+- I'd like to eat [around](spatial_relation) [ID](state) on [august the 16th](timeRange) with a party of [8](party_size_number)
+- Reserve in [Bermuda](country) a [food court](restaurant_type) [near](spatial_relation) [jan and I](party_size_description)
+- book a spot for [6](party_size_number) in [Pilot Mound](city) [Palau](state) on [feb. the twenty-fourth](timeRange)
+- at [thirteen o'clock](timeRange) book a table for [margie and I](party_size_description) in [Vanuatu](country)
+- book [Tun Tavern](restaurant_name) for [shawna davis, michelle and lizzie](party_size_description) in [Vermont](state)
+- I want to book a restaurantin [Perrytown](city) [Missouri](state) for [candice, jeannie and nichole](party_size_description).
+- book a [bar](restaurant_type) table for [Tonight](timeRange) for [rajasthani](cuisine) food
+- book a [eggo](served_dish) serving [brasserie](restaurant_type) for [ten](party_size_number)
+- Can you make reservations for a party of [eight](party_size_number) in [Iowa](state)
+- I'm looking to get reservations for [me, jillian and louella](party_size_description) at a [restaurant](restaurant_type) that is [faraway](spatial_relation) from [TX](state).
+- I'd like a table in a [smoking room](facility) in a [taverna](restaurant_type) on [sep. 23, 2023](timeRange)
+- Book me a [restaurant](restaurant_type) reservation in [Fiji](country) for [zero am](timeRange)
+- Book a spot at a [taverna](restaurant_type) for [my cousin and I](party_size_description) in [Burundi](country)
+- Can  book a [pizzeria](restaurant_type) that will serve a [cupcake](served_dish)?
+- book a table for [2](party_size_number) at a [highly rated](sort) [restaurant](restaurant_type) [within walking distance](spatial_relation) of [taverna](restaurant_type) [OK](state)
+- I would like a [restaurant](restaurant_type) reservation for [this year](timeRange) for [4](party_size_number) people.
+- I would like to book a [food truck](restaurant_type) for [my friend and I](party_size_description)
+- Book reservations for [five](party_size_number) at [Eleven Madison Park](restaurant_name) [today](timeRange) [within walking distance](spatial_relation) from [Flaxton](city)
+- I need a reservation for [three](party_size_number) people at a [spa](facility) [restaurant](restaurant_type) [in two hundred thirty seven days](timeRange)
+- book a spot for [ten](party_size_number) at a [pub](restaurant_type) that has [umbrian](cuisine) in [NV](state) on [feb. the fourth](timeRange)
+- Book a table for [mamie and maria](party_size_description) at a [south tyrolean](cuisine) [restaurant](restaurant_type) [within walking distance](spatial_relation) from [Fisk Av-69th St](poi).
+- book for [lobster newberg](served_dish) [this week](timeRange) in [Malaysia](country) at a [restaurant](restaurant_type) for [four](party_size_number)
+- Book a reservation for [seven](party_size_number) people at a [steakhouse](restaurant_type) in [Kenya](country)
+- I want to eat at a [pickled cucumber](served_dish) [brasserie](restaurant_type) [in 12 months](timeRange)
+- Book a restasurant in [Pohick](city) [Delaware](state).
+- book a table at a [restaurant](restaurant_type) [within the same area](spatial_relation) as [The Octagon, Christchurch](restaurant_name) in [Allentown](poi)
+- Book [Childs Restaurants](restaurant_name) in [Bruno](city) for [1](party_size_number) person on [October 6th, 2019](timeRange).
+- book a spot for [six](party_size_number) at [Bear Hotel](restaurant_name) [in 5 seconds](timeRange)
+- Book a [restaurant](restaurant_type) that serves [agnolotti](served_dish) in [Colorado City](city) [Idaho](state).
+- book a spot [in town](poi) [in the same area](spatial_relation) as me
+- Find a reservation for a [highly rated](sort) [steakhouse](restaurant_type) in [China](country) for a party of [five](party_size_number) at [05:51:52](timeRange)
+- Find a reservation for [eight](party_size_number) at [Rhodes Twenty Four](restaurant_name) in [GU](state)
+- book a [restaurant](restaurant_type) in [Clawson](city), [MS](state) for [one](party_size_number)
+- book a [restaurant](restaurant_type) in [North Dakota](state) for [my child and I](party_size_description) on [november seventh, 2037](timeRange)
+- I'd like to get reservations for [four](party_size_number) at a [restaurant](restaurant_type) that serves [apple sauce](served_dish).
+- I need a reservation for [Maid-Rite Sandwich Shop](restaurant_name) in [Home Gardens](city)
+- [me and my mummy](party_size_description) want to go to an [indian](cuisine) [bar](restaurant_type) [next winter](timeRange) [within the same area](spatial_relation) of [Cortelyou Rd](poi)
+- Book a reservation for [three](party_size_number) at [Clinton Street Baking Company & Restaurant](restaurant_name)
+- Please book a table for [10](party_size_number) at a [faraway](spatial_relation) [top-rated](sort) [brasserie](restaurant_type) in [Malaysia](country) on [Oct. the thirteenth](timeRange).
+- I'd like to eat with a party of [nine](party_size_number) in [Snapfinger](city) [PA](state)
+- Book a table for [eight](party_size_number) people at a [bar](restaurant_type) that has [steak sauce](served_dish) in [Half Moon](city) [AMerican Samoa](state) right [now](timeRange)
+- Book a [restaurant](restaurant_type) on [san jacinto day](timeRange) in [Anderson](city) for [me and my colleagues](party_size_description).
+- book a table for [vermicelli](served_dish) at a [restaurant](restaurant_type)
+- Book a [restaurant](restaurant_type) in [Palau](state) for [two](party_size_number) people.
+- I'd like to eat at a [tea house](restaurant_type) with [3](party_size_number) people
+- Book a table for [josie, carissa and lindsay](party_size_description) at a [brasserie](restaurant_type) which serves [trentino](cuisine).
+- book a [highly rated](sort) [restaurant](restaurant_type) in [Central African Republic](country) for [5](party_size_number) people on [sep. the second](timeRange)
+- I want to book a [restaurant](restaurant_type) [far](spatial_relation) from the [Municipal Borough of Mitcham](poi) for [10](party_size_number) people.
+- I need a table for [4](party_size_number) at a place [not far](spatial_relation) from [Palau](state).
+- I want to book a [Minnesota](state) [bar](restaurant_type)
+- I want to book a [far](spatial_relation) [brasserie](restaurant_type) that serves [minestrone](served_dish) in [PA](state) for a party of [9](party_size_number) in [15 minutes](timeRange)
+- Book a [restaurant](restaurant_type).
+- Can you get me reservations for a [highly rated](sort) [restaurant](restaurant_type) in [Seychelles](country)
+- book sot for [22 minutes from now](timeRange) at a [restaurant](restaurant_type) with [parking](facility)
+- book a spot for [me, reyna and maxine](party_size_description) at a [taverna](restaurant_type) on [monday](timeRange)
+- book in [RI](state) for [one](party_size_number) in [Wabuska](city)
+- book a spot for [one](party_size_number)
+- Book a reservation for a [southern brazilian](cuisine) [restaurant](restaurant_type) for [10](party_size_number) people [within walking distance](spatial_relation) of [Broadway-Lafayette St](poi)
+- Book a reservation for [4](party_size_number) people at a [restaurant](restaurant_type) [within the same area](spatial_relation) as [my step daughter's position](poi)
+- Find a reservation for a [restaurant](restaurant_type) in [Hong Kong](country) for [seven](party_size_number) people
+- book in [Rocky Mound](city) for [four](party_size_number) [1 hour from now](timeRange)
+- Find a table at a [restaurant](restaurant_type) that serves [corn relish](served_dish) in [Venezuela](country)
+- I want to book a [restaurant](restaurant_type) in [Glenarden](city) [South Dakota](state) for [two](party_size_number) people.
+- I want to book a [restaurant](restaurant_type) for [a year from now](timeRange) in [Maine](state).
+- Book a [brasserie](restaurant_type) place for [seven](party_size_number) in [Lithuania](country)
+- book a table at [Top Pot Doughnuts](restaurant_name) [in 16 hours](timeRange) for [5](party_size_number)
+- [nancy, elma ruiz and molly](party_size_description) want to eat at a [restaurant](restaurant_type) in [Gibraltar](country)
+- Can you get me a table at a [tavern](restaurant_type) in [Slovakia](country)
+- [my niece and I](party_size_description) want to visit a [food court](restaurant_type) in [Callicoon](city), [Tennessee](state)
+- Book a [highly rated](sort) [restaurant](restaurant_type).
+- I'm looking to book a seat at a [bakery](restaurant_type) that serves [coleslaw](served_dish) at [19:44:58](timeRange).
+- Book a [restaurant](restaurant_type) [this year](timeRange) for party of [2](party_size_number)
+- I need a reservation for [6 PM.](timeRange) with a party of [10](party_size_number) at [Sand Lake](city)
+- I want to book [Coney I-Lander](restaurant_name) for [10](party_size_number) people.
+- I need a reservation for [my teens and I](party_size_description) [six months from now](timeRange) in [Tennessee](state)
+- book a table for [seven](party_size_number) people at [six](timeRange) at the [restaurant](restaurant_type)
+- Lets go and take [elsa and I](party_size_description) to [Westhampton Beach](city) [in 1 hour](timeRange) to the [american chinese cuisine](served_dish) at the [tea house](restaurant_type)
+- book a table at an [oyster bar](restaurant_type) that serves [apple butter](served_dish) on [Jul. 10th, 2028](timeRange)
+- book a table for [me and belinda](party_size_description) serving [minestra](served_dish) in a [bar](restaurant_type)
+- I need [fast food](restaurant_type) for [nine](party_size_number) [within the same area](spatial_relation) as [Bowers](city) that has a [pool](facility) [nearby](spatial_relation) on [4/17/2033](timeRange)
+- Book a table for [2](party_size_number) people at a [restaurant](restaurant_type) with [parking](facility)
+- Make me a reservation in [TN](state) somewhere [nearby](spatial_relation) for a party of [4](party_size_number)
+- I'm looking to book a table at a place in [Newton Falls](city), prefereably [within the same area](spatial_relation) that has space for [6](party_size_number)
+- I want to book a [restaurant](restaurant_type) [not far](spatial_relation) from [our college](poi).
+- Book a [tavern](restaurant_type) in [Colorado](state) for [two](party_size_number)
+- Book a table for [ten](party_size_number) people in [Eucalyptus Hills](city).
+- Book a reservation for [2](party_size_number) at [Fashion Cafe](restaurant_name) in [Diwali](timeRange)
+- book a table for [six](party_size_number) in [Beech Creek](city)
+- I need to reserve [two](party_size_number) seats to eat at in [Salina](city), [Alabama](state).
+- book a table for a party of [7](party_size_number)
+- Book a reservation for [The Training Table](restaurant_name) on [Mar. thirteenth, 2026](timeRange)
+- Reserve a table for [one](party_size_number) at a [top-rated](sort) [restaurant](restaurant_type) [nearby](spatial_relation) that serves [goiano](cuisine) for [this month](timeRange) in [MD](state)
+- On [Jun. the sixteenth, 2032](timeRange) I'd like to go to [Dillard House](restaurant_name) in [Putnam Hall](city)
+- Book a reservation for a [restaurant](restaurant_type) serving [burger](served_dish) in [Malaysia](country)
+- I need a table at a [cafeteria](restaurant_type) for a party of [6](party_size_number) in [AL](state)
+- Book a [restaurant](restaurant_type) reservation for [my gf and I](party_size_description) [within walking distance](spatial_relation) of [sondra's university](poi)
+- I need a reservation for [Chapter One](restaurant_name) in [West Odessa](city) for a party of [one](party_size_number)
+- I want to make a reservation at a [sushi](served_dish) [restaurant](restaurant_type)
+- [Anything](restaurant_name) [close](spatial_relation) to [Smith-9th St](poi) that can seat [two](party_size_number) people about [one minute from now](timeRange) ?
+- I need a table for [five](party_size_number) at [Childs Restaurants](restaurant_name) in [Brunei](country).
+- [rebekah taylor and marcie](party_size_description) need reservations at [The Clink](restaurant_name) in [Senegal](country).
+- I'm looking to book a reservation in [Aruba](country) at a place [nearby](spatial_relation).
+- Lets go to a [bistro](restaurant_type) in [SD](state)
+- book a table in [Connecticut](state) in [Robinette](city) for [one second from now](timeRange)
+- I need a table for [7](party_size_number) people at a [bar](restaurant_type) that specialises in being a [protein bar](served_dish).
+- Book a table for [9](party_size_number) people at a [delicatessen](restaurant_type) for [April the twenty-eighth, 2018](timeRange).
+- I need to book a [restaurant](restaurant_type) in [Sunnybrook](city) for [7](party_size_number)
+- I need a reservation for a party of [three](party_size_number), maybe a [gastropub](restaurant_type) that sells [steak](served_dish).
+- I need to book a reservation in [Searsport](city) at [eleven am](timeRange)
+- I need to find a [restaurant](restaurant_type) in [PW](state).
+- Book me an [indoor](facility) [pub](restaurant_type) in [Jersey](country)
+- I'd like to eat at an [oyster bar](restaurant_type) with a [pool](facility)
+- Make me a reservation at a [popular](sort) place that serves [udupi](cuisine) at a [restaurant](restaurant_type)
+- book a spot at a [highly rated](sort) [tea house](restaurant_type) in [manadonese](cuisine)
+- book a spot for [4](party_size_number) at a [restaurant](restaurant_type) in [Shambaugh](city) [MD](state)
+- [me and robin](party_size_description) need reservations for somewhere in [Palau](state)
+- I want to book an [osteria](restaurant_type) for [9](party_size_number) in [Gabon](country) that serves [donuts](served_dish)
+- I have [four](party_size_number) people needing a [restaurant](restaurant_type) reservation.
+- I need a [bakery](restaurant_type) that serves [beef manhattan](served_dish) at [midnight](timeRange) for [nine](party_size_number)
+- Book a [restaurant](restaurant_type) for [four](party_size_number) on [october 9](timeRange) in [Maine](state)
+- I want to bring [six](party_size_number) of us to a [bistro](restaurant_type) [in town](poi) that serves [hot chicken sandwich](served_dish) that is [within the same area](spatial_relation).
+- Please call and reserve seating for [march 6](timeRange) at a [diner](restaurant_type) in [Kyrgyzstan](country)
+- I need to book a [popular](sort) [pastelaria](cuisine) [restaurant](restaurant_type) in [Svalbard and Jan Mayen](country) for a party of [eight](party_size_number)
+- Book a table for [seven](party_size_number) in a [pub](restaurant_type) in [Iraq](country) which offers [gluten free](cuisine) food about [141 days from now](timeRange).
+- I need to book a [restaurant](restaurant_type) in [Fork Mountain](city), [SC](state) for [valarie, mari and I](party_size_description)
+- Can you get a table at [The Triple Door](restaurant_name) in [District Of Columbia](state) for [me and deborah vasquez](party_size_description)
+- I need a reservation [in 1 second](timeRange) in [Atlas](city) with a party of [nine](party_size_number)
+- I need a reservation, looking for a place with [pool](facility) at [Midnight](timeRange) in a [pub](restaurant_type).
+- book a [popular](sort) [food truck](restaurant_type) in [Kentucky](state)
+- I want to find a [restaurant](restaurant_type) that has a table for [two](party_size_number) at [5 AM](timeRange)
+- Book me a [pizzeria](restaurant_type) that serves [oreo](served_dish) for [eight](party_size_number)
+- I need a reservation for a [highly rated](sort) [goiano](cuisine) [restaurant](restaurant_type) in [AR](state)
+- book for [crepes](served_dish) at a [restaurant](restaurant_type) in [Sint Maarten](country)
+- Find a table at a [restaurant](restaurant_type) in [Bynum](city) [CA](state) at [09:59 PM](timeRange)
+- book a [bar](restaurant_type) with [mediterranean](cuisine) food for [three](party_size_number) people
+- I'd like a table at the [San Francisco Brewing Company](restaurant_name) in [Puerto Rico](state) at [noon](timeRange)
+- book a spot at [Savoy Hotel and Grill](restaurant_name) that is [neighboring](spatial_relation) [Wisconsin](state)
+- Book a table at [Dillard House](restaurant_name) in [Exell](city), [IA](state)
+- Book a [taverna](restaurant_type) in [Wisconsin](state) for [22:54](timeRange).
+- Book reservations at a [tea house](restaurant_type) in [Lodi](city) with [my granddaughter and I](party_size_description)
+- I want to book a [cafeteria](restaurant_type) in [El Reno](city) that serves [javanese](cuisine)
+- book [now](timeRange) at a [bakery](restaurant_type) at a [spa](facility)
+- I need a table somewhere in [Culver City](city) [WA](state)
+- I want to book a [restaurant](restaurant_type) in [Botswana](country) for [four](party_size_number) people.
+- I need to book a table at [brasserie](restaurant_type) for [10](party_size_number) that is [highly rated](sort) in [Kentucky](state)
+- book a table for [nine PM](timeRange) at a [pub](restaurant_type) in [MA](state)
+- Book a [restaurant](restaurant_type) [around](spatial_relation) [Thompson](poi)
+- I need reservations at [Khedive Palace](restaurant_name) that's [close](spatial_relation) [in town](poi).
+- I need a reservation for [Blue Ribbon Barbecue](restaurant_name) [far](spatial_relation) from [NY](state) for a party of [10](party_size_number)
+- book a [spa](facility) in [pizzeria](restaurant_type) on [November 24, 2036](timeRange)
+- book a [highly rated](sort) [bar](restaurant_type) in [Burkina](country) for [georgia and I](party_size_description)
+- Need a booking for [6](party_size_number) in [OK](state) for the city of [Boonton](city)
+- Book a [popular](sort) [joint](restaurant_type) in [Ocean Gate](city) for [seven](party_size_number) people at [elevenses](timeRange).
+- I would like to book a [fry sauce](served_dish) [bar](restaurant_type) for [jul. 3, 2019](timeRange)
+- Book a [restaurant](restaurant_type) in the [Dominican Republic](country) [in one minute](timeRange) for a party of [eight](party_size_number)
+- Book a [restaurant](restaurant_type) in [Donnelly](city)
+- book a spot for [3](party_size_number) in [MT](state)
+- Book a reservation for a [gastropub](restaurant_type) serving [liver and onions](served_dish)
+- I need a table in [East Timor](country) for a party of [nine](party_size_number) at [5 North St](restaurant_name)
+- Please book me a table for [next week](timeRange) at a [top-rated](sort) [restaurant](restaurant_type)
+- I want [top-rated](sort) [veneto](cuisine) cuisine at a [restaurant](restaurant_type) in [Antietam](city) for [2](party_size_number).
+- Book a [restaurant](restaurant_type) for [four](party_size_number) people in [Wylliesburg](city).
+- I'm in [Tuolumne City](city) and want [fast food](restaurant_type) for a party of [eight](party_size_number)
+- book a table in [Sterling Run](city) for [two](party_size_number) with a [pool](facility) and [food court](restaurant_type)
+- Book a reservation for [Can Fabes](restaurant_name) [nearby](spatial_relation) [Namibia](country)
+- On [june 27, 2026](timeRange) I'd like to go to a [Delaware](state) [gastropub](restaurant_type)
+- Need a table for [rita, antoinette and I](party_size_description)
+- make a reservation for [hillary, dina chavez and alexis](party_size_description)
+- Book me a table for [five](party_size_number) at the [top-rated](sort) [Morocco](country) [restaurant](restaurant_type).
+- Find a reservation for [three](party_size_number) at a [top-rated](sort) [restaurant](restaurant_type)
+- Book a [restaurant](restaurant_type) in [Satanta](city) that has [highly rated](sort) [northeastern](cuisine) for [10](party_size_number)
+- Book a reservation for [City Tavern](restaurant_name) in [Long Bridge](city)
+- Book a table for [pearl and verna](party_size_description) slated [ash wednesday](timeRange) in [Gabon](country).
+- Book a [food truck](restaurant_type) that is [highly rated](sort) in [Honduras](country)
+- Find me a table for [8](party_size_number) somewhee in [Hollenberg](city) [in nine weeks](timeRange)
+- Book a table at [Laurie Beechman Theatre](restaurant_name) for a party of [4](party_size_number) in [Utah](state)
+- I would like to book at [Clinton Street Baking Company & Restaurant](restaurant_name) in [Brookneal](city).
+- book a table for [me and my step uncle](party_size_description) in [Malta](country) at a [cafeteria](restaurant_type)
+- I want to eat somewhere that is [faraway](spatial_relation) from [Iowa](state).
+- [2](party_size_number) of us want to eat at a [restaurant](restaurant_type) that serves [meatballs](served_dish) in [VT](state)
+- Book the [Space Aliens Grill & Bar](restaurant_name) in [Hord](city) [WY](state) for [Feb. the twenty-seventh](timeRange).
+- book a spot for [3](party_size_number) in [Egypt](country) at [five](timeRange)
+- Please book a [restaurant](restaurant_type) for party of [1](party_size_number) in [Seeley Lake](city) on [july the fourteenth, 2022](timeRange).
+- I want to book a [cafeteria](restaurant_type) for [4](party_size_number) that has [meze](served_dish)
+- need a table for [nine](party_size_number) in [East Prairie](city) [LA](state)
+- book me a [restaurant](restaurant_type) for [4](party_size_number) members at [Beaman](city) [Federated States Of Micronesia](state) [in one minute](timeRange)
+- Need to book a reservtion for a [restaurant](restaurant_type) in [Maryland](state) for [me and my half sister](party_size_description)
+- I'd like to eat at a [pho](served_dish) [restaurant](restaurant_type) in [VT](state)
+- I want to make a reservation for [one](party_size_number) at a [sushi](served_dish) [restaurant](restaurant_type) in [Brucetown](city)
+- table for [nine](party_size_number) at an [internet](facility) [pub](restaurant_type)
+- I want to book a [bar](restaurant_type) [neighboring](spatial_relation) [our apartment](poi).
+- book a table [not far](spatial_relation) in [WY](state) at a [gastropub](restaurant_type) with [internet](facility) for [me, jenny and antoinette](party_size_description) [in one week](timeRange)
+- book sot for [one](party_size_number) at [restaurant](restaurant_type) with [wifi](facility)
+- I need to book a table at [The Star Inn](restaurant_name) that's [within walking distance](spatial_relation) from my place in [Ashland](city)
+- I need to book a [restaurant](restaurant_type) for [6](party_size_number) people.
+- Book me a reservation for a [bar](restaurant_type) that serves [lobster roll](served_dish) in [OR](state)
+- I want to book a [restaurant](restaurant_type) with [creamed eggs on toast](served_dish) on [Kansas Day](timeRange) [within walking distance](spatial_relation) of [British Indian Ocean Territory](country)
+- I want a table to seat [10](party_size_number) at a [close-by](spatial_relation) to [Ottumwa](city) that serves [osteria](restaurant_type) and [ranch dressing](served_dish).
+- I would like to book the [best](sort) [food court](restaurant_type) with [persian](cuisine) food [within the same area](spatial_relation) as [OK](state) for [my ex husband and I](party_size_description)
+- Book a table at a [bar](restaurant_type) in [Argentina](country).
+- book a spot for [nine](party_size_number) at a [top-rated](sort) [brasserie](restaurant_type) that has [swiss](cuisine) [within the same area](spatial_relation) of [New York](state)
+- book a table this [evening](timeRange) in [Saint Vincent and the Grenadines](country) at a [gastropub](restaurant_type)
+- book a table in [Hallwood](city) for [one](party_size_number) for [supper](timeRange)
+- I want to eat [panisses](served_dish) the [nearby](spatial_relation) [cafeteria](restaurant_type) in [Naytahwaush](city)
+- Book a table at a [osteria](restaurant_type) type [restaurant](restaurant_type) in [SD](state)
+- Book a table for [kristina and teresa](party_size_description) [in 1 second](timeRange).
+- I want to book [The Commons Restaurant](restaurant_name) for [five](party_size_number) on [Dec. the eighth](timeRange)
+- Book the [CityZen](restaurant_name) for [six](party_size_number) people.
+- Please get me seating at the [tavern](restaurant_type) in [Red Lick](city), [Michigan](state)
+- Need to book a table at a [fast food](restaurant_type) restaurant for a party of [nine](party_size_number) on [November seventeenth, 2019](timeRange)
+- I want to eat at a [bakery](restaurant_type) with [deidre and rosa](party_size_description) in [Jersey](country).
+- Book a [restaurant](restaurant_type) for [ten](party_size_number) people [1 second from now](timeRange).
+- Book reservations for [ava gonzales, raquel brown and I](party_size_description) on [Jul. 6, 2040](timeRange) in [Hainesville](city) at a [restaurant](restaurant_type)
+- I need to get seats for [me and my ex wife](party_size_description) to eat in [Egypt](country).
+- book [The Lake House](restaurant_name) for [me and carmella](party_size_description)
+- Find a reservation at a [brasserie restaurant](restaurant_type) [nearby](spatial_relation) [SC](state) for a party of [ten](party_size_number)
+- [antoinette and I](party_size_description) want to eat at an [oyster bar](restaurant_type) that serves [pizzette](served_dish) in [South Duxbury](city) [ME](state)
+- Book a [restaurant](restaurant_type) in [Medford Lakes](city) on [Sep. 8, 2033](timeRange) for [essie, tonya and I](party_size_description)
+- book a [restaurant](restaurant_type) for [four](party_size_number) in [Burundi](country)
+- I'd like a table for [my teenager and I](party_size_description) at the [Washington, D.C. Jewish Community Center](restaurant_name)
+- Book a table for [doris and I](party_size_description) in [New Tulsa](city)
+- Book a reservation at a [restaurant](restaurant_type) with [me, matilda and deana](party_size_description)
+- Reserve a place to eat on [march fifteenth](timeRange) in [China](country) [within the same area](spatial_relation).
+- I'd like a table for [three](party_size_number) at [Black Rapids Roadhouse](restaurant_name) on [February 24th, 2039](timeRange)
+- Get me a table at a [bar](restaurant_type) which has a [spa](facility).
+- Please make reservations for a [bar](restaurant_type) [close-by](spatial_relation) in [Lake Alfred](city).
+- I need a reservation for [Roscoff Restaurant](restaurant_name) in [Valley Mills](city)
+- I need a table at a [brasserie](restaurant_type) in [Belgium](country)
+- I want to book at a [pub](restaurant_type) with [parking](facility) in [Cuba](country).
+- book a table for [4](party_size_number) at [Fish Express](restaurant_name)
+- I'd like to eat at a [top-rated](sort) place on [nov. the twenty-sixth](timeRange) in the [food court](restaurant_type), I need reservations for [7](party_size_number) in the city of [Kane](city) or somewhere [near](spatial_relation) there.
+- Book me a table for [seven](party_size_number) in [neighboring](spatial_relation) [France](country).
+- book in [Falkland Islands](country) at [Atomic Cafe](restaurant_name)
+- I want to take [four](party_size_number) friends to the [pub](restaurant_type) for some [tuna casserole](served_dish)
+- I need a reservation in [Decaturville](city) for [six](party_size_number) people.
+- Book me a reservation for [eight](party_size_number) for the [top-rated](sort) [bakery](restaurant_type) [eleven hours from now](timeRange) in [Mango](city)
+- book a spot for [ten](party_size_number) at a [restaurant](restaurant_type) with a [spa](facility) in [U.S. Minor Outlying Islands](country)
+- Book a reservation for [seven](party_size_number) people at a [highly rated](sort) [restaurant](restaurant_type) that serves [moroccan](cuisine) food in [East Greenville](city)
+- Book the [Light Horse Tavern](restaurant_name) for [4](party_size_number) people.
+- book a table in [UT](state) at [Kearney](city) for [6](party_size_number)
+- book a table at a [restaurant](restaurant_type) in [Lucerne Valley](city) that serves [chicken nugget](served_dish)
+- [me and deanna](party_size_description) want to book a [restaurant](restaurant_type) in [Malawi](country)
+- Book a [food truck](restaurant_type) that serves [tarte](served_dish) for [tanisha, lorena and juliana](party_size_description).
+- [christie, concepcion and I](party_size_description) want to eat [trattoria](cuisine) at a [brasserie](restaurant_type) in [Johnston](city) [now](timeRange)
+- book [in one hour](timeRange) [within walking distance](spatial_relation) of a [restaurant](restaurant_type) [downtown](poi)
+- I need to book a [top-rated](sort) [steakhouse](restaurant_type) [this Autumn](timeRange)  for [1](party_size_number) [around](spatial_relation) [Azerbaijan](country)
+- book in [Romania](country) for [christian and susana](party_size_description) at [David Carpenter House](restaurant_name)
+- book in [Ukraine](country) at a [highly rated](sort) [restaurant](restaurant_type)
+- Let me get reservations at a place [neighboring](spatial_relation) [Indonesia](country) on [August the nineteenth](timeRange).
+- I'd like to book a reservation for [next Spring](timeRange) for [nine](party_size_number) people at [Shore Club](restaurant_name).
+- Book the [Chapter One](restaurant_name) in [Bosnia and Herzegovina](country) for [patti, hester richardson and camille](party_size_description)
+- Book me a [restaurant](restaurant_type) [ten minutes from now](timeRange)
+- I need a reservation for a [tea house](restaurant_type) in [Maple Glen](city) for [four](party_size_number) people
+- I'd like to eat at [ten PM.](timeRange) anywhere [neighboring](spatial_relation) to [our house](poi)
+- Book a table for [seven](party_size_number) people at a [restaurant](restaurant_type) which has [internet](facility).
+- Book a table for [6](party_size_number) at a [restaurant](restaurant_type) in [Pershing Square, Manhattan](restaurant_name) at [two am](timeRange)
+- Book a [restaurant](restaurant_type) in [Nebraska](state) on [january 25, 2034](timeRange) for [me and my mommy](party_size_description).
+- book a [restaurant](restaurant_type) table at the [food court](restaurant_type) in the [spa](facility) [sixteen hours from now](timeRange)
+- Book me a table for [one](party_size_number) at [Blue Ribbon Barbecue](restaurant_name)
+- Book a [highly rated](sort) [food court](restaurant_type) for [2](party_size_number) people on [jul. 4th](timeRange).
+- Locate a [bakery](restaurant_type) in [Rockport](city), [Federated States Of Micronesia](state) that serves [olives](served_dish)
+- Book a table for [my great grandfather and I](party_size_description) at a place in [Booker](city), [AK](state).
+- book a table at [Anstruther Fish Bar](restaurant_name) in [FM](state)
+- Please make a reservation at [ten](party_size_number) at a [bakery](restaurant_type) which serves [burrito](served_dish).
+- Book the [Labworth Café](restaurant_name) in [Ethiopia](country) for [six](party_size_number) people.
+- I have a party of [7](party_size_number) in [East Timor](country)
+- I need a table for [1 minute from now](timeRange) at any [pub](restaurant_type) for [five](party_size_number) [around](spatial_relation) [IN](state) that also serves [fisn'n chips](served_dish).
+- book a [best](sort) [tavern](restaurant_type) for [nine](party_size_number)
+- [me and aisha](party_size_description) and craving [cordon bleu](served_dish) and need to book a table at a [brasserie](restaurant_type).
+- [evangeline and petra cooper](party_size_description) want to go to a [restaurant](restaurant_type) [in 9 years](timeRange)
+- Table for [one](party_size_number) somewhere in [Palco](city)
+- I need to book a [restaurant](restaurant_type) at [four o'clock](timeRange) for [4](party_size_number)
+- Lets go to a [steakhouse](restaurant_type) before [we](timeRange) go to the [pool](facility)
+- Book a table for [iris, ina and heidi](party_size_description) around [9 pm](timeRange).
+- I need a reservation in [Pitcairn Islands](country) for any [restaurant  joint](restaurant_type)
+- Book something for [me and my wife](party_size_description) at a [restaurant](restaurant_type) [in four weeks](timeRange)
+- Need a table in [Serbia and Montenegro](country) on [Apr. 16](timeRange) for a party of [seven](party_size_number)
+- Book a [steakhouse](restaurant_type) with a [spa](facility) for [seven](party_size_number) people.
+- I need seats for [six](party_size_number) at a [vegan](served_dish) [bar](restaurant_type) in [London Borough of Enfield](poi) or the [same distant](spatial_relation) [in one second](timeRange)
+- Book a table at a [diner](restaurant_type) which serves [thousand island dressing](served_dish) in [Ivory Coast](country).
+- I need a booking for [seven](party_size_number) people at [Metropolitan Museum of Art](restaurant_name).
+- Book a reservation for [four](party_size_number) at the [best](sort) [brasserie](restaurant_type) in [Venezuela](country)
+- Book a table for [1](party_size_number) person at a [popular](sort) [brasserie](restaurant_type) in [Jansen](city) that serves [english](cuisine) food
+- I need a reservation for [eight](party_size_number) for a [brasserie](restaurant_type) that serves [spanish rice](served_dish)
+- Book reservations at a [restaurant](restaurant_type) in [NE](state) for [4](party_size_number) people on [apr. 2, 2021](timeRange)
+- book a [gratin](served_dish) serving [tea house](restaurant_type) in [Bushkill](city)
+- Book a [restaurant](restaurant_type) that serves [bouchée](served_dish) for [midnight](timeRange).
+- Book a [restaurant](restaurant_type) for [7](party_size_number) people.
+- party of [two](party_size_number) for a [food truck](restaurant_type) on [december 22](timeRange) that serves [chicken french](served_dish) in [Bolivia](country)
+- book a spot for [marlene, jordan and I](party_size_description) on [oct. the 6th](timeRange)
+- book a [restaurant](restaurant_type) that serves [trottole](served_dish) in [Tillicum](city)
+- I'd like to book the [best](sort) [restaurant](restaurant_type) in [AS](state).
+- book a spot for [10](party_size_number) [in the same area](spatial_relation)  of [Inwood - 207th St](poi)
+- I need to book a [restaurant](restaurant_type) in [Burkettsville](city) [in 2 years](timeRange)  for [rhoda adams, roxanne and I](party_size_description)
+- Need a table at a [fast food restaurant](restaurant_type) for [me and my kids](party_size_description) in [Brusly Landing](city)
+- I need a table for [nine](party_size_number) in [Atlas](city) [in 1 second](timeRange)
+- Book a [restaurant](restaurant_type) [distant](spatial_relation) from [downtown](poi).
+- I want to bring [four](party_size_number) people to a place that's [close](spatial_relation) to [downtown](poi) that serves [churrascaria](restaurant_type) cuisine.
+- in [Delanson](city) [1 hour from now](timeRange) reserve a table for [four](party_size_number)
+- Find me a table at a [delicatessen](restaurant_type) in [Urbanette](city) that serves [rabbit pie](served_dish)
+- Book a [restaurant](restaurant_type) in [WI](state) at [13:22:34](timeRange) for [9](party_size_number) people.
+- Please make reservations for [three](party_size_number) at a [kosher](cuisine) [taverna](restaurant_type) [nearby](spatial_relation) [our secondary residence](poi)
+- Book a [restaurant](restaurant_type) in [Indiana](state) for [me, violet and dianne](party_size_description).
+- book a [restaurant](restaurant_type) [close](spatial_relation) to [Grant Av](poi)
+- Book reservation for [2](party_size_number) people [tomorrow](timeRange) in [Whitewater](city)
+- I need a table for [8](party_size_number) people at a [restaurant](restaurant_type) in [District Of Columbia](state).
+- book a table for [ten](party_size_number) people
+- Book a [restaurant](restaurant_type) for [9](party_size_number) at [00:37 PM](timeRange)
+- Book a [restaurant](restaurant_type) in [Botswana](country) for [seven](party_size_number) people.
+- Book [Georgetown Cupcake](restaurant_name) in [Keller](city) for [tea](timeRange) time.
+- Book a [restaurant](restaurant_type) for [marcella, erma and leanne rivera](party_size_description).
+- I would like to make a reservation for [2](party_size_number) for [brunch](timeRange).
+- Book a table for [me and my crew](party_size_description) scheduled for [10:47:15 pm](timeRange) in [IL](state).
+- I'd like to go to the [popular](sort) [bistro](restaurant_type) in [OH](state)
+- Please book a [bar](restaurant_type) type [goiano](cuisine) room accommodate for [2](party_size_number) members [1 second from now](timeRange) in [PR](state)
+- I'm looking to get a seat at a [brasserie](restaurant_type) in [Togo](country).
+- Book me a table at a [Tartinery Restaurant](restaurant_name) [not far](spatial_relation) from my [home](poi) in [Elk Rapids](city).
+- book a [brasserie](restaurant_type) at [Turtle Creek](poi) [neighboring](spatial_relation) on [march sixth, 2038](timeRange) for [eight](party_size_number)
+- Book a [maharashtrian](cuisine) [restaurant](restaurant_type) please.
+- Book a table for [five](party_size_number) in [Unalaska](city) [this month](timeRange).
+- My party of [3](party_size_number) would really like to eat [baba au rhum](served_dish) at a [brasserie](restaurant_type), could you help?
+- I want to book a [restaurant](restaurant_type) [now](timeRange) in [Ludlow](city) for [eight](party_size_number)
+- I want to book a [pub](restaurant_type) in [MS](state) that serves [festoni](served_dish)
+- book a [cafe](restaurant_type) in [Romania](country)
+- I want to take [my parents and I](party_size_description) to eat some [romagna](cuisine) at a [brasserie](restaurant_type) in [North Dakota](state)
+- Book a table for [1](party_size_number), [1 second from now](timeRange) in [Adelaide](city)
+- [in one hundred twenty seven days](timeRange) I'd like to eat at a [pizzeria](restaurant_type) in [North Lima](city)
+- Book a [brasserie](restaurant_type) in [Cuney](city) for [seven](party_size_number) people.
+- Book me a table for [seven](party_size_number) in [Co-operative Block Building](restaurant_name), [ND](state).
+- I'd like to eat [surf and turf](served_dish) [in one minute](timeRange) at a [bar](restaurant_type)
+- I want to take [my mom and I](party_size_description) to the [tea house](restaurant_type)
+- I want to book a [highly rated](sort) [pizzeria](restaurant_type) [in the same area](spatial_relation) as [tia's house](poi)
+- I need a table at [The Middle East](restaurant_name) in [MN](state) for a party of [6](party_size_number)
+- book me a [restaurant](restaurant_type) at [Sint Maarten](country) on [sun](timeRange).
+- Book a [restaurant](restaurant_type) in [Three Points](city)
+- I want a table for [2](party_size_number) at a [Portugal](country) [restaurant](restaurant_type)
+- I'd like to eat at an [internet](facility) [restaurant](restaurant_type) with a party of [four](party_size_number)
+- I would like to book a [bistro](restaurant_type) for [7](party_size_number)
+- I'd like to eat at a [restaurant](restaurant_type) in [MD](state) with a party of [8](party_size_number)
+- Find a reservation for [2](party_size_number) at a [restaurant](restaurant_type) for [pizza](served_dish)
+- I want to book a [restaurant](restaurant_type) in [Bosnia and Herzegovina](country).
+- Need a booking for a party of [five](party_size_number) at a [restaurant](restaurant_type) in [French Polynesia](country)
+- Book reservation at [The Big Chill Cafe](restaurant_name) in [AR](state) for [10](party_size_number) people
+- Make me reservations for a [highly rated](sort) [restaurant](restaurant_type).
+- book a [restaurant](restaurant_type) for [my baby and I](party_size_description) in [Delaware](state)
+- Book a table at the [top-rated](sort) [taverna](restaurant_type) in [North Korea](country).
+- Book reservations at a [restaurant](restaurant_type) in [Jersey](country) for [six](party_size_number) people [next October](timeRange)
+- book a [cafe](restaurant_type) table for [one](party_size_number) that has [internet](facility) access
+- I'd like to eat at a [restaurant](restaurant_type) [far](spatial_relation) from [Grantsburg](city)
+- Book a table at a [tavern](restaurant_type) in [Albania](country) for [annette, darlene and barbara james](party_size_description) for [ten AM](timeRange)
+- Book a [restaurant](restaurant_type) in [Swaziland](country) [in 1 hour](timeRange).
+- Book me a reservation for an [osteria](restaurant_type) [campanian](cuisine) on [Jun. the 7th, 2022](timeRange)
+- Book a reservation for [me and my step sister](party_size_description) in [Nebraska](state) [in two seconds](timeRange)
+- Book the [Coon Chicken Inn](restaurant_name) in [Baker City](city) for [4](party_size_number) people.
+- book a [restaurant](restaurant_type) in [French Southern Territories](country) on [dec. the fifth, 2026](timeRange) for [two](party_size_number)
+- Book me a reservation for [10](party_size_number) in [Oman](country)
+- Book a [restaurant](restaurant_type) for [nine](party_size_number) in [South Sudan](country).
+- Book reservations at a [restaurant](restaurant_type) in [Iron Springs](city)
+- Please make me reservations somewhere for [eight](party_size_number) people in [Foley](city), [NV](state)
+- table for [5 AM](timeRange). at [Baker’s Keyboard Lounge](restaurant_name)
+- I want to eat [mezes](served_dish) at the [pub](restaurant_type) for [1](party_size_number) at [four PM](timeRange)
+- I'm looking for a table of [eight](party_size_number) at [The Alley](restaurant_name).
+- I need a table for [five](party_size_number) in [Viroqua](city)
+- Book a [russian](cuisine) [restaurant](restaurant_type) for [4](party_size_number) people.
+- Book a [bakery](restaurant_type) that serves [souvlaki](served_dish) for [tomorrow](timeRange).
+- Find me a table at a [javanese](cuisine) [brasserie](restaurant_type)
+- We want to eat at a [brasserie](restaurant_type) with [sicilian](cuisine) food in [Nebraska](state)
+- book a table for [now](timeRange) for [4](party_size_number) for an [oyster bar](restaurant_type)
+- I need a table for [2](party_size_number) on [feb. 18](timeRange) at [Main Deli Steak House](restaurant_name)
+- I'd like to get [4](party_size_number) seats at a [restaurant](restaurant_type).
+- [Asiate](restaurant_name) [restaurant](restaurant_type) in [Sturgeon](city) for [7](party_size_number)
+- [restaurant](restaurant_type) in [Zambia](country) that is [close](spatial_relation) for a party of [10](party_size_number)
+- [restaurant](restaurant_type) that is [brasserie](restaurant_type) for  [8](party_size_number) and has [wifi](facility)
+- I want eat at the [best](sort) [spanish](cuisine) [restaurant](restaurant_type) in the [Georgia](state) [area](spatial_relation) that is [within walking distance](spatial_relation) for [me and my nephew](party_size_description) at [noon](timeRange)
+- book [rosalie stewart and evelyn](party_size_description) at a [restaurant](restaurant_type)
+- book a table for [0 pm](timeRange) in [Fayette](city) for [rachael morris and shannon](party_size_description) [near](spatial_relation) there
+- I need a table for [one](party_size_number)
+- book a spot for [nona gray, myrtle and alison](party_size_description) at a [top-rated](sort) [brasserie](restaurant_type) that is [distant](spatial_relation) from [Wilson Av](poi) on [Nov. the 4th, 2030](timeRange) that serves [ouzeri](cuisine)
+- Book the [Ballylickey House](restaurant_name) for [7/16/2027](timeRange).
+- book an [outdoor](facility) place for [11/1/2033](timeRange) [in town](poi) [within walking distance](spatial_relation) of a [brasserie](restaurant_type) for [nine](party_size_number)
+- I need a reservation for a [restaurant](restaurant_type) that serves [cupcakes](served_dish) in [OH](state)
+- I'd like a table for [3](party_size_number) at a [tavern](restaurant_type) in the [Vatican](country)
+- I want a table for [5](party_size_number) [next fall](timeRange) om [Curacao](country)
+- book a table at a [restaurant](restaurant_type) for [10/24/2028](timeRange) for [me and lauren](party_size_description)
+- need a table at [Uncommon Grounds Coffeehouse](restaurant_name) at [eleven](timeRange) for [nine](party_size_number)
+- I need a reservation for [The French Laundry](restaurant_name) in [OH](state) for [six](party_size_number)
+- I'd like a table for [two](party_size_number) at a [brasserie](restaurant_type) in [São Tomé and Príncipe](country)
+- Reservea  table for [five](party_size_number) people on [september second](timeRange) in [Gabon](country).
+- Book reservations at a [nearby](spatial_relation) [restaurant](restaurant_type) in [Montenegro](country) for [four](party_size_number) people
+- Book me a reservation for [The Brazen Head](restaurant_name) in [Hecker](city)
+- book a [molecular gastronomy](served_dish) serving [restaurant](restaurant_type) on [march the 20th](timeRange)
+- Book a spot for [seven](party_size_number) at a [japanese](cuisine) [joint](restaurant_type) in [Grandview Heights](city)
+- Book me a [tibetan](cuisine) [restaurant](restaurant_type) for [my boss and I](party_size_description).
+- book a [bar](restaurant_type) [close by](spatial_relation) with a [smoking room](facility) in [MA](state)
+- Can you make reservations for [1](party_size_number) person in [IL](state)
+- Book the [Dunbrody Country House Hotel](restaurant_name) in [NE](state) for [8](party_size_number) people.
+- Find a table for [one](party_size_number) at a [popular](sort) [churrascaria](restaurant_type) for [three weeks from now](timeRange)
+- Make me a reservation at [Illinois Central Railroad Freight Depot](restaurant_name) in [Singapore](country) with [vickie rodriguez, lila reyes and ruby](party_size_description)
+- I'd like a table for [natasha, bettye and kimberley](party_size_description) at a [coffeehouse](restaurant_type) with a [smoking room](facility)
+- book [tortano](served_dish) serving [brasserie](restaurant_type) for [me, isabella and carly](party_size_description) in [Kuwait](country)
+- Book me a table for [2](party_size_number) [in 6 years](timeRange)  at a [restaurant](restaurant_type) that serves [potée](served_dish)
+- Make a reservation [far](spatial_relation) away at [The Spotted Pig](restaurant_name) in [SD](state).
+- I want to go to an [outdoor](facility) [cafe](restaurant_type) in [Pioneer Day](timeRange)
+- I want to book a table for [me and my boss](party_size_description) at [Glassy Junction](restaurant_name) in [Turkey](country).
+- I need to book a [pub](restaurant_type) in [Cammack Village](city) [Wyoming](state) for a party of [seven](party_size_number)
+- Book something for [darlene, tessa and maxine](party_size_description) at a [restaurant](restaurant_type) for [09:58:27](timeRange)
+- Make me a reservation at [taverna](restaurant_type) in a [smoking room](facility)
+- [casey and I](party_size_description) will be in [Kentucky](state) for food
+- book a spot for [1](party_size_number) at a [bakery](restaurant_type) with [crab cake](served_dish) [not far](spatial_relation) from [New Jersey](state)
+- Book a table for [7](party_size_number) at a [popular](sort) [bistro](restaurant_type) [distant](spatial_relation) from [Kremmling](city)
+- Book a table for [5](party_size_number) at a [pub](restaurant_type) during my [Macedonia](country) trip that serves [czech](cuisine) food.
+- Book me seating at a [popular](sort) [joint](restaurant_type) for [Sep. the 10th](timeRange)
+- I'd like a table for [six](party_size_number) at the [bakery](restaurant_type) in [AS](state)
+- Book a [restaurant](restaurant_type) [in town](poi) [not far](spatial_relation) from here for [me and my mother in law](party_size_description).
+- I need reservations for a party of [8](party_size_number) [within the same area](spatial_relation) at [01:48:35](timeRange) at a [restaurant](restaurant_type) in [Armenia](country) that serves [tuscan](cuisine) cuisine.
+- book some [indonesian](cuisine) [food truck](restaurant_type) food that is [not far](spatial_relation) for a party of [8](party_size_number) in [IA](state)
+- Make a reservation at a [diner](restaurant_type) which serves [chowder](served_dish) in [MT](state) for [august the 17th, 2024](timeRange).
+- I need a table at [Light Horse Tavern](restaurant_name) in [City of the Dalles](city) [NH](state) for [kathleen, brianna and I](party_size_description)
+- I need seats for [five](party_size_number) at a place [five and a half months from now](timeRange)
+- Book a [pub](restaurant_type) for [eight](party_size_number) people in the [Pitcairn Islands](country).
+- I need a table for a party of [2](party_size_number) at [Co-operative Block Building](restaurant_name) in [Old Glory](city)
+- I want [Jean-Georges](restaurant_name) for a party of [2](party_size_number)
+- Reserve me seating [midday](timeRange) at [Bear Hotel](restaurant_name)
+- Book a [restaurant](restaurant_type) [near](spatial_relation) the [City of Wakefield](poi) for [5](party_size_number) people.
+- Book a table for [two](party_size_number) in [Oklahoma](state)
+- book me a [restaurant](restaurant_type) in [Guadeloupe](country)
+- Find me a table for [8](party_size_number) people at a [nearby](spatial_relation) [AL](state) [restaurant](restaurant_type) [one minute from now](timeRange).
+- book in [West Palm Beach](city) for [glenda, lois and tamra](party_size_description) at a [nearby](spatial_relation) [restaurant](restaurant_type) serving [puglia](cuisine)
+- I need a table at a [restaurant](restaurant_type) in [Ireland](country) serving [kouglof](served_dish)
+- Find me a [bar](restaurant_type) in [Eagle Pass](city), [Vermont](state) that serves [noodle](served_dish) dishes, that will take reservations for [2/21/2021](timeRange).
+- Book a table for [ida, monica and etta](party_size_description) at [Cold Spring Tavern](restaurant_name) in [MD](state)
+- Book reservations at a [highly rated](sort) [bar](restaurant_type) on [11/23/2031](timeRange)
+- book a [stuffed ham](served_dish) serving [pizzeria](restaurant_type) in [Independence Corner](city)
+- book a [brasserie](restaurant_type) with [parking](facility) for [1](party_size_number)
+- I want to book a table at a [nearby](spatial_relation) [restaurant](restaurant_type) in [Andorra](country) for [me and my kids](party_size_description).
+- I really need a [top-rated](sort) [restaurant](restaurant_type) that can seat [3](party_size_number) people [in 1 minute](timeRange) from now.
+- Book a [churrascaria restaurant](restaurant_type) that serves [spring rolls](served_dish) for [one](party_size_number) person.
+- Book reservations at a [restaurant](restaurant_type) for [me and my ex husband](party_size_description) in [West Virginia](state)
+- Make me a reservation for a party of [2](party_size_number)
+- book a [diner](restaurant_type) for [1](party_size_number) in [Green Isle](city)
+- book [fast food](restaurant_type) that is [highly rated](sort)
+- [me and katharine](party_size_description) would like to go eat at [Jan. 22nd](timeRange) in [IA](state)
+- book [Main Deli Steak House](restaurant_name) on [february 13](timeRange) in [Serbia and Montenegro](country)
+- I want tables for [6](party_size_number) at a [kosher](cuisine) [steakhouse](restaurant_type) [around](spatial_relation) [Kosovo](country)
+- I need to book a [restaurant](restaurant_type) that serves [sundanese](cuisine) in [Bonaire](country) for [7](party_size_number)
+- Book a [taverna](restaurant_type) that serves [bengali](cuisine) for [six](party_size_number) at [five](timeRange)
+- I'm looking to book a table at a [gastropub](restaurant_type) that serves [vegetarian](cuisine) for [me and my team](party_size_description)
+- Please book me a table at a [food court](restaurant_type) [faraway](spatial_relation) from [Saint Kitts and Nevis](country).
+- I want to book a table at [The Commons Restaurant](restaurant_name) in [South Pekin](city) [New Hampshire](state) for a party of [10](party_size_number) on [january the 24th](timeRange)
+- Book a [restaurant](restaurant_type) in [Bouchon](restaurant_name) for [1](party_size_number)
+- book a [restaurant](restaurant_type) for [5](party_size_number)
+- book a spot at a [crab](served_dish) [restaurant](restaurant_type)
+- Book a reservation at a [restaurant](restaurant_type) [nearby](spatial_relation) [their airbnb](poi)
+- Book a reservation for [Louisiana Fried Chicken](restaurant_name) [this winter](timeRange) in [Taiwan](country)
+- book a [restaurant](restaurant_type) in [HI](state)
+- I want to book a [bar](restaurant_type) in [Bonaparte](city) [Palau](state).
+- Can you make reservations at a [tea house](restaurant_type) that serves [fettucine](served_dish)?
+- I want to book [Meriton Grand Hotel Tallinn](restaurant_name) in [New Jersey](state) for [four](party_size_number) people.
+- I want a table for [eight](party_size_number) in [Yakima](city) [Rhode Island](state)
+- Book a reservation for a [restaurant](restaurant_type) serving [wontons](served_dish) for [ten](party_size_number) people in [Leopold](city)
+- book at [Tavern on the Green](restaurant_name) for [in 1 minute](timeRange) in [CO](state)
+- Book a reservation for a party of [four](party_size_number) [within the same area](spatial_relation) of [Districts of Sweden](poi)
+- I need to reserve a table for [me and my mom](party_size_description) at the nearest [restaurant](restaurant_type) in the state of [MH](state).
+- set an reservation for a party of [eight](party_size_number) at the [bar](restaurant_type) on [8/8/2039](timeRange)
+- Book me a table for [two](party_size_number) in [Oakes](city).
+- I need to book a table for [6](party_size_number) people at [Montreal Pool Room](restaurant_name) in [Croatia](country).
+- Reserve a table in [Top of the Mark](restaurant_name) [Lambertville](city), [Vermont](state).
+- I'm going to [Herkimer](city) and want some [liver and onions](served_dish) and I need a table for [bessie, antonia and lisa](party_size_description) at a [cafe](restaurant_type) around [10 AM](timeRange)
+- book a [restaurant](restaurant_type) for [november 19](timeRange)
+- Reserve a table at a [restaurant](restaurant_type) with [wifi](facility) in [France](country)
+- Can you make reservations for [two](party_size_number) people somewhere [distant](spatial_relation) from [Sutphin Blvd](poi)
+- I need a table at somewhere [within walking distance](spatial_relation) of [NV](state) on [november the 24th, 2027](timeRange)
+- I need to book a [tropézienne](served_dish) [restaurant](restaurant_type) [six hours from now](timeRange)
+- I need a table in [your position](poi) at [churrascaria](restaurant_type) for a [hot dog](served_dish) [in the same area](spatial_relation)
+- Book a table at [Crown Candy Kitchen](restaurant_name) for [lacy and I](party_size_description)
+- Book at table at a [brasserie](restaurant_type) which serves [padangnese](cuisine) food.
+- I need to book a table for [five](party_size_number) at the [Crooked House of Windsor](restaurant_name).
+- make a reservation for [9](party_size_number) at a [brasserie](restaurant_type) with [parking](facility)
+- book a table [today](timeRange) at a [steakhouse](restaurant_type) for [eight](party_size_number) that serves [sashimi](served_dish)
+- I need a table at a [cafe](restaurant_type) that serves [baeckeoffe](served_dish)
+- Book a reservation for [1](party_size_number) at [PM Park, Clear Lake, Iowa](restaurant_name) in [Mongolia](country) [in 1 hour](timeRange)
+- Book a [restaurant](restaurant_type) in [CA](state) for [my parents and I](party_size_description) on [oct. the seventeenth](timeRange)
+- Book a table for a party of [twelve](timeRange) in [Lewisville](city) [AMerican Samoa](state) for a party of [7](party_size_number) at the [Ballachulish House](restaurant_name)
+- I need a table in [Iron Gates](city) [in one minute](timeRange)  at the [Weathervane Restaurant](restaurant_name)
+- I need a table booking for a [highly rated](sort) [sardinian](cuisine) [pub](restaurant_type).
+- Book a [restaurant](restaurant_type) in [seven](party_size_number) in [Fort McKinley](city)
+- Book a table for [three](party_size_number) at a [restaurant](restaurant_type) in [Louisiana](state)
+- I'd like a table for [3](party_size_number) at an [outdoor](facility) [restaurant](restaurant_type)
+- Book a [popular](sort) [restaurant](restaurant_type) for [two](party_size_number) which is [distant](spatial_relation) from [Avalon](poi).
+- book [Guenther House](restaurant_name) for [6](party_size_number) on [Oct. 24, 2035](timeRange) in [Waddy](city)
+- Find a table for [2](party_size_number) at a [restaurant](restaurant_type) in [Saint Vincent and the Grenadines](country)
+- book [cornelia and bettie](party_size_description) a table at a [brasserie restaurant](restaurant_type) in [Colombia](country)
+- book a spot for [my colleague and I](party_size_description) at a [pizzeria](restaurant_type) with a [pool](facility) in [Owings Mills](city) [Wisconsin](state)
+- I'd like to eat [english](cuisine) cuisine at a [restaurant](restaurant_type) in [Ettrick](city)
+- reserve a table for [two](party_size_number) at the [restaurant](restaurant_type) at [9 pm](timeRange)
+- book for [my girlfriend and I](party_size_description) for [truffade](served_dish) at a [gastropub](restaurant_type) in [West Virginia](state)
+- I need a table for [six pm](timeRange) for [me and my step daughter](party_size_description) at [Cafe Rouge](restaurant_name)
+- Book a table for [nine](party_size_number) people in [NJ](state).
+- In [Apr.](timeRange), I'd like to eat at a [pub](restaurant_type) [Manack](city) [Montana](state) with [4](party_size_number) people
+- Book a [tavern](restaurant_type) in [Rhode Island](state) that serves [saucisse](served_dish).
+- On [10/14/2026](timeRange) I have [two](party_size_number) people to eat at [Coney Island Hot Dog Stand](restaurant_name)
+- I want to book a [restaurant](restaurant_type) for [nine](party_size_number) with [wifi](facility)
+- I want to book a [close](spatial_relation) [restaurant](restaurant_type) in [SC](state) for [seven](party_size_number)
+- I need a reservation for [four](party_size_number) at a [restaurant](restaurant_type)
+- I need a reservation for [four minutes from now](timeRange) for [3](party_size_number) people in the [Falkland Islands](country)
+- Book a [restaurant](restaurant_type) in [Delhi](city) [Arkansas](state) for [three](party_size_number) people.
+- I need a dinner reservation [in three months](timeRange) for a [restaurant](restaurant_type) in [Hills and Dales](city).
+- Find a table at a [bar](restaurant_type) for [milagros and I](party_size_description) in [Mount Pocono](city)
+- Book something for [my girlfriend and I](party_size_description) at a [food truck](restaurant_type) that has [pizzas](served_dish) in [Brookwood](city) on [October fifteenth, 2020](timeRange)
+- [renee sanders, marlene and jewel](party_size_description) want to go to a [gastropub](restaurant_type) in the [spa](facility)
+- Make me a reservation at a [delicatessen](restaurant_type) that serves [tofy](served_dish) for a party of [four](party_size_number) in [AZ](state)
+- Need a table [within the same area](spatial_relation) as [Beach 105th St](poi) for a party of [6](party_size_number)
+- on [April the twenty-seventh, 2022](timeRange), I'd like to make reservations at a [spanish](cuisine) [diner](restaurant_type).
+- book a spot in [Netherlands Antilles](country)
+- book a [food truck](restaurant_type) for [greek](cuisine) food for [7](party_size_number)
+- [me and terrie](party_size_description) need a table at a [bar](restaurant_type) in [Hypoluxo](city), [UT](state)
+- I want to find [parking](facility) next to a [restaurant](restaurant_type) for [10](party_size_number)
+- I need to book a table for [three](party_size_number) at a [restaurant](restaurant_type) in [South Sudan](country)
+- I need a reservation for a [brasserie](restaurant_type) place for a party of [two](party_size_number)
+- Book a table at a [cuban](cuisine) [pub](restaurant_type) for [5 pm](timeRange) for a party of [7](party_size_number) in [Virginia](state).
+- I'd like to visit a [pizzeria](restaurant_type) with a [pool](facility) at [fourteen o'clock](timeRange).
+- I want to book a [restaurant](restaurant_type) for [eight](party_size_number) in [Harding](city).
+- book [four](party_size_number) people at a [Madagascar](country) [bar](restaurant_type)
+- Make a reservation for [8](party_size_number) at a [diner](restaurant_type) that serves [haystack](served_dish)
+- I'd like to eat [within the same area](spatial_relation) of [Lawrence St](poi) for a party of [one](party_size_number)
+- table for [4](party_size_number) in [Sparks](city)
+- book in [Vermont](state) at [The Maisonette](restaurant_name)
+- Where is [Chips](restaurant_name) in [Crouch](city)
+- reserve a [smoking room](facility) at the [restaurant](restaurant_type)
+- Book a table for [four](party_size_number) around [midnight](timeRange) in [Saint Pierre and Miquelon](country).
+- Book the [Great House at Sonning](restaurant_name) [distant](spatial_relation) from [Gun Hill Rd](poi).
+- I need to book the [best](sort) [food court](restaurant_type) in [within the same area](spatial_relation) as [OK](state) that serves [persian](cuisine) food for [my ex husband and I](party_size_description)
+- Book a [restaurant](restaurant_type) [in one minute](timeRange) for [five](party_size_number) people in [Canal Fulton](city).
+- I want to book seats for [2](party_size_number) at [churrascaria](restaurant_type) using the [internet](facility)
+- book a [joint](restaurant_type) for [Feb. the seventh](timeRange) in [Oklahoma](state) [within walking distance](spatial_relation) for [six](party_size_number) that is [highly rated](sort)
+- Make a reservation for [7](party_size_number) people at a [gastropub](restaurant_type) on [Isle of Man](country).
+- Book a [brasserie](restaurant_type) for [me and my team](party_size_description) at [four am](timeRange)
+- Book reservations at a [tea house](restaurant_type) with [esperanza and tommie](party_size_description) [now](timeRange)
+- book a [bar](restaurant_type) in [San Marino](country) for [five](party_size_number)
+- I need a table in [West Virginia](state) for [me and my baby](party_size_description) at [Jacob Wirth Restaurant](restaurant_name)
+- Reserve a table for [nine](party_size_number) people at a [caribbean](cuisine) [restaurant](restaurant_type) in [White Creek](city), [Utah](state).
+- book a [restaurant](restaurant_type) for [five](party_size_number) in [karnataka](cuisine)
+- [in a week](timeRange)  make a reservation for a table of [7](party_size_number) in [District Of Columbia](state)
+- book me a [restaurant](restaurant_type)
+- I want to book a table for a party of [4](party_size_number) at a [taverna](restaurant_type) [next spring](timeRange).
+- need a table at a [highly rated](sort) [restaurant](restaurant_type) [within walking distance](spatial_relation) from [downtown](poi) for [luisa and I](party_size_description)
+- book a [southeastern brazilian](cuisine) cusinie [pub](restaurant_type)
+- Book the [Atomic Cafe](restaurant_name) for [ten](party_size_number) people.
+- Book a [restaurant](restaurant_type) in [FL](state) in the city of [Lochearn](city) for [my step son and I](party_size_description)
+- Book a [pub](restaurant_type) for [two](party_size_number) on [jan. first, 2037](timeRange).
+- [restaurant](restaurant_type) named [The Palm](restaurant_name) in [Tennyson](city) [MI](state)
+- I need a table for [four](party_size_number) at [ten PM](timeRange). in [Dodge Park](city)
+- Book me a table at the [highly rated](sort) [cafeteria](restaurant_type) in [Federated States Of Micronesia](state)
+- Book a table at the [Montreal Pool Room](restaurant_name) in [North Carolina](state) for [7 AM](timeRange)
+- Book something at a [highly rated](sort) and [distant](spatial_relation) [cafe](restaurant_type) in [Kazakhstan](country) for [two](party_size_number) on [April 21](timeRange)
+- I'd like to book a [restaurant](restaurant_type) that serves [pôchouse](served_dish) in [Rocksprings](city).
+- Please make reservations for [me and my roommate](party_size_description) somewhere in [Bouvet Island](country)
+- Book me a table at a [romanian](cuisine) [brasserie](restaurant_type) in [Rixford](city)
+- book me a [bar](restaurant_type) that has [chicken fried bacon](served_dish) in [Vermont](state)
+- I need to book a table at a [bar](restaurant_type) in [Micronesia](country) for [tia, madeline and estela](party_size_description)
+- Please make reservations in [Yeager](city) for [seven am](timeRange) at a [highly rated](sort) [indian](cuisine) [brasserie](restaurant_type)
+- [me and my father in law](party_size_description) want go eat [gratin](served_dish) at a [restaurant](restaurant_type)
+- book a [manadonese](cuisine) [restaurant](restaurant_type) for [two](party_size_number)
+- book a table for [3](party_size_number) in [Macao](country)
+- I'm looking to bring [shawn, marguerite and della](party_size_description) to a place to eat at [near](spatial_relation) [Rwanda](country).
+- book a spot at a [tsipouro](cuisine) [restaurant](restaurant_type) in [Connecticut](state)
+- Book a reservation for [9](party_size_number) people at a [roman](cuisine) [pizzeria](restaurant_type)
+- I'd like to eat at a [popular](sort) [brasserie](restaurant_type) in [Chile](country) with a party of [5](party_size_number)
+- I need a reservation for [Little Grill Collective](restaurant_name) for [supper](timeRange) with [eight](party_size_number) people
+- I want to eat a a [brasserie](restaurant_type) that serves [muffuletta](served_dish), where can I get a reservation?
+- Book a table for [six](party_size_number) at [The Cherry Street Tavern](restaurant_name) for [January sixteenth, 2024](timeRange)
+- get me a reservation at a [brasserie](restaurant_type) that serves [jain](cuisine) in [Pinto](city)
+- Find a table at a [joint](restaurant_type) with [northern brazilian](cuisine) food in [GA](state)
+- I'd like to eat at the [best](sort) [southeastern brazilian](cuisine) [restaurant](restaurant_type) with [five](party_size_number) people
+- table for [1](party_size_number) please
+- Book a [restaurant](restaurant_type) in [Geddes](city) on [march the twenty-seventh](timeRange) for [me and my husband](party_size_description)
+- I need a [top-rated](sort) [pub](restaurant_type) in [Friona](city)
+- I would like reservations for [Cliff House](restaurant_name) [in seven months](timeRange) for [six](party_size_number) people.
+- Reserve a table at a [top-rated](sort) [restaurant](restaurant_type) for dinner [in twelve hours](timeRange) .
+- BOok a table for [me and georgina](party_size_description) at a [pub](restaurant_type) in a [spa](facility)
+- table for [6](party_size_number) at a [bar](restaurant_type)
+- I want to book a [pizza](served_dish) [restaurant](restaurant_type) [close](spatial_relation) to [Astor Place](poi) for [nine](party_size_number) at [3 am](timeRange)
+- I need reservations at a [restaurant](restaurant_type) at [20 o'clock](timeRange) in [FM](state)
+- I need a reservation for a [joint](restaurant_type) in [AZ](state) for [3](party_size_number)
+- book a spot for [my kids and I](party_size_description) at a [restaurant](restaurant_type) with [frybread](served_dish)
+- Need to book a [restaurant](restaurant_type) in [PA](state) in the city of [Old Orchard Beach](city)
+- Find a reservation in [Deweese](city) for [my sister and I](party_size_description)
+- I'd like a [restaurant](restaurant_type) on [6/1/2027](timeRange) for [5](party_size_number) people in [Iowa City](city)
+- book a table [near](spatial_relation) [Bienville](city) for [Pioneer Day](timeRange)
+- I need a table at the [close](spatial_relation) [restaurant](restaurant_type) for [my niece and I](party_size_description)  at the [Brooklyn Bridge-City Hall](poi).
+- book a [restaurant](restaurant_type) for [7](party_size_number) in [MN](state)
+- I'd like to book a [brasserie](restaurant_type) in [Virginia City](city), [GA](state).
+- book a spot at a [restaurant](restaurant_type) [within walking distance](spatial_relation) of [Palau](state)
+- I would like reservations for Giodi's in [Piper](city) [AZ](state).
+- Book me a table for a party of [eight](party_size_number) in [Germany](country).
+- book a table for [me and savannah](party_size_description) in [Lauderdale Lakes](city)
+- Book a [highly rated](sort) [fast food restaurant](restaurant_type) in [Falmouth](city).
+- book a spot for [two](party_size_number) at a [churrascaria](restaurant_type) that sells [cupcake](served_dish) in [Lumpkin](city) [Indiana](state) [now](timeRange)
+- Book me seats for [6](party_size_number) at the [best](sort) [brasserie](restaurant_type) that serves [marche](cuisine) [neighboring](spatial_relation) [my hostel](poi)
+- Book reservations at a [north indian](cuisine) [bar](restaurant_type) for [4](party_size_number) people
+- book me a [restaurant](restaurant_type) that is [close](spatial_relation) for [four](party_size_number) people in [Enid](city)
+- book a [restaurant](restaurant_type) in [Montverde](city) in [Marshall Islands](state)
+- Get me a table for [5](party_size_number) at a [restaurant](restaurant_type) which serves [south tyrolean](cuisine).
+- Make me a reservation in [Colorado](state) at [nine am](timeRange) at [National Cash Register Building](restaurant_name)
+- Book me a [restaurant](restaurant_type) in [Cyprus](country) at a [pub](restaurant_type)
+- Book the [Last Exit on Brooklyn](restaurant_name) [5 hours from now](timeRange) for [one](party_size_number) person.
+- I'd like to eat at the [Original Spanish Kitchen](restaurant_name) in [North Carolina](state)
+- Book the [best](sort) [cafe](restaurant_type) on [Jan. 18th, 2035](timeRange).
+- I need a table for [4](party_size_number) in [Pelland](city)
+- I want to book a [tea house](restaurant_type) for [4](party_size_number) that serves [madeleine](served_dish)
+- Book [The Electric Banana](restaurant_name) in [Ewen](city) for [crystal and brittney](party_size_description).
+- I want a table for [five](party_size_number) at a [restaurant](restaurant_type) with [latin](cuisine) food in [Arkansas](state) for [1 hour from now](timeRange)
+- book a table for [10](party_size_number) at [The Dome, Edinburgh](restaurant_name)
+- [Coon Chicken Inn](restaurant_name) [restaurant](restaurant_type) for [1 am](timeRange) for [me, clarice and debbie](party_size_description)
+- book a table for [seven](party_size_number) during our [Thailand](country) trip that is [within walking distance](spatial_relation) of our hotel.
+- Please book a [restaurant](restaurant_type) for [nine](party_size_number) members on [august 25](timeRange) in [DC](state)
+- Book a [restaurant](restaurant_type) at [sixteen o'clock](timeRange) in [SC](state)
+- book a [pub](restaurant_type) for [helen and miriam](party_size_description) in [nine years from now](timeRange)
+- I need a reservation for [Cashel Palace Hotel](restaurant_name) in [California](state) for a party of [9](party_size_number)
+- I'd like to eat with a party of [8](party_size_number) in [Hitchita](city) [OR](state)
+- book a table for [my step father and I](party_size_description)
+- I'd like a table for [6](party_size_number) at a [restaurant](restaurant_type) in [Denmark](country) at [22](timeRange)
+- book a [bistro](restaurant_type) for [4](party_size_number) at [sunset](timeRange)
+- I need a reservation at [The One Eighty](restaurant_name) for [elsa and wendy](party_size_description) in [Muscle Shoals](city).
+- book a [brasserie](restaurant_type) for [one](party_size_number)
+- I would like to book at a [pub](restaurant_type) on [mar. 8, 2020](timeRange) that is [close](spatial_relation) to [Broadway-Lafayette St](poi) for [my daughters and I](party_size_description).
+- I need a [top-rated](sort) [gastropub](restaurant_type) for [5](party_size_number) in [DC](state) in [Conshohocken](city) on [Jul. the 18th, 2024](timeRange)
+- book a table in [Fleetwood](poi) at a [nearby](spatial_relation) deli
+- book in [Southern Shores](city) for [8](party_size_number) at [Ariston Cafe](restaurant_name)
+- Book a table at the [WWE The World](restaurant_name) in [South Korea](country).
+- Book table on the [23](timeRange) in [Illinois](state) at the [Maison Parthenais-Perrault II](restaurant_name).
+- Book a reservation for [eight](party_size_number) people in [North Dakota](state)
+- book for [3](party_size_number) in [U.S. Virgin Islands](country)
+- [hannah lewis and chelsea](party_size_description) want to go to a [cafe](restaurant_type) in [Botswana](country) on [Apr. the seventeenth, 2024](timeRange)
+- book a [latin](cuisine) cuisine [pub](restaurant_type) for [2](party_size_number) on [September the 13th, 2037](timeRange) in [Kazakhstan](country)
+- I want to bring [antoinette, christine and caitlin](party_size_description) to get [bread](served_dish) at a [restaurant](restaurant_type) in [faraway](spatial_relation) [Connecticut](state)
+- Book the [tea house](restaurant_type) on [North River](city)
+- I want to eat at a [food truck](restaurant_type) [this week](timeRange) with [my colleague and I](party_size_description)
+- I need a table for [9](party_size_number)
+- Book a table for [10](party_size_number) people on [bunker hill day](timeRange) at a [food court](restaurant_type) which serves [spätzle](served_dish) in [Monaco](country)
+- Book a reservation for [restaurant](restaurant_type) in [Texas](state)
+- I want a table for [four](party_size_number) at a place in [California](state)
+- book a spot for [3](party_size_number) at the [pizza](served_dish) place
+- book a spot for [6](party_size_number) at a [tea house](restaurant_type) in [Tokelau](country)
+- Book a [restaurant](restaurant_type) with a [pool](facility) with [alta, deborah and bertha](party_size_description) in [IA](state).
+- Book a [restaurant](restaurant_type) for [one](party_size_number) in [AL](state).
+- Book a table for [2](party_size_number) at the [Seward Community Cafe](restaurant_name) [within the same area](spatial_relation) in [Shabbona](city)
+- Book a table at a [bar](restaurant_type) in [Cambodia](country) that serves [cheese fries](served_dish).
+- I want a table for [4](party_size_number) in [Florida](state)
+- book a [carolina style](served_dish) [restaurant](restaurant_type) in [North Korea](country) for [my grandkid and I](party_size_description)
+- book a table at a [top-rated](sort) [brasserie](restaurant_type) in [Pakistan](country)
+- I want to book a [restaurant](restaurant_type) for [6](party_size_number) on [january third](timeRange) [within walking distance](spatial_relation) of [Northvale](poi)
+- I would like to book the [best](sort) [southeastern brazilian](cuisine) [food court](restaurant_type)
+- Book a reservation for [six](party_size_number) people at a [churrascaria restaurant](restaurant_type) in [Cook Islands](country) [one minute from now](timeRange)
+- I need a party of [4](party_size_number) to get a table reserved at a [pub](restaurant_type) with [southeastern](cuisine) cuisine.
+- book at [Beardslee Castle](restaurant_name) in [Fairview Lanes](city) for [fifteen o'clock](timeRange)
+- I need a reservation for the [smoking room](facility) at a [fast food](restaurant_type) place for [8](party_size_number) people
+- book me a [restaurant](restaurant_type) in the [Northern Mariana Islands](state)
+- book a [food truck](restaurant_type) in [Nisswa](city) for [4](party_size_number) at [5 pm](timeRange)
+- I want to book the [Clarke Cooke House](restaurant_name) in [Uzbekistan](country)
+- party of [four](party_size_number) somewhere in [SD](state)
+- Find me a [coffeehouse](restaurant_type) for [nine](party_size_number) in [Indiana](state) that has access to a [pool](facility)
+- I want to book an [indonesian](cuisine) [food truck](restaurant_type).
+- I'd like to eat [souvlaki](served_dish) [fast food](restaurant_type) with a party of [two](party_size_number)
+- I need a table for [5](party_size_number) at a [brasserie](restaurant_type) that has a [reuben sandwich](served_dish)
+- Book a reservation for [three](party_size_number) at a [top-rated](sort) [sicilian](cuisine) [restaurant](restaurant_type) in [Portugal](country)
+- book a [restaurant](restaurant_type) for [2](party_size_number) that has [internet](facility)
+- Get me a table for [3](party_size_number) [within walking distance](spatial_relation) from my hotel in [Tajikistan](country).
+- I'm looking for a [churrascaria](restaurant_type) place with [wifi](facility) that can serve a party of [five](party_size_number).
+- book [John Pearson Soda Works](restaurant_name) [restaurant](restaurant_type) on [7/27/2036](timeRange)
+- I need a table at a [restaurant](restaurant_type) serving [carne pizzaiola](served_dish) for [tamra davis, viola and dorothea](party_size_description)
+- I need a reservation for [Arcadian Court](restaurant_name) on [June the fifth, 2035](timeRange)
+- [John Ross House](restaurant_name) [restaurant](restaurant_type) [in town](poi) and [close-by](spatial_relation)
+- make a reservation at a [bakery](restaurant_type) that has [acquacotta](served_dish) in [Central African Republic](country) for [five](party_size_number)
+- Book me a table for [8](party_size_number) at a [restaurant](restaurant_type) for [seven pm](timeRange)
+- Book me a table at a [hungarian](cuisine) [delicatessen](restaurant_type) in [North Dakota](state).
+- Reserve a spot at [indoor](facility) [restaurant](restaurant_type) on [june the 15th](timeRange), [3](party_size_number) guests
+- Book a [popular](sort) [brasserie](restaurant_type) in [Roads End](city)
+- I need reservations for [next autumn](timeRange) in [Belgium](country) at a [highly rated](sort) [diner](restaurant_type).
+- Find a table for [two](party_size_number) in a place [not far](spatial_relation) in [Culdesac](city)
+- Please make reservations for [4](party_size_number) for the [hog fry](served_dish) from the [food truck](restaurant_type)
+- book a spot for [one](party_size_number) at [The Wolseley](restaurant_name) at [elevenses](timeRange)
+- I need a table for [me, violet and maude](party_size_description) at a [restaurant](restaurant_type) in [NE](state)
+- I want to eat at a [indoor](facility) [bar](restaurant_type) for [two](party_size_number)
+- Can you reserve a table [within the same area](spatial_relation) as the [AMerican Samoa](state) for [me and my mom](party_size_description)
+- Let me get reservations for a party of [three](party_size_number) at a [bar](restaurant_type) with a [pool](facility).
+- Set me up with a table at a [bar](restaurant_type) with [salade](served_dish) for [5](party_size_number)
+- I want seats for [4](party_size_number) at a [Sichuan Food](restaurant_name) [restaurant](restaurant_type) in [Indonesia](country)
+- Can you get me seating at a [pub](restaurant_type) in [South Korea](country) that serves [milk toast](served_dish) for [supper](timeRange)
+- Take me a [top-rated](sort) [restaurant](restaurant_type) for [nine](party_size_number) [close](spatial_relation) to [Westfield](city) [Delaware](state)
+- Book a [restaurant](restaurant_type) that serves [meze](served_dish) in [Roseville](city) [FL](state) with [meredith, louisa and corrine](party_size_description).
+- I want to book the [best](sort) [manadonese](cuisine) [restaurant](restaurant_type) for [six](party_size_number) at [21:49](timeRange) that is [distant](spatial_relation) from [my baby's work](poi)
+- book a [taverna](restaurant_type) for [me and jami](party_size_description)
+- I want to find a [salami](served_dish) [restaurant](restaurant_type) in [Bastian](city) [IN](state)
+- Book a reservation for [seven](party_size_number) people at [Fraser Mansion](restaurant_name) in [IL](state)
+- I need a [restaurant](restaurant_type) booking for [2](party_size_number) people [this month](timeRange) at a [indian](cuisine) place in [Climax Springs](city), [New Mexico](state).
+- Please book a room in [The River Café](restaurant_name) [restaurant](restaurant_type)  to accommodate [eight](party_size_number) members in [Andorra](country)
+- I want seating for [five](party_size_number) [near](spatial_relation) the [pool](facility) at the [pub](restaurant_type)
+- Book a reservation for a party of [six](party_size_number) [in the same area](spatial_relation)  as [Metropolitan Borough of Bethnal Green](poi)
+- Book me a reservation for an [outdoor](facility) [restaurant](restaurant_type)
+- book me a [top-rated](sort) [pub](restaurant_type)
+- [melba and I](party_size_description) want to dine in [Barbados](country) [next Jun.](timeRange)
+- I need to book a [restaurant](restaurant_type) for [eight](party_size_number) [nearby](spatial_relation) [Limerick](city) [one year from now](timeRange) that serves [jerky](served_dish)
+- I need a table for [six](party_size_number) [near](spatial_relation) the [Russia](country) [bistro](restaurant_type) that has [wifi](facility)
+- at [two am](timeRange), I need reservations for [my friends and I](party_size_description) at [Irma Hotel](restaurant_name).
+- I need to reserve a seat for [one](party_size_number) in [SD](state) at a [brasserie restaurant](restaurant_type).
+- Book [COVA](restaurant_name) in [Frisco City](city) for [me and therese](party_size_description) at [eight pm](timeRange)
+- I want to find a [highly rated](sort) [delicatessen](restaurant_type) in [Childersburg](city), [DE](state) for [one](party_size_number) [next February](timeRange)
+- Book a reservation for [my great grandfather and I](party_size_description) at a [macaroni](served_dish) [pub](restaurant_type) in [CT](state)
+- Can I get a [restaurant](restaurant_type) reserved in [Luquillo](city), [District Of Columbia](state)?
+- i need a table at a [close by](spatial_relation) restaurnt in [Hackney](poi) for [ten](party_size_number)
+- Book a table for [three](party_size_number) at a [middle eastern](cuisine) [gastropub](restaurant_type)
+- I'd like to eat at [The Firehouse Restaurant](restaurant_name)
+- I'd like to eat at a [popular](sort) [diner](restaurant_type)
+- Make me a reservation for [july the tenth](timeRange) at [The Nosh Bar](restaurant_name) for a party of [two](party_size_number)
+- I need to book a [restaurant](restaurant_type) that has [wifi](facility) [far](spatial_relation) from [TX](state) for [me and my parents](party_size_description)
+- Book a [restaurant](restaurant_type) in [San Juan Capistrano](city) for [6](party_size_number) people at [ten am](timeRange)
+- need to book a table in [Ludden](city)
+- Book reservation at a [restaurant](restaurant_type) in [Rocky Fork](city) for [2](party_size_number) people
+- I would like a [cafeteria](restaurant_type) at [10:41:51 am](timeRange) for [seven](party_size_number)
+- book a [restaurant](restaurant_type) in [Lake Fenton](city) for [four](party_size_number)
+- book a spot for [3](party_size_number) at a [bar](restaurant_type) in [Antarctica](country)
+- I'd like to eat at a [highly rated](sort) [pub](restaurant_type) with [6](party_size_number) people
+- What is the [best](sort) [restaurant](restaurant_type) in [Kentucky](state) for [ten](party_size_number) at [0 am](timeRange)
+- book for [10](party_size_number) in a [restaurant](restaurant_type)
+- I want a table for [eight](party_size_number) at [GU](state)
+- Book a [brasserie](restaurant_type) type [restaurant](restaurant_type) that serves [pizzas](served_dish) in [AMerican Samoa](state)
+- I'm craving [mac and cheese](served_dish). Book a table at a [Portland Mills](city), [KS](state) [restaurant](restaurant_type). I need it for [one second from now](timeRange)
+- Book a table for [2](party_size_number) at a [nearby](spatial_relation) [restaurant](restaurant_type).
+- I need a reservation for [claudine, kelsey and shelley](party_size_description) at a [restaurant](restaurant_type) in [Palestine](country).
+- Need to book a restaurnt for a party of [nine](party_size_number) on [Thomas Jefferson's Birthday](timeRange)
+- [this winter](timeRange), [meredith, betty and erika](party_size_description) want to food at a [gastropub](restaurant_type) that is [in the same area](spatial_relation) as [fran's location](poi).
+- Book a reservation for [my parents and I](party_size_description) at [Red Crown Tourist Court](restaurant_name) in [Slovakia](country)
+- I want to book a spot at the local [food court](restaurant_type)
+- Locate a [cafeteria](restaurant_type) for [two](party_size_number) that serves [deviled crab](served_dish)
+- Book a [food court](restaurant_type) in [Raytown](city) [Arizona](state) that serves [green bean casserole](served_dish) on [july 20th](timeRange).
+- Book me seats for [6](party_size_number) at a [restaurant](restaurant_type) in [WV](state) [in one second](timeRange)
+- Please book me a table for [6](party_size_number) people at [Top of the Mark](restaurant_name) in [Raleigh Hills](city), [Kentucky](state)
+- Book me a [pub](restaurant_type) [nine weeks from now](timeRange) for [4](party_size_number) people.
+- book a [restaurant](restaurant_type) in [Macedonia](country) for [13 hours from now](timeRange)
+- Book a [restaurant](restaurant_type) with [internet](facility) in [NY](state) for [four](party_size_number) people.
+- book a spot for [wilma, gay and I](party_size_description) At [The Gowanus Yacht Club](restaurant_name) in [Montenegro](country)
+- [therese, clara and I](party_size_description) want to go to the [Tennessee Ridge](city)
+- book a [gastropub](restaurant_type) that serves [pansette](served_dish) in [Skaneateles](city), [Pennsylvania](state)
+- Book me a table at [The Goof](restaurant_name) for a party of [eight](party_size_number) in the state of [NV](state)
+- Book me a [restaurant](restaurant_type) in [Henlopen Acres](city) for a party of [two](party_size_number).
+- book a table in the [United States](country) for [10](party_size_number) at [The Berghoff](restaurant_name)
+- Book a [restaurant](restaurant_type) at [Tennessee](state)
+- I would like to book a [donut](served_dish) serving [delicatessen](restaurant_type) in [Cuba](country) for [5](party_size_number) on [april eleventh](timeRange)
+- Book a [restaurant](restaurant_type) in [Palestine](country) for [8](party_size_number) people at [9 AM](timeRange)
+- Book a table at the [Eighth Step Coffee House](restaurant_name) that isn't too [far](spatial_relation) from [Vineyard Haven](city) for [candace phillips, debbie and sondra](party_size_description)
+- reserve a table at [Bear Hotel](restaurant_name) [around](spatial_relation) [Finsbury Park](poi)
+- book [australian](cuisine) food in [Armour](city) for [7 pm](timeRange) for [four](party_size_number) at a [pub](restaurant_type) [best rated](sort) in [UT](state)
+- Get me a table for [2](party_size_number) people [1 second from now](timeRange) in [Tunisia](country).
+- I need to book a table at [Bridge Round House](restaurant_name) in [South Dakota](state) for [me, emily and gena](party_size_description)
+- book a [brasserie](restaurant_type) for [3](party_size_number)
+- I'd like to go to a [cuban](cuisine) [restaurant](restaurant_type) in [Horatio](city) and get a table for [1](party_size_number)
+- Reserve me a table for [10](party_size_number) at a [MT](state) [cafe](restaurant_name) for [breakfast](timeRange).
+- Make a reservation in a [popular](sort) [sicilian](cuisine) [bar](restaurant_type) place [nearby](spatial_relation), for me only, [tomorrow](timeRange)
+- Book a [restaurant](restaurant_type) for a party of [7](party_size_number) in [Paraguay](country) on [Saturday](timeRange)
+- I need to book a table at a [nearby](spatial_relation) [restaurant](restaurant_type)
+- I want to make a reservation at the [Conflict Kitchen](restaurant_name) for [one](party_size_number)
+- Book a table at [Central Grocery](restaurant_name) on [Mar. 22nd, 2020](timeRange)
+- I'd like to book a place to eat in [NY](state).
+- Book a [restaurant](restaurant_type) with [pool](facility) facility at [East Gillespie](city)
+- Book a reservation for [7](party_size_number) people at [The French Laundry](restaurant_name) on [june the 8th, 2029](timeRange)
+- Book a [brasserie](restaurant_type) in the [Falkland Islands](country) for [this week](timeRange).
+- Can you get me seating for [5](party_size_number) at a [highly rated](sort) [restaurant](restaurant_type) in [Wisconsin](state)
+- [my sons and I](party_size_description) want to dine at [The Water Club](restaurant_name) in [Georgia](state)
+- Book me a [popular](sort) [restaurant](restaurant_type) reservation at a [brazilian](cuisine) [delicatessen](restaurant_type)
+- book a spot at a [restaurant](restaurant_type) with [trattoria](cuisine) in [Otho](city) [DE](state)
+- I need a reservation for [two](party_size_number) at a [diner](restaurant_type) in [Venezuela](country)
+- Book a [restaurant](restaurant_type) [far](spatial_relation) from [Kokomo](city) [this fall](timeRange).
+- I'd like to book at a place in [AR](state), looking for an [oyster bar](restaurant_type) that is [indoor](facility) and can accommodate a party of [eight](party_size_number) that is also [within walking distance](spatial_relation).
+- Book me a table for [me and my nephew](party_size_description) [near](spatial_relation) [my location](poi) at an [indoor](facility) [pub](restaurant_type)
+- I want to book a table for [me and josefa](party_size_description) at [Jacob Wirth Restaurant](restaurant_name) in [Branford](city).
+- I need a reservation for [nine](party_size_number) at [03:44 am](timeRange) in [WI](state)
+- Book [Nuts on Clark](restaurant_name) in [Irvington](city) for [8](party_size_number) people [in one hour](timeRange).
+- [food truck](restaurant_type) in [Panama](country) for [five](party_size_number)
+- book me a [restaurant](restaurant_type) that serves [hot chicken](served_dish) in [Dutch Mills](city), [North Dakota](state) for [10](party_size_number) people for [3 am](timeRange)
+- Make a reservation for [eunice thompson and elisa martin](party_size_description) in the [Virgin Islands](state) [in one minute](timeRange).
+- book a spot for [ten](party_size_number) in [MS](state)
+- Book a [brasserie restaurant](restaurant_type) in [Enfield](city), [North Dakota](state) for [rosie and I](party_size_description) that has [tarte tatin](served_dish)
+- book for [two](party_size_number) in [Jordan](country) that is [close](spatial_relation)
+- I need a table for [3](party_size_number) in [AK](state).
+- I need a reservation for [6](party_size_number) at [Cherwell Boathouse](restaurant_name).
+- book a spot at a [soul food](served_dish) [food truck](restaurant_type) in [Cawker City](city)
+- book a spot for [9](party_size_number) in [New Mexico](state)
+- Book me a table for [4](party_size_number) in a [restaurant](restaurant_type) in [United Kingdom](country).
+- book a [gluten free](cuisine) [restaurant](restaurant_type) in [Arp](city)
+- book a spot for [one](party_size_number) at a [bar](restaurant_type) in [Seabrook](city)
+- I need a table in [TN](state) that's [not](spatial_relation) to [far](spatial_relation) for a party of [ten](party_size_number)
+- I want to eat [ice cream](served_dish) at a [brasserie](restaurant_type) with [me and my mother in law](party_size_description)
+- [in twenty three hours and 1 second](timeRange) [my daughter and I](party_size_description) want to eat at a [restaurant](restaurant_type)
+- I need seats for [6](party_size_number) at [CHAR No.4](restaurant_name) in [Georgia](state)
+- Please book me a table for [1](party_size_number) person at a [brasserie](restaurant_type).
+- book a [restaurant](restaurant_type) for [cupcakes](served_dish) for [ten](party_size_number)
+- I need a table right [now](timeRange) for [four](party_size_number) in [ME](state)
+- I would like to eat [fast food](restaurant_type) and have a party of [two](party_size_number) in [Kentucky](state).
+- book a [tea house](restaurant_type) for [6](party_size_number) members with [soul food](cuisine)
+- Book a table for [one](party_size_number) at the [Bear Hotel](restaurant_name) in [Peru](country)
+- book a spot for [six](party_size_number) on [October fifth](timeRange) in [Mineola](city)
+- book a table for [jasmine, jeannie and leta](party_size_description)
+- I need a reservation for [Orthodox Good Friday](timeRange)
+- Book a [food truck](restaurant_type) in [Argusville](city) that has [fish chips](served_dish)
+- book a [pub](restaurant_type) in [Santa Claus](city), [New Jersey](state) for the [First Day Of Sukkot](timeRange)
+- Book me a [bar](restaurant_type) that's [highly rated](sort) for [georgia and I](party_size_description) in [Burkina](country)
+- book a [restaurant](restaurant_type) for [one](party_size_number) in [Skillman](city)
+- Book a [restaurant](restaurant_type) for [1](party_size_number) [in nine weeks](timeRange)
+- book a spot for [six](party_size_number) at a [restaurant](restaurant_type) in [NJ](state)
+- book a [restaurant](restaurant_type) for [6](party_size_number)
+- book a [brasserie](restaurant_type) for [seven](party_size_number) in [West Yellowstone](city)
+- I need to get a [restaurant](restaurant_type) reserved in [SD](state).
+- Book a [restaurant](restaurant_type) in [Darnell](city).
+- book a [restaurant](restaurant_type) in [Anguilla](country) for [one](party_size_number) at [National Coney Island](restaurant_name)
+- [my step aunt and I](party_size_description) want to go [cheese fries](served_dish) at the [tavern](restaurant_type)
+- Please book a [Uncommon Grounds Coffeehouse](restaurant_name) [restaurant](restaurant_type)
+- Book a reservation for [irene and rosella](party_size_description) at [The Room in the Elephant](restaurant_name) in [Israel](country)
+- Book [PM Park, Clear Lake, Iowa](restaurant_name) at [5 am](timeRange) for [6](party_size_number) people.
+- Can you get me a reservation at [WWE The World](restaurant_name) [around](spatial_relation) [Av U](poi)
+- Make me a reservation in [Crugers](city) at [Marlton Circle](restaurant_name) for a party of [eight](party_size_number)
+- Book a [bar](restaurant_type) that serves [ribs](served_dish) for [5](party_size_number) people.
+- I need a [restaurant](restaurant_type) in [Indonesia](country) for [7](party_size_number)
+- Table for [8](party_size_number) at a [popular](sort) [food court](restaurant_type)
+- Book [The Crown at Whitebrook](restaurant_name) in the [Solomon Islands](country) for [Dec. the twenty-third, 2029](timeRange).
+- I want to eat at a [bar](restaurant_type) in [Saudi Arabia](country) that serves [cannelloni](served_dish).
+- book an [osteria](restaurant_type) in [North Salt Lake](city) for [three](party_size_number)
+- Make reservations at a [restaurant](restaurant_type) in [Adrian](city) that serves [cheese steak](served_dish)
+- Book a table for [six](party_size_number) in a [Togo](country) [restaurant](restaurant_type)
+- Book a table for [04:45 pm](timeRange) at a [restaurant](restaurant_type) in [Washington](state).
+- book a [restaurant](restaurant_type) [this year](timeRange) in [Manning](city)
+- I need seats for [six](party_size_number) at a [pub](restaurant_type) on [January 15th, 2030](timeRange)
+- Book a table for [8](party_size_number) at a [pub](restaurant_type) in [North Carolina](state)
+- book a table for [eight](party_size_number) in [Graf](city) [far](spatial_relation) away
+- Find a table for [7](party_size_number) at a [joint](restaurant_type) in [OK](state) that's [far](spatial_relation) from here
+- book a spot for [1](party_size_number) at a [south american](cuisine) [restaurant](restaurant_type)
+- Book a [pub](restaurant_type) with a [pool](facility) in [White Heath](city) [South Carolina](state).
+- Please get me a reservation at a [restaurant](restaurant_type) with a [pool](facility) for [manuela and yvonne](party_size_description)
+- Book a reservation for a [restaurant](restaurant_type) in [Wadsworth](city) with [parking](facility)
+- make me a reservation at [The Restaurant at Meadowood](restaurant_name) for a party of [7](party_size_number) in [Armenia](country)
+- Book a reservation for [1](party_size_number) on [march 17](timeRange)
+- book a [bakery](restaurant_type) for [lebanese](cuisine) on [january 11th, 2032](timeRange)
+- Book a [top-rated](sort) [restaurant](restaurant_type) in [Milton-Freewater](city).
+- I need a table in [Ottoville](city) on [Feb. 15th, 2029](timeRange) at [Gus Stevens Seafood Restaurant & Buccaneer Lounge](restaurant_name)
+- I want to book a [restaurant](restaurant_type) for [four](party_size_number) [around](spatial_relation) [Zapata](city)
+- Book a [restaurant](restaurant_type) [2 months from now](timeRange) for [seven](party_size_number) people in [New Caledonia](country).
+- Find a reservation at [Fish Express](restaurant_name)
+- Find a table at a [pizzeria](restaurant_type) in [New Hampshire](state) that has [parking](facility)
+- book a table at a [restaurant](restaurant_type) in [Saudi Arabia](country) that serves [presskopf](served_dish)
+- I'd like to reserve a spot at a [bakery](restaurant_type) in [Guyana](country) in [feb](timeRange).
+- I need to book a [restaurant](restaurant_type) with a [smoking room](facility) in [AL](state)
+- Book a table in [OH](state) the city of [Bock](city) for party of [ten](party_size_number) for [tonight](timeRange)
+- I want to book a [seafood](served_dish) [bakery](restaurant_type) in [Le Roy](city)
+- book [Helianthushof](restaurant_name) in [Hurffville](city), [NJ](state)
+- Can I get a table for [3](party_size_number) in [GU](state) at a [restaurant](restaurant_type) in the [neighboring area](spatial_relation) that serves [chicken french](served_dish)?
+- book a spot for [10](party_size_number) at [Shopsins](restaurant_name) in [Denmark](country) on [St. Patrick's Day](timeRange)
+- I'd like to go to a [pub](restaurant_type) that has [italian dressing](served_dish) for a party of [5](party_size_number) on [February 11, 2033](timeRange)
+- I need seating at [Floating restaurant](restaurant_name) in [Tennessee](state) for a group of [9](party_size_number)
+- book [City Tavern](restaurant_name) in [Poland](country)
+- In [eight years and a half from now](timeRange) I'd like a reservation at a [top-rated](sort) [bar](restaurant_type)
+- book me a [restaurant](restaurant_type) in [Ware Shoals](city) that serves [russian tea cake](served_dish)
+- I need to book a table at a [tavern](restaurant_type) that serve [gnocchi](served_dish) for [nine](party_size_number) in [Owenyo](city)
+- Book a table for [8](party_size_number) at a [restaurant](restaurant_type) that serves [far breton](served_dish).
+- I need a reservation for [02:53](timeRange) at [Hotel Arctic](restaurant_name) in [State Road](city)
+- I'd like a table for [six](party_size_number) [in nine weeks](timeRange) at a [restaurant](restaurant_type) in [Tokelau](country)
+- book for [8 AM](timeRange) in [Massachusetts](state) for [1](party_size_number)
+- Can you get me a table at a [chicken and waffles](served_dish) [joint](restaurant_type) in [New Mexico](state)
+- Book restaurnt at [N9NE Group](restaurant_name) in [Loogootee](city) [UT](state)
+- I want to take [christy, louise and alexandra](party_size_description) to eat at [17:38:04](timeRange) anywhere in [NE](state)
+- Book reservations at a [restaurant](restaurant_type) that serves [puglia](cuisine) for [jan. 24th](timeRange)
+- Book a [bar](restaurant_type) in [Holtville](city) [ND](state) for [7](party_size_number) people.
+- I need a table in the state of [LA](state) for [katina and josefina gray](party_size_description)
+- book a [restaurant](restaurant_type) in [MS](state) that can seat [ten](party_size_number) at [01:51:47 pm](timeRange)
+- at [ten AM](timeRange) I want to reserve a spot for [9](party_size_number) people to eat in [Monaco](country).
+- book a spot for [vicki and I](party_size_description) at a [restaurant](restaurant_type) in [Puerto Rico](state)
+- Book a [breakfast](timeRange) in a [restaurant](restaurant_type) for [eight](party_size_number).
+- I need to book a [pub](restaurant_type) for [8](party_size_number) that has [wifi](facility)
+- book [Bullfeathers](restaurant_name)
+- Can you place a reservation for me at [Ariston Cafe](restaurant_name)
+- Book me a table at [The Fat Duck](restaurant_name) in [Ireland](country)
+- Need a table at [The Goof](restaurant_name) in [Croatia](country) for a party of [three](party_size_number)
+- I have [eight](party_size_number) that would like to eat [cretan](cuisine) in a [cafeteria](restaurant_type) and need reservations.
+- I'd like a table at a [restaurant](restaurant_type) in [KS](state) in [5 hours from now](timeRange)
+- Make me a reservation in [NH](state) for a party of [two](party_size_number) at a [restaurant](restaurant_type) [close by](spatial_relation)
+- book a spot at a [pub](restaurant_type) with [tatar](cuisine) in [Cambodia](country)
+- Find a table for [five](party_size_number) at [Harveys](restaurant_name) in [De Berry](city) [ID](state) on [April the 10th](timeRange)
+- Book a [pub](restaurant_type) that serves [fries](served_dish) for [9](party_size_number) people.
+- I want to find a [restaurant](restaurant_type) to eat at in [Westernport](city).
+- book a [caucasian](cuisine) serving [steakhouse](restaurant_type) for [4](party_size_number) in [Saint Pierre and Miquelon](country)
+- Book a [restaurant](restaurant_type) in [Belgium](country) for [ten](party_size_number) [in 24 weeks](timeRange).
+- book a [gibassier](served_dish) serving [tavern](restaurant_type) in [Vermont](state) for [nine](party_size_number)
+- I need a table at [Surf Taco](restaurant_name) in [East Uniontown](city)
+- Book a [hawaiian](cuisine) [diner](restaurant_type) in [South Carolina](state) [not far](spatial_relation) away in [1 second from now](timeRange).
+- I want to book a [cafe](restaurant_type) for [3](party_size_number) in [Fargo](city)
+- I'm looking for a local [cafeteria](restaurant_type) that has [wifi](facility) accesss for a party of [4](party_size_number)
+- book a [restaurant](restaurant_type) for [4](party_size_number) of us
+- table at [Nankin Cafe](restaurant_name) fr [one](party_size_number)
+- Book a [restaurant](restaurant_type) in [West Hattiesburg](city) for [0 o'clock](timeRange).
+- book a spot for [2](party_size_number) at a [restaurant](restaurant_type) in [PW](state)
+- Book the [Bobcat Bite](restaurant_name) in the [Isle of Man](country) for [6](party_size_number) people.
+- Get me a table at [Prospect of Whitby](restaurant_name) in [Blaine Hill](city), [ID](state)
+- party for [2](party_size_number) in [Cleveland](city)
+- book a [stuffed peppers](served_dish) serving [bakery](restaurant_type) for [9](party_size_number) at [Woodsfield](city) [VI](state)
+- Book a table for [lois, effie price and I](party_size_description) for [next Summer](timeRange) in [Italy](country).
+- I need to reserve a table for [my baby and I](party_size_description) at a [tibetan](cuisine) [tavern](restaurant_type)
+- I want a table for [seven](party_size_number) at [twenty three o'clock](timeRange) in [Angola](country).
+- book a [highly rated](sort) [gastropub](restaurant_type) that has a [pastelaria](cuisine) in [Blue Anchor](city), [MD](state) [in 55 weeks](timeRange) for [my brother in law and I](party_size_description)
+- book a table for [Sep. the second, 2020](timeRange) at a [highly rated](sort) place for [me and my baby](party_size_description) at a [joint](restaurant_type) serving [cambodian](cuisine)
+- book a [restaurant](restaurant_type) for [8](party_size_number)
+- Book a [restaurant](restaurant_type) for [2](party_size_number) at a [cafe](restaurant_type) that I can get a [croissant](served_dish) at
+- Book a table at a [restaurant](restaurant_type) in [Portugal](country) with [parking](facility) for [me and bonnie](party_size_description) [in 19 minutes](timeRange)
+- book a spot in [MI](state)
+- Make me a reservation in [NE](state) at a [distant](spatial_relation) resturant that is a [pizzeria](restaurant_type)
+- book a spot for [9](party_size_number) at a [churrascaria](restaurant_type) that serves [ammonia cookie](served_dish) in [Volga](city)
+- I'd like to eat at a [restaurant](restaurant_type) [one minute from now](timeRange) that's [highly rated](sort)
+- On [Dec. 13, 2018](timeRange) I need a reservation for [four](party_size_number) in [Arizona](state)
+- Book an [indoor](facility) [restaurant](restaurant_type) [near](spatial_relation) [Wallington](poi) for [2](party_size_number)
+- I need to book an [indoor](facility) [pub](restaurant_type) in [Strabane](city)
+- I'd like reservations for [me and my grandkid](party_size_description) at a [top-rated](sort) [restaurant](restaurant_type) that serves [molise](cuisine) cuisine in [PA](state).
+- Book a [churrascaria restaurant](restaurant_type) for [2](party_size_number) which serves [mezes](served_dish)
+- Book a table for [eight](party_size_number) people please
+- [restaurant](restaurant_type) In [Zimbabwe](country) that is [brasserie](restaurant_type) and has [parking](facility)
+- book [north indian](cuisine) [osteria](restaurant_type) at [12 am](timeRange)
+- book a [restaurant](restaurant_type) for [one](party_size_number)
+- I need a [highly rated](sort) [oyster bar](restaurant_type) in [AR](state) [in a month](timeRange)   for [jeanne collins, amy and I](party_size_description)
+- book a table at a [tea house](restaurant_type) [in 21 hours](timeRange) in [Northern Mariana Islands](state)
+- book a spot for [9](party_size_number) at [The Counter](restaurant_name)
+- book me a reservation at a [pub restaurant](restaurant_type) that serves [meatball](served_dish) in [Stehekin](city) for [2](party_size_number) people on [1/1/2018](timeRange)
+- book a table for [6](party_size_number) at a [restaurant](restaurant_type) in [Nebraska](state)
+- book a [irish](cuisine) serving [brasserie](restaurant_type) in [AZ](state)
+- book me a [restaurant](restaurant_type) for [me, geneva and wilda](party_size_description) for [now](timeRange) in [Blacksville](city)
+- Find me a table for [1](party_size_number) at a [restaurant](restaurant_type) with a [pool](facility) at [3 am](timeRange) in [Hitchcock](city) [FL](state)
+- I'd like to eat at a [top-rated](sort) [restaurant](restaurant_type) in [Turks and Caicos Islands](country)
+- book a spot for [8](party_size_number) in a [cafeteria](restaurant_type) with [german chocolate cake](served_dish) in [Ecru](city) [New Mexico](state)
+- I need a [restaurant](restaurant_type) that can accommodate a party of [ten](party_size_number) in [Avant](city).
+- book me a reservation at [Rustic inn](restaurant_name)
+- I want to book a [popular](sort) [fast food](restaurant_type) food place in [MN](state) for [my friend and I](party_size_description)
+- Please book me seating at the [food court](restaurant_type) in [Hazel Green](city) for [nine](party_size_number)
+- book a [Kuwait](country) place at [seven am](timeRange) at [The Middle East](restaurant_name)
+- I want to find an [oyster bar](restaurant_type) with [tetrazzini](served_dish) for [9](party_size_number) people
+- book a spot for [six](party_size_number) in [Greece](country)
+- Book a [highly rated](sort) [restaurant](restaurant_type) with [northeastern](cuisine) for [10](party_size_number) in [Satanta](city)
+- Make reservations for me at a [taverna](restaurant_type) in [Hong Kong](country)
+- please book a [restaurant](restaurant_type) for [nine](party_size_number) members
+- Book a [jewish](cuisine) [churrascaria](restaurant_type) in [Minnesota](state) for [9](party_size_number) people.
+- Book a [restaurant](restaurant_type) [close by](spatial_relation) [downtown](poi) for [nine](party_size_number) [in seven months](timeRange)
+- [me, bobbie and colette](party_size_description) want to go to [The Peak Lookout](restaurant_name) in [Felicity](city)
+- I want to book a [restaurant](restaurant_type) [close-by](spatial_relation) [my teenager's airbnb](poi) at [00:55 am](timeRange)
+- Book a reservation for [Clinton Street Baking Company & Restaurant](restaurant_name) [distant](spatial_relation) from [downtown](poi)
+- Grab a table at a [restaurant](restaurant_type) in [Minnesota](state) that serves [ice cream cake](served_dish)
+- I want to go to a [highly rated](sort) [fast food restaurant](restaurant_type) [around](spatial_relation) [Togo](country) with [two](party_size_number) people total.
+- book in [Pine Bluffs](city) for [5](party_size_number) people [in the same area](spatial_relation)
+- Find a reservation for [six](party_size_number) at a [top-rated](sort) [brasserie](restaurant_type)
+- Need a [restaurant](restaurant_type) booking for [next week](timeRange) for a party of [6](party_size_number) in the state of [OR](state)
+- Book a [joint](restaurant_type) [in sixteen minutes](timeRange)  for [9](party_size_number).
+- Get me a [highly rated](sort) [restaurant](restaurant_type) in [Nigeria](country)
+- Book a [neighboring](spatial_relation) [food truck](restaurant_type) with a [spa](facility) in [Dallesport](city) for [4](party_size_number) people.
+- Book a [restaurant](restaurant_type) for [5](party_size_number) people.
+- book a [restaurant](restaurant_type) for [2](party_size_number) at [top-rated](sort) [Hoonah](city) [TN](state)
+- Book me a table for [3](party_size_number) at [TKK Fried Chicken](restaurant_name) in [Sri Lanka](country)
+- I would like reservations to a [popular](sort) [pub](restaurant_type) in [Burkina](country) for [10](party_size_number) people.
+- I want to take [me and my momy](party_size_description) to eat in [Flossmoor](city)
+- book a spot for [ten](party_size_number) at a [top-rated](sort)  [caucasian](cuisine) [restaurant](restaurant_type) [not far](spatial_relation)  from [Selmer](city)
+- Book a [restaurant](restaurant_type) in [El Salvador](country) for [10](party_size_number) people.
+- Book a table for [nine](party_size_number) people [next mar](timeRange).
+- Book a reservation for [five](party_size_number) people at a [restaurant](restaurant_type) with [pool](facility) in [Benkelman](city), [MI](state) in [Apr.](timeRange)
+- I need a [cambodian](cuisine) [brasserie restaurant](restaurant_type) that is [top-rated](sort)
+- Please find me a table at a place that serves [glace](served_dish), has room for [six](party_size_number) and a [pub](restaurant_type) atmosphere
+- I want to check out a [pub](restaurant_type) that has [internet](facility) in [Homer City](city).
+- I'd like to book a table at a [restaurant](restaurant_type) for a group of [4](party_size_number)
+- Book a table over the [internet](facility) for [six](party_size_number) at a [food truck](restaurant_type) in [Vanuatu](country) for [two pm](timeRange)
+- [restaurant](restaurant_type) in [Niger](country) for [my mom and I](party_size_description)
+- book a table for [me and bettye](party_size_description) at [Washington, D.C. Jewish Community Center](restaurant_name) in [Montana](state)
+- [me and edith](party_size_description) want to eat in [Coventry Lake](city)
+- book a [restaurant](restaurant_type) [faraway](spatial_relation) from [Rwanda](country) for [two](party_size_number)
+- Find a table for [madge and tami](party_size_description) at a [faraway](spatial_relation) [joint](restaurant_type) on [Sterling St](poi) that serves [chicken divan](served_dish)
+- Book a [restaurant](restaurant_type) for [ten](party_size_number) people.
+- I need a table at a [restaurant](restaurant_type) in [Texas](state) for [kelley and suzette](party_size_description)
+- I'd like seats for [five](party_size_number) at a place in [Verden](city) right [now](timeRange)
+- I want an [indoor](facility) [restaurant](restaurant_type) for a party of [five](party_size_number) in [Columbus Junction](city)
+- book a [food court](restaurant_type) for [5](party_size_number) serving [african](cuisine) food
+- I need to book a [pool](facility) side [bar](restaurant_type), for [5](party_size_number) people [17 weeks from now](timeRange), [distant](spatial_relation) from here at [Mountain Lakes](city).
+- find a [highly rated](sort) [brasserie restaurant](restaurant_type) in [Liberia](country) and book a table for [5](party_size_number)
+- book a [restaurant](restaurant_type) on [next fall](timeRange)  for [5](party_size_number)
+- Make me a reservation in [Hardesty](city) at a [joint](restaurant_type) the is [indoor](facility)
+- I need a table at a [highly rated](sort) [diner](restaurant_type)
+- I need reservations for a party of [3](party_size_number) on [all souls' day](timeRange) in [Temperance](city), [North Dakota](state)
+- I need a reservation for [around](spatial_relation) [London Borough](poi)
+- book for [six](party_size_number) for [1 hour and 1 minute from now](timeRange)
+- Book a table at [Carter House Inn](restaurant_name) in [Saint Bonaventure](city), [Alaska](state).
+- find and book a table in [WV](state)
+- Make reservations for [7](party_size_number) people at a [top-rated](sort) [brazilian](cuisine) [pub](restaurant_type) [around](spatial_relation) [Rockaway Park-Beach 116th](poi)
+- I need a reservation for a [coffeehouse](restaurant_type) with [nine](party_size_number) people [within the same area](spatial_relation) as [Midland Park](poi)
+- I need to find a [restaurant](restaurant_type) for [ten](party_size_number) people at [twelve am](timeRange) in [Liechtenstein](country).
+- Book a reservation at a restaraunt in [CT](state)
+- book a table for [1](party_size_number) at a [restaurant](restaurant_type)
+- Book a [CO](state) table at [Windows on the World](restaurant_name)
+- Get me a reservation for [1](party_size_number) somewhere in [Spade](city) at [seventeen o'clock](timeRange)
+- Find me a table for [two](party_size_number) at [seven](timeRange) somewhere in [Australia](country)
+- book a table for [one](party_size_number) at [Monty’s Hotel, Secunderabad](restaurant_name)
+- I want to eat [choucroute](served_dish) at a [brasserie](restaurant_type) for [8](party_size_number)
+- I need a [bar](restaurant_type) for [four](party_size_number) that serves [argentinian](cuisine) in [D'Iberville](city), [WY](state) for [twelve PM](timeRange)
+- book a spot at a [Crown Burgers](restaurant_name) that is [close by](spatial_relation) [West Compton](city)
+- Book a table at [T-Rex](restaurant_name) [in one minute](timeRange) in [Osierfield](city)
+- Book a [restaurant](restaurant_type) at a [steakhouse](restaurant_type) [around](spatial_relation) [in town](poi) that serves [empanada](served_dish) for [me and my son](party_size_description)
+- Please get seating for [me and my children](party_size_description)
+- book a [restaurant](restaurant_type) for [seven](party_size_number) on [last december](timeRange) in [Kentucky](state)
+- Book a [Theme restaurant](restaurant_name) in [Cameroon](country) for [6](party_size_number) people.
+- Book reservations at a [restaurant](restaurant_type) with [vickie and caitlin](party_size_description) on [February the second, 2018](timeRange)
+- Book a [diner](restaurant_type) place or [me and my best friend](party_size_description) on [Holy Saturday](timeRange), capital of [United Arab Emirates](country), where they serve [pepperoni](served_dish) dishes
+- I need a reservation for [eight](party_size_number) at [The Original Soup Man](restaurant_name) in [Northern Mariana Islands](state)
+- book a spot for [one](party_size_number) at a [restaurant](restaurant_type) in [ID](state)
+- book a table [around](spatial_relation) [London Borough of Ealing](poi) that is [highly rated](sort) in a [gluten free](cuisine) [bar](restaurant_type)
+- Book me a [lunch](timeRange) at [Boreas](restaurant_name) for a party of [8](party_size_number)
+- Book a table for [my granddaughter and I](party_size_description) at the [highly rated](sort) [restaurant](restaurant_type) that is [close by](spatial_relation) in [Tuvalu](country).
+- Book a [restaurant](restaurant_type) [within the same area](spatial_relation) of [Ely](city) for [10](party_size_number) people.
+- I need a [restaurant](restaurant_type) that has [internet](facility) access for a party of [six](party_size_number)
+- Make me a reservation at a [bar](restaurant_type) for a party of [7](party_size_number) in [indonesian](cuisine)
+- I'd like a table for [3](party_size_number) at a [brasserie](restaurant_type) in [Hillview](city) [NE](state) that has [mineiro](cuisine)
+- book a spot at [Leopold Cafe](restaurant_name) in [Bhutan](country)
+- Reserve a table for [ten](party_size_number) people in [Brenham](city) [in 5 years](timeRange) .
+- Get me reservations for an [indoor](facility) [Honduras](country) [restaurant](restaurant_type).
+- I need a reservation for [february 27, 2020](timeRange) at a [bar](restaurant_type) that serves [paté](served_dish)
+- Make me a reservation for [elvira and I](party_size_description) in [Brazil](country)
+- book a spot at an [indoor](facility) [gastropub](restaurant_type) in [NY](state)
+- Book a reservation for a [popular](sort) [bakery](restaurant_type) in [Patetown](city)
+- Book a [steakhouse](restaurant_type) with a [pool](facility) for [eight](party_size_number) people.
+- book a [southeastern](cuisine) [restaurant](restaurant_type) in [Heard Island and McDonald Islands](country)
+- book a spot for [8](party_size_number) at a [popular](sort) [taverna](restaurant_type)
+- I would like to book a [tea house](restaurant_type) at [08:05](timeRange)
+- I need a reservation for [2](party_size_number) [within walking distance](spatial_relation) of [Hoyt St](poi)
+- Book me a [restaurant](restaurant_type) reservation in [Madagascar](country)
+- book a spot at a [taverna](restaurant_type) with [internet](facility) in [Mississippi](state)
+- I would like to book a [frozen yogurt](served_dish) [restaurant](restaurant_type) for [one](party_size_number)
+- Need book a [restaurant](restaurant_type) for [this Autumn](timeRange) in [Illinois](state)
+- I need to book a [restaurant](restaurant_type) at [supper](timeRange) time in [IL](state)
+- Book a [restaurant](restaurant_type) in [Switzerland](country) for [3](party_size_number).
+- i'd like reservations for [two](party_size_number) at a [pizzeria](restaurant_type), [22 weeks from now](timeRange).
+- Need a resevation for a [cafeteria](restaurant_type) stle restaraunt in the [country](restaurant_name) of [Liberia](country) for a party of [10](party_size_number)
+- Please reserve a table for [five](party_size_number) to get [chicken fingers](served_dish) at a [cafeteria](restaurant_type) in [Mexico](country).
+- Book a [restaurant](restaurant_type) in the [Marshall Islands](state) for [two](party_size_number) people.
+- book a [restaurant](restaurant_type) for [seven](party_size_number)
+- Book a table at [Grecian Coffee House](restaurant_name) for [7](party_size_number) on [Apr. 7th, 2024](timeRange)
+- book for [seven](party_size_number) at [Cozy Dog Drive In](restaurant_name)
+- Find a reservation in [Hesston](city) [NC](state) at a new [restaurant](restaurant_type)
+- book a [restaurant](restaurant_type) for [4](party_size_number)
+- book a [restaurant](restaurant_type) [this week](timeRange) for [joni, wilda sanders and I](party_size_description) in [AL](state)
+- I need to go to a [restaurant](restaurant_type) a safe [distant](spatial_relation) from the [United States](country)
+- I need a reservation in [Steele City](city)
+- Book a table somewhere in [Dominica](country) for [2 minutes from now](timeRange)
+- Book reservations at [Phase 1](restaurant_name) in [La Jara](city)
+- book a table for [June the thirteenth, 2033](timeRange) in [Saint Barthélemy](country) for [6](party_size_number) at an [indoor](facility) [tea house](restaurant_type)
+- i want to eat a [highly rated](sort) [breakfast](timeRange) [restaurant](restaurant_type)
+- I need a reservation for a party of [ten](party_size_number) in [Algeria](country).
+- need a table at a [restaurant](restaurant_type) serving [foie gras](served_dish) on [halloween](timeRange) for [two](party_size_number) at [Northern Mariana Islands](state)
+- Book me a table at [The Restaurant at Meadowood](restaurant_name) [within the same area](spatial_relation) in [Kentucky](state)
+- I need a [restaurant](restaurant_type) for a party of [three](party_size_number)
+- Book [restaurant](restaurant_type) for party of [7](party_size_number) at a [pub](restaurant_type) in [Ford Heights](city)
+- Book a table at a [brasserie](restaurant_type) type [restaurant](restaurant_type) that serves [jain](cuisine) for a party of [8](party_size_number)
+- I want to book a [bar](restaurant_type) in [Bow Mar](city), [New Mexico](state)
+- I want to eat at a [brasserie](restaurant_type) that has [internet](facility) [near](spatial_relation) [Greenland](city) at [elevenses](timeRange).
+- Book a reservation for [me and my wife](party_size_description) at [The Middle East](restaurant_name) in [Guernsey](country)
+- I need a reservation for [January 9](timeRange) at a [restaurant](restaurant_type) that serves [souvlaki](served_dish) [nearby](spatial_relation) [Cypress Av](poi) for a party of [1](party_size_number)
+- Need table for [two](party_size_number) in [Pleasant City](city)
+- book for [jessie, dale wright and lupe](party_size_description) at a [bistro](restaurant_type) on [feb. 20, 2040](timeRange)
+- book a spot for [1](party_size_number) at a [restaurant](restaurant_type) this [Evening](timeRange)
+- I want to book [Dinner by Heston Blumenthal](restaurant_name) in [AL](state).
+- Book a [restaurant](restaurant_type) for a [meal](timeRange) for [4](party_size_number) people.
+- BOok me a table for [5](party_size_number) at a [best rated](sort) [restaurant](restaurant_type) in [Italy](country)
+- book a table at [one o'clock](timeRange) at a [bar](restaurant_type) that has [parking](facility)
+- book a spot at [The Red Onion](restaurant_name) in [San Marino](country) for [next week](timeRange)
+- book a table for [six](party_size_number) at [Hubbell House](restaurant_name) in [NE](state)
+- I need a [restaurant](restaurant_type) in [Iowa](state) for [0 o'clock](timeRange)
+- book a table for [three](party_size_number) at [0 am](timeRange) at a [bar](restaurant_type) with [wifi](facility) in [Schuyler Lake](city)
+- Book a [restaurant](restaurant_type) for [one](party_size_number) for [this month](timeRange).
+- book a table at [Atlantic Grill](restaurant_name) in [Lofgreen](city)
+- I'm looking for the [best](sort) [bistro](restaurant_type) that serves [mongolian](cuisine) food that has room for [two](party_size_number) people in [Marshall Islands](country).
+- book a [restaurant](restaurant_type) for [three](party_size_number) on [feb. 18](timeRange)
+- Find a [pub](restaurant_type) for me in [FM](state)
+- Book a reservation for a [bistro](restaurant_type)
+- I need a table at a [steakhouse](restaurant_type) in [Encino](city) that serves [meatcake](served_dish)
+- Book a reservation for [bettye and lakeisha jimenez](party_size_description) at a [bar](restaurant_type)
+- Book a reservation for [seven](party_size_number) people at a [bar](restaurant_type) in [Kentucky](state)
+- Need a table for a party of [3](party_size_number) in [Laos](country) at a [Theme restaurant](restaurant_name)
+- Book me a reservation [nearby](spatial_relation) my [neighborhood](poi)
+- Book a table at any [restaurant](restaurant_type) for [eight](party_size_number) people
+- book for [sherry and concepcion](party_size_description) in [Nunam Iqua](city) at the [best](sort) [restaurant](restaurant_type)
+- I have a party of [8](party_size_number) and we want to go to a [restaurant](restaurant_type) that serves [croquembouche](served_dish)
+- Book a table for [nine](party_size_number) at [Canteen Lunch in the Alley](restaurant_name) at [Midnight](timeRange)
+- I would like to book a [food truck](restaurant_type) with [mughlai](cuisine) cuisine in [Somalia](country)
+- Book a reservation for [one](party_size_number) at a [highly rated](sort) [restaurant](restaurant_type) in [Datil](city)
+- Book a [restaurant](restaurant_type) in [Goshenville](city) [PR](state) for [October 16, 2038](timeRange).
+- book [indian](cuisine) food at a [highly rated](sort) [pub](restaurant_type) for [1](party_size_number) for [02:22 pm](timeRange)
+- book me a reservation at a [highly rated](sort) [tavern](restaurant_type) in [Hornersville](city)
+- I need a place that serves [smelt](served_dish) for a party of [4](party_size_number), preferably a [taverna](restaurant_type)
+- I want to book the [Black Cat Bar](restaurant_name) in [AR](state)
+- book at table at [Forest Av](poi) [restaurant](restaurant_type) [close-by](spatial_relation) for [2](party_size_number) [1 second from now](timeRange)
+- table for [eight](party_size_number) at [The Berghoff](restaurant_name) in [Sistersville](city) in [Jul.](timeRange)
+- At [8 AM](timeRange) I want to eat at [The Rosebud](restaurant_name) in the [Federated States Of Micronesia](state)
+- I would like to book a [brasserie](restaurant_type) for [nine](party_size_number) in [AR](state)
+- book a [restaurant](restaurant_type) [not far](spatial_relation) from [Municipal Borough of Ealing](poi) for [today](timeRange)
+- Book the [best](sort) [close-by](spatial_relation) [bar](restaurant_type) in [Union City](poi).
+- Book a [restaurant](restaurant_type) [faraway](spatial_relation) from [Albertson](city) [now](timeRange).
+- I want to book the [distant](spatial_relation) [downtown](poi) [Tribeca Grill](restaurant_name) for [august the twenty-third, 2025](timeRange) for [wilda and jacklyn](party_size_description)
+- book a [bar](restaurant_type) in [SC](state) in [Leonville](city)
+- book a spot for [1](party_size_number) at a [pub](restaurant_type) with [internet](facility)
+- Book a spot for [ten](party_size_number) in [Morris Ranch](city) [SD](state) on [nov. the twenty-second, 2023](timeRange)
+- I want a table for [me and my kids](party_size_description) in [Turkey](country) at a [neighboring](spatial_relation) [restaurant](restaurant_type)
+- book a spot at a [sushis](served_dish) [diner](restaurant_type) in [Minnesota](state)
+- Book a [restaurant](restaurant_type) that serves [vezione verro](served_dish) [one second from now](timeRange).
+- I'd like a reservation for [Thornbury Castle](restaurant_name) [three hours from now](timeRange) in [NM](state).
+- I want to book a [restaurant](restaurant_type) in a [distant](spatial_relation) [ID](state) [spa](facility) for [lidia, latasha and diann](party_size_description).
+- book a table for [8](party_size_number) in [China](country) [16 hours ten minutes and one second from now](timeRange)
+- Book a reservation for a [popular](sort) [restaurant](restaurant_type) in [Federated States Of Micronesia](state)
+- book a table at [Jacob Wirth Restaurant](restaurant_name) for [8](party_size_number)
+- Book a table for [april twenty-second](timeRange) at a [pub](restaurant_type) which serves [creole](cuisine)
+- Book a reservation for a [taverna](restaurant_type) at [Sunrise](timeRange) in [Kaanapali](city)
+- Book a reservation for [four](party_size_number) in [Cajah's Mountain](city) [in 1 year](timeRange)
+- Book a [cafeteria](restaurant_type) with [wifi](facility)
+- Can I reserve the [Khedive Palace](restaurant_name) [restaurant](restaurant_type) for [aug. fifth](timeRange) in [Christina](city)?
+- Find a [restaurant](restaurant_type) in [FM](state) that servec [quiche](served_dish)
+- Book a [restaurant](restaurant_type) in [Northern Mariana Islands](state) with [kristine, alisha and florine](party_size_description).
+- Book [The Mustard Seed](restaurant_name) in [Turks and Caicos Islands](country) for [9](party_size_number) people.
+- I want to book a [restaurant](restaurant_type)
+- Get me a reservation for [two](party_size_number) at a [restaurant](restaurant_type) which serves [burger](served_dish).
+- I want to book a [restaurant](restaurant_type) in [Barbados](country) that serves [creole](cuisine).
+- I need a reservation for [five](party_size_number) at a [top-rated](sort) [english](cuisine) [restaurant](restaurant_type) in [Elma](city)
+- I need a reservation at [sunrise](timeRange) for [melva and heidi](party_size_description) at a local [restaurant](restaurant_type).
+- I want to take [me and my crew](party_size_description) to the [smoking room](facility) [restaurant](restaurant_type)
+- need a table at [Colony](restaurant_name) in [Sri Lanka](country) [next year](timeRange)
+- book a spot at [Rimsky-Korsakoffee House](restaurant_name) in [Mackville](city)
+- Book a [brazilian](cuisine) [diner](restaurant_type) for [9](party_size_number) that's [highly rated](sort) [within the same area](spatial_relation) as [Comoros](country)
+- Book reservation at a [restaurant](restaurant_type) in [South Mills](city) [MT](state) for [one](party_size_number) at [07:07](timeRange)
+- Book a [restaurant](restaurant_type) with a [pool](facility) [far](spatial_relation) from [robbie's hostel](poi) for [me, chandra and noelle](party_size_description) at [nine PM](timeRange).
+- I'd like to go to a [restaurant](restaurant_type) in [French Polynesia](country)
+- I would like to book a [restaurant](restaurant_type) in [Singapore](country) for [nine](party_size_number) [in 19 hours and 1 second](timeRange)
+- Book a [restaurant](restaurant_type) for [one](party_size_number) person at [three pm](timeRange)
+- book a spot at a [coffeehouse](restaurant_type) in [New York](state) with [wifi](facility) at [8 pm](timeRange)
+- Can you get seating for [1](party_size_number) person at a [cafeteria](restaurant_type) in [Pauls Crossroads](city)
+- I need a table at [The Apple Pan](restaurant_name) for [reva and bernadine](party_size_description)
+- I want a reservation for [11:16:07](timeRange) at [The Fort](restaurant_name) in [South Carolina](state).
+- I would like to book a [highly rated](sort) [brasserie](restaurant_type) with [souvlaki](cuisine) [neighboring](spatial_relation) [LA](state) [next week](timeRange)
+- Book a table for [3](party_size_number) at a [top-rated](sort) [restaurant](restaurant_type).
+- Book a [restaurant](restaurant_type) in [Kamrar](city) for [midday](timeRange).
+- Book a [bistro](restaurant_type) in [New Zealand](country) [in 119 and a half days](timeRange).
+- Book a [brasserie restaurant](restaurant_type) at [18:28](timeRange) and order [wings](served_dish).
+- I need to book a [restaurant](restaurant_type) in [Coalton](city)
+- Book me a [pub](restaurant_type)
+- I need to book a [pub](restaurant_type) in [Belhaven](city) on [july 18th](timeRange).
+- ok book me a [bakery](restaurant_type)
+
+## intent:chitchat
+- so what?
+- are you a noob
+
+## intent:ask_purpose
+- what you can do for me?
+- what can you do?
+- what is your purpose?
+- what you can do
+
+## lookup:restaurant_name
+  data/test/lookup_tables/restaurant_name.txt
+
+## lookup:restaurant_type
+  data/test/lookup_tables/restaurant_type.txt
+
+## lookup:facility
+  data/test/lookup_tables/facility.txt
+
+## lookup:party_size_number
+  data/test/lookup_tables/party_size_number.txt
+
+## lookup:served_dish
+  data/test/lookup_tables/served_dish.txt
+
+## lookup:sort
+  data/test/lookup_tables/sort.txt
+
+## lookup:city
+  data/test/lookup_tables/city.txt
+
+## lookup:country
+  data/test/lookup_tables/country.txt
+
+## lookup:cuisine
+  data/test/lookup_tables/cuisine.txt
+
+## lookup:party_size_discription
+  data/test/lookup_tables/party_size_discription.txt
+
+## lookup:poi
+  data/test/lookup_tables/poi.txt
+
+## lookup:plspatial_relationates
+  data/test/lookup_tables/spatial_relation.txt
+
+## lookup:state
+  data/test/lookup_tables/state.txt
+
+## lookup:state
+  data/test/lookup_tables/timeRange.txt

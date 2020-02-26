@@ -1,0 +1,116 @@
+IN
+Connecticut
+OH
+WA
+RI
+District Of Columbia
+OK
+Texas
+TN
+DE
+NH
+MP
+PW
+MT
+Wyoming
+Alabama
+CA
+MS
+South Carolina
+Montana
+California
+Georgia
+New Hampshire
+IL
+Wisconsin
+Nevada
+Missouri
+North Carolina
+SC
+WY
+MI
+NV
+Oklahoma
+Puerto Rico
+Colorado
+KY
+Northern Mariana Islands
+TX
+MD
+South Dakota
+AMerican Samoa
+Maine
+New Mexico
+NY
+Florida
+Indiana
+VI
+CO
+PA
+FM
+Illinois
+NJ
+North Dakota
+MO
+AL
+NC
+HI
+West Virginia
+MA
+Arkansas
+New York
+AK
+Alaska
+NM
+Arizona
+Michigan
+ND
+Hawaii
+Utah
+KS
+VA
+Federated States Of Micronesia
+SD
+GU
+Guam
+New Jersey
+DC
+Delaware
+NE
+Minnesota
+Rhode Island
+Mississippi
+Vermont
+AS
+IA
+Tennessee
+Iowa
+PR
+MH
+Kansas
+Idaho
+Virgin Islands
+ME
+Palau
+LA
+GA
+FL
+ID
+WI
+Kentucky
+AR
+VT
+Maryland
+OR
+UT
+Nebraska
+MN
+Louisiana
+AZ
+Virginia
+Marshall Islands
+CT
+WV
+Pennsylvania
+Washington
+Massachusetts

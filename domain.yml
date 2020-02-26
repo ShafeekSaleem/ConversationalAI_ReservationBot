@@ -1,0 +1,100 @@
+actions:
+- action_reset_slot
+- utter_ask_city
+- utter_ask_correctness
+- utter_ask_for_relevent
+- utter_ask_happy_help
+- utter_ask_party_size_number
+- utter_ask_restaurant_type
+- utter_ask_sad_help
+- utter_ask_timeRange
+- utter_confirmation
+- utter_default
+- utter_did_that_help
+- utter_goodbye
+- utter_greet
+- utter_happy
+- utter_iamabot
+- utter_purpose
+entities:
+- city
+- country
+- cuisine
+- facility
+- party_size_discription
+- party_size_number
+- poi
+- restaurant_name
+- restaurant_type
+- served_dish
+- sort
+- spatial_relation
+- state
+- timeRange
+forms:
+- reservation_form
+intents:
+- goodbye
+- inform
+- affirm
+- ask_purpose
+- mood_great
+- greet
+- book_reservation
+- stop
+- bot_challenge
+- chitchat
+- deny
+- mood_unhappy
+responses:
+  utter_ask_city:
+  - text: Sure, where do you want me to book?
+  utter_ask_correctness:
+  - text: Is that correct?
+  utter_ask_for_relevent:
+  - text: Not relevent to the subject Reservation.
+  utter_ask_happy_help:
+  - text: Great, How can I help you?
+  utter_ask_party_size_number:
+  - text: Ok, for how many people?
+  - text: Sure, what's the count?
+  utter_ask_restaurant_type:
+  - text: Ok, but what do you want me to book?
+  utter_ask_sad_help:
+  - text: Oh God, How can I help you?
+  utter_ask_timeRange:
+  - text: At what time do you want me to book?
+  utter_confirmation:
+  - text: Booked a {restaurant_type} on {timeRange} at {city}.
+  utter_default:
+  - text: sorry, I didn't get that, can you rephrase it?
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_goodbye:
+  - text: Bye!
+  - text: Good Bye!
+  - text: So long Friend! bye.
+  utter_greet:
+  - text: Hey! How are you?
+  - text: Hello! How are you man?
+  - text: Hey there! How are you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_iamabot:
+  - text: I am Dexter, an AI bot.
+  utter_purpose:
+  - text: I can book a reservation for you!
+session_config:
+  carry_over_slots_to_new_session: true
+  session_expiration_time: 60
+slots:
+  city:
+    type: unfeaturized
+  party_size_number:
+    type: unfeaturized
+  requested_slot:
+    type: unfeaturized
+  restaurant_type:
+    type: unfeaturized
+  timeRange:
+    type: unfeaturized
