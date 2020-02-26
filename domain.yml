@@ -17,6 +17,7 @@ actions:
 - utter_iamabot
 - utter_purpose
 entities:
+- name
 - city
 - country
 - cuisine
@@ -52,6 +53,15 @@ intents:
 - ask_builder
 
 responses:
+  utter_ask_name:
+  - text: What's your name?
+  utter_not_knowing_name:
+  - text: Sorry, I didn't get your name before. But I can ask now :)
+  utter_whatismyname:
+  - text: It's probably the one that your parents chose for you. Just kidding {name}!
+  - text: I'd tell you, but there's restricted access to that chunk of memory. I'm just kidding {name}!
+  - text: Believe it or not, I actually am not spying on your personal information. Just kidding {name}!
+  - text: You're the second person now to ask me that. Rihanna was the first. Just kidding {name}!
   utter_ask_city:
   - text: Sure, where do you want me to book?
   utter_ask_correctness:
@@ -117,6 +127,8 @@ session_config:
   carry_over_slots_to_new_session: true
   session_expiration_time: 60
 slots:
+  name:
+    type: unfeaturized
   city:
     type: unfeaturized
   party_size_number:
