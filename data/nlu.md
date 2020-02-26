@@ -261,6 +261,7 @@
 - when is your birthday?
 - when were you born?
 - when you were bon
+- how old r u
 
 ## intent:goodbye
 - bye!
@@ -496,6 +497,8 @@
 - ys
 - yup
 - yyeeeh
+- yeah thats correct
+- yes thank you
 
 ## intent:deny
 - no
@@ -529,6 +532,10 @@
 - for [7](party_size_number) people
 - [Kolannawa](city)
 - around [6 O'clock](timeRange)
+- My name is [Shafeek](name)
+- [7](party_size_number) people I guess
+- [near](spatial_relation) [dehiwala](city:Dehiwala)
+- on [March 7th](timeRange)
 
 ## intent:mood_great
 - perfect
@@ -635,6 +642,8 @@
 - what is my name
 - what is my name?
 - what's my name?
+- ok, can you tell me my name?
+- can you tell my name
 
 ## intent:book_reservation
 - book [The Middle East](restaurant_name) [restaurant](restaurant_type) in [IN](state) for [noon](timeRange)
@@ -2609,6 +2618,7 @@
 - Book me a [pub](restaurant_type)
 - I need to book a [pub](restaurant_type) in [Belhaven](city) on [july 18th](timeRange).
 - ok book me a [bakery](restaurant_type)
+- ok, book a table for a [restaurant](restaurant_type)
 
 ## intent:chitchat
 - so what?
@@ -2619,6 +2629,7 @@
 - what can you do?
 - what is your purpose?
 - what you can do
+- what can you do for me
 
 ## lookup:restaurant_name
   data/test/lookup_tables/restaurant_name.txt

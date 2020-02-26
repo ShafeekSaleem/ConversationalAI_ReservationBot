@@ -4,24 +4,31 @@ actions:
 - utter_ask_correctness
 - utter_ask_for_relevent
 - utter_ask_happy_help
+- utter_ask_name
 - utter_ask_party_size_number
 - utter_ask_restaurant_type
 - utter_ask_sad_help
 - utter_ask_timeRange
+- utter_botchallenge
 - utter_confirmation
 - utter_default
 - utter_did_that_help
 - utter_goodbye
 - utter_greet
 - utter_happy
+- utter_howbuilt
+- utter_howdoing
+- utter_howold
 - utter_iamabot
+- utter_not_knowing_name
 - utter_purpose
+- utter_whatismyname
 entities:
-- name
 - city
 - country
 - cuisine
 - facility
+- name
 - party_size_discription
 - party_size_number
 - poi
@@ -35,33 +42,23 @@ entities:
 forms:
 - reservation_form
 intents:
-- goodbye
-- inform
 - affirm
-- ask_purpose
 - mood_great
-- greet
+- ask_purpose
+- inform
+- goodbye
+- ask_whatismyname
 - book_reservation
+- greet
+- ask_howold
 - stop
 - bot_challenge
 - chitchat
 - deny
 - mood_unhappy
-- ask_whatismyname
-- ask_howold
 - ask_howdoing
 - ask_builder
-
 responses:
-  utter_ask_name:
-  - text: What's your name?
-  utter_not_knowing_name:
-  - text: Sorry, I didn't get your name before. But I can ask now :)
-  utter_whatismyname:
-  - text: It's probably the one that your parents chose for you. Just kidding {name}!
-  - text: I'd tell you, but there's restricted access to that chunk of memory. I'm just kidding {name}!
-  - text: Believe it or not, I actually am not spying on your personal information. Just kidding {name}!
-  - text: You're the second person now to ask me that. Rihanna was the first. Just kidding {name}!
   utter_ask_city:
   - text: Sure, where do you want me to book?
   utter_ask_correctness:
@@ -70,6 +67,8 @@ responses:
   - text: Not relevent to the subject Reservation.
   utter_ask_happy_help:
   - text: Great, How can I help you?
+  utter_ask_name:
+  - text: What's your name?
   utter_ask_party_size_number:
   - text: Ok, for how many people?
   - text: Sure, what's the count?
@@ -79,6 +78,11 @@ responses:
   - text: Oh God, How can I help you?
   utter_ask_timeRange:
   - text: At what time do you want me to book?
+  utter_botchallenge:
+  - text: Yep, I'm a bot!
+  - text: Yes, I'm a bot.
+  - text: Yep, you guessed it, I'm a bot!
+  - text: I am indeed a bot 🤖
   utter_confirmation:
   - text: Booked a {restaurant_type} on {timeRange} at {city}.
   utter_default:
@@ -95,15 +99,6 @@ responses:
   - text: Hey there! How are you?
   utter_happy:
   - text: Great, carry on!
-  utter_iamabot:
-  - text: I am Dexter, an AI bot.
-  utter_purpose:
-  - text: I can book a reservation for you!
-  utter_botchallenge:
-  - text: Yep, I'm a bot!
-  - text: Yes, I'm a bot.
-  - text: Yep, you guessed it, I'm a bot!
-  - text: I am indeed a bot 🤖
   utter_howbuilt:
   - text: I was built with a lot of love and patience.
   - text: Well, when two chatbots love each other very much...
@@ -118,18 +113,33 @@ responses:
   utter_howold:
   - text: Old enough to be a bot!
   - text: '19'
-  - text: Age is just an issue of mind over matter. If you don’t mind, it doesn’t matter.
+  - text: Age is just an issue of mind over matter. If you don’t mind, it doesn’t
+      matter.
   - text: Never ask a chatbot her age!
   - text: My first git commit was many moons ago.
   - text: Why do you ask? Are my wrinkles showing?
   - text: I've hit the age where I actively try to forget how old I am.
+  utter_iamabot:
+  - text: I am Dexter, an AI bot.
+  utter_not_knowing_name:
+  - text: Sorry, I didn't get your name before. But I can ask now :)
+  utter_purpose:
+  - text: I can book a reservation for you!
+  utter_whatismyname:
+  - text: It's probably the one that your parents chose for you. Just kidding {name}!
+  - text: I'd tell you, but there's restricted access to that chunk of memory. I'm
+      just kidding {name}!
+  - text: Believe it or not, I actually am not spying on your personal information.
+      Just kidding {name}!
+  - text: You're the second person now to ask me that. Rihanna was the first. Just
+      kidding {name}!
 session_config:
   carry_over_slots_to_new_session: true
   session_expiration_time: 60
 slots:
-  name:
-    type: unfeaturized
   city:
+    type: unfeaturized
+  name:
     type: unfeaturized
   party_size_number:
     type: unfeaturized
