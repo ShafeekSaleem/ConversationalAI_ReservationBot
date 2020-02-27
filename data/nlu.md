@@ -511,6 +511,7 @@
 - no way
 - not really
 - not now
+
 ## intent:inform
 - [restaurant](restaurant_type)
 - a [pub](restaurant_type)
@@ -549,7 +550,11 @@
 - on [March 7th](timeRange)
 - I am [Shafeek](name)
 - I am [Peter](name)
-- My name is [Ken](name)
+- [Billa](name)
+- [John](name)
+- [Mogan](name)
+- My name is [Hendry](name)
+- around [4 O'clock](timeRange)
 
 ## intent:mood_great
 - perfect
@@ -2639,6 +2644,7 @@
 - Book a reservation for a [pub](restaurant_type) at [Kandy](city) for [3](party_size_number) people
 - book a [restaurant](restaurant_type) at [Colombo](city) for [3](party_size_number) people at [midnight](timeRange)
 - book me a [restaurant](restaurant_type) for [3](party_size_number) people at [Allison](city) at [midday](timeRange)
+- reserve a table for a [restaurant](restaurant_type) at [Kandy](city) for [6](party_size_number) people
 
 ## intent:chitchat
 - so what?

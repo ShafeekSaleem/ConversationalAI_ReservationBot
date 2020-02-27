@@ -42,14 +42,14 @@ entities:
 forms:
 - reservation_form
 intents:
-- affirm
-- goodbye
-- ask_whatismyname
-- book_reservation
-- inform
-- deny
-- greet
 - mood_great
+- book_reservation
+- affirm
+- ask_whatismyname
+- greet
+- inform
+- goodbye
+- deny
 - ask_purpose
 - ask_howold
 - stop
