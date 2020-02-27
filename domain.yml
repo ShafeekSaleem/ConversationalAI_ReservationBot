@@ -1,5 +1,6 @@
 actions:
 - action_reset_slot
+- action_set_name_obtained_slot
 - utter_ask_city
 - utter_ask_correctness
 - utter_ask_for_relevent
@@ -39,6 +40,7 @@ entities:
 - spatial_relation
 - state
 - timeRange
+- is_name_obtained
 forms:
 - reservation_form
 intents:
@@ -149,3 +151,9 @@ slots:
     type: unfeaturized
   timeRange:
     type: unfeaturized
+  is_name_obtained:
+    type: categorical
+    values:
+    - name_recieved
+    - not_recieved
+

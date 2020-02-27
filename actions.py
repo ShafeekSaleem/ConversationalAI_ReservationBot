@@ -26,6 +26,13 @@ class ActionHelloWorld(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         dispatcher.utter_message(text="Hello World!")
         return []
+class SetNameObtainedSlot(Action):
+
+	def name(self):
+		return 'action_set_name_obtained_slot'
+
+	def run(self, dispatcher, tracker, domain):
+		return [ SlotSet("is_name_obtained", "name_recieved")]
 
 class ResetSlot(Action):
 

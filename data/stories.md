@@ -1,60 +1,61 @@
 ## reservation_happy_path
 * greet
-  - utter_greet
+    - utter_greet
 * mood_great
-  - utter_ask_name
+    - utter_ask_name
 * inform{"name": "Peter"}
     - slot{"name": "Peter"}
+    - action_set_name_obtained_slot
     - utter_ask_happy_help
 * book_reservation
-  - reservation_form
-  - form{"name":"reservation_form"}
-  - form{"name":null}
-  - utter_ask_correctness
+    - reservation_form
+    - form{"name":"reservation_form"}
+    - form{"name":null}
+    - utter_ask_correctness
 * affirm
-  - action_reset_slot
-  - utter_happy
-  - utter_goodbye
+    - action_reset_slot
+    - utter_happy
+    - utter_goodbye
 
 ## reservation_happy_path_2
 * book_reservation
-  - reservation_form
-  - form{"name":"reservation_form"}
-  - form{"name":null}
-  - utter_ask_correctness
+    - reservation_form
+    - form{"name":"reservation_form"}
+    - form{"name":null}
+    - utter_ask_correctness
 * affirm
-  - action_reset_slot
-  - utter_happy
+    - action_reset_slot
+    - utter_happy
 * goodbye
-  - utter_goodbye
+    - utter_goodbye
 
 ## greeting_happy
 * greet
-  - utter_greet
+    - utter_greet
 * mood_great
-  - utter_ask_happy_help
+    - utter_ask_happy_help
 
 
 ## greeting_name
 * greet
-  - utter_greet
+    - utter_greet
 * mood_great
-  - utter_ask_name
+    - utter_ask_name
 
 
 ## greeting_sad
 * greet
-  - utter_greet
+    - utter_greet
 * mood_unhappy
-  - utter_ask_sad_help
+    - utter_ask_sad_help
 
 ## say goodbye
 * goodbye
-  - utter_goodbye
+    - utter_goodbye
 
 ## bot challenge
 * bot_challenge
-  - utter_iamabot
+    - utter_iamabot
 
 ## interactive_story_1
 * greet
@@ -119,13 +120,15 @@
 * ask_howold
     - utter_howold
 * ask_whatismyname
-    - slot{"name": null}
+    - slot{"is_name_obtained": "not_recieved"}
     - utter_not_knowing_name
     - utter_ask_name
 * inform{"name": "Shafeek"}
     - slot{"name": "Shafeek"}
+    - action_set_name_obtained_slot
     - utter_ask_happy_help
 * ask_whatismyname
+    - slot{"is_name_obtained": "name_recieved"}
     - utter_whatismyname
 * book_reservation{"restaurant_type": "restaurant"}
     - slot{"restaurant_type": "restaurant"}
@@ -170,8 +173,10 @@
     - utter_ask_name
 * inform{"name": "Shafeek"}
     - slot{"name": "Shafeek"}
+    - action_set_name_obtained_slot
     - utter_ask_happy_help
 * ask_whatismyname
+    - slot{"is_name_obtained": "name_recieved"}
     - utter_whatismyname
 * book_reservation{"restaurant_type": "restaurant"}
     - slot{"restaurant_type": "restaurant"}
@@ -216,6 +221,7 @@
     - utter_ask_name
 * affirm{"name": "John"}
     - slot{"name": "John"}
+    - action_set_name_obtained_slot
     - utter_ask_happy_help
 * book_reservation{"restaurant_type": "pub", "city": "Kandy", "party_size_number": "3"}
     - slot{"city": "Kandy"}
@@ -254,11 +260,12 @@
 * mood_great
     - utter_ask_happy_help
 * ask_whatismyname
-    - slot{"name": null}
+    - slot{"is_name_obtained": "not_recieved"}
     - utter_not_knowing_name
     - utter_ask_name
 * inform{"name": "Shafeek"}
     - slot{"name": "Shafeek"}
+    - action_set_name_obtained_slot
     - utter_ask_happy_help
 * book_reservation{"restaurant_type": "restaurant", "city": "Colombo", "party_size_number": "3", "timeRange": "midnight"}
     - slot{"city": "Colombo"}
@@ -318,13 +325,15 @@
 * affirm
     - utter_happy
 * ask_whatismyname
-    - slot{"name": null}
+    - slot{"is_name_obtained": "not_recieved"}
     - utter_not_knowing_name
     - utter_ask_name
 * inform{"name": "Ken"}
     - slot{"name": "Ken"}
+    - action_set_name_obtained_slot
     - utter_ask_happy_help
 * ask_whatismyname
+    - slot{"is_name_obtained": "name_recieved"}
     - utter_whatismyname
 * affirm
     - utter_ask_happy_help
@@ -339,11 +348,12 @@
 * mood_great
     - utter_ask_happy_help
 * ask_whatismyname
-    - slot{"name": null}
+    - slot{"is_name_obtained": "not_recieved"}
     - utter_not_knowing_name
     - utter_ask_name
 * inform{"name": "Shafeek"}
     - slot{"name": "Shafeek"}
+    - action_set_name_obtained_slot
     - utter_ask_happy_help
 * book_reservation{"restaurant_type": "restaurant", "party_size_number": "3", "city": "Kandy", "timeRange": "midday"}
     - slot{"city": "Kandy"}
@@ -373,6 +383,7 @@
 * affirm
     - utter_happy
 * ask_whatismyname
+    - slot{"is_name_obtained": "name_recieved"}
     - utter_whatismyname
 * affirm
     - utter_ask_happy_help
@@ -384,11 +395,12 @@
 
 ## whatismyname_path
 * ask_whatismyname
-    - slot{"name": null}
+    - slot{"name": "not_recieved"}
     - utter_not_knowing_name
     - utter_ask_name
 * inform{"name": "John"}
     - slot{"name": "John"}
+    - action_set_name_obtained_slot
     - utter_ask_happy_help
 
 ## inform_name_path
@@ -398,6 +410,7 @@
     - utter_ask_name
 * inform{"name": "Billa"}
     - slot{"name": "Billa"}
+    - action_set_name_obtained_slot
     - utter_ask_happy_help
 
 ## inform_name_path2
@@ -407,8 +420,10 @@
     - utter_ask_name
 * inform{"name": "Morgan"}
     - slot{"name": "Morgan"}
+    - action_set_name_obtained_slot
     - utter_ask_happy_help
 * ask_whatismyname
+    - slot{"is_name_obtained": "name_recieved"}
     - utter_whatismyname
 * affirm
     - utter_ask_happy_help
@@ -419,6 +434,7 @@
     - utter_ask_name
 * inform{"name": "Hendry"}
     - slot{"name": "Hendry"}
+    - action_set_name_obtained_slot
     - utter_ask_happy_help
 * book_reservation{"restaurant_type": "restaurant", "city": "Kandy", "party_size_number": "6"}
     - slot{"city": "Kandy"}
@@ -450,6 +466,7 @@
 * affirm
     - utter_happy
 * ask_whatismyname
+    - slot{"is_name_obtained": "name_recieved"}
     - utter_whatismyname
 * affirm
     - utter_ask_happy_help
