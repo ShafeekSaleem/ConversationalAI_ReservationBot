@@ -270,6 +270,7 @@
 - see you later!
 - bye
 - Thank you so much, bye.
+- goodbye
 
 ## intent:affirm
 - Accept
@@ -499,6 +500,8 @@
 - yyeeeh
 - yeah thats correct
 - yes thank you
+- yes thanks
+- ok got it
 
 ## intent:deny
 - no
@@ -507,10 +510,14 @@
 - don't like that
 - no way
 - not really
-
+- not now
 ## intent:inform
 - [restaurant](restaurant_type)
-- a [restaurant](restaurant_type)
+- a [pub](restaurant_type)
+- [bakery](restaurant_type)
+- [cafe](restaurant_type)
+- [steakhouse](restaurant_type)
+- [coffeehouse](restaurant_type)
 - I need a [restaurant](restaurant_type)
 - [Japan](country)
 - in [Japan](country)
@@ -531,11 +538,18 @@
 - at [midnight](timeRange)
 - for [7](party_size_number) people
 - [Kolannawa](city)
+- [four](party_size_number)
+- [5](party_size_number)
+- [nine](party_size_number)
+- [7](party_size_number)
 - around [6 O'clock](timeRange)
-- My name is [Shafeek](name)
+- My name is [Ken](name)
 - [7](party_size_number) people I guess
 - [near](spatial_relation) [dehiwala](city:Dehiwala)
 - on [March 7th](timeRange)
+- I am [Shafeek](name)
+- I am [Peter](name)
+- My name is [Ken](name)
 
 ## intent:mood_great
 - perfect
@@ -549,6 +563,7 @@
 - I am good
 - I am great!
 - I am fine
+- I am ok
 
 ## intent:mood_unhappy
 - sad
@@ -644,6 +659,8 @@
 - what's my name?
 - ok, can you tell me my name?
 - can you tell my name
+- tell my name
+- now tell my name
 
 ## intent:book_reservation
 - book [The Middle East](restaurant_name) [restaurant](restaurant_type) in [IN](state) for [noon](timeRange)
@@ -2619,6 +2636,9 @@
 - I need to book a [pub](restaurant_type) in [Belhaven](city) on [july 18th](timeRange).
 - ok book me a [bakery](restaurant_type)
 - ok, book a table for a [restaurant](restaurant_type)
+- Book a reservation for a [pub](restaurant_type) at [Kandy](city) for [3](party_size_number) people
+- book a [restaurant](restaurant_type) at [Colombo](city) for [3](party_size_number) people at [midnight](timeRange)
+- book me a [restaurant](restaurant_type) for [3](party_size_number) people at [Allison](city) at [midday](timeRange)
 
 ## intent:chitchat
 - so what?
@@ -2630,6 +2650,9 @@
 - what is your purpose?
 - what you can do
 - what can you do for me
+
+## synonym:Dehiwala
+- dehiwala
 
 ## lookup:restaurant_name
   data/test/lookup_tables/restaurant_name.txt

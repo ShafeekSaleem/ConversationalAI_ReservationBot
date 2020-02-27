@@ -43,18 +43,18 @@ forms:
 - reservation_form
 intents:
 - affirm
-- mood_great
-- ask_purpose
-- inform
 - goodbye
 - ask_whatismyname
 - book_reservation
+- inform
+- deny
 - greet
+- mood_great
+- ask_purpose
 - ask_howold
 - stop
 - bot_challenge
 - chitchat
-- deny
 - mood_unhappy
 - ask_howdoing
 - ask_builder

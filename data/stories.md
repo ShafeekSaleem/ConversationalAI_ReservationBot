@@ -2,7 +2,10 @@
 * greet
   - utter_greet
 * mood_great
-  - utter_ask_happy_help
+  - utter_ask_name
+* inform{"name": "Peter"}
+    - slot{"name": "Peter"}
+    - utter_ask_happy_help
 * book_reservation
   - reservation_form
   - form{"name":"reservation_form"}
@@ -32,6 +35,13 @@
   - utter_ask_happy_help
 
 
+## greeting_name
+* greet
+  - utter_greet
+* mood_great
+  - utter_ask_name
+
+
 ## greeting_sad
 * greet
   - utter_greet
@@ -57,7 +67,7 @@
     - utter_iamabot
 * stop
 
-## interactive_story_1
+## interactive_story_2
 * greet
     - utter_greet
 * mood_great
@@ -99,10 +109,7 @@
     - utter_goodbye
 * goodbye
 
-## interactive_story_1
-* greet
-
-## interactive_story_1
+## interactive_story_3
 * greet
     - utter_greet
 * mood_great
@@ -155,7 +162,7 @@
 * goodbye
 
 
-## interactive_story_2
+## interactive_story_4
 * greet
     - utter_greet
 * mood_great
@@ -200,3 +207,142 @@
     - utter_goodbye
 * goodbye
 
+
+## interactive_story_5
+* greet
+    - utter_greet
+* mood_great
+    - utter_ask_name
+* affirm{"name": "John"}
+    - slot{"name": "John"}
+    - utter_ask_happy_help
+* book_reservation{"restaurant_type": "pub", "city": "Kandy", "party_size_number": "3"}
+    - slot{"city": "Kandy"}
+    - slot{"party_size_number": "3"}
+    - slot{"restaurant_type": "pub"}
+    - reservation_form
+    - form{"name": "reservation_form"}
+    - slot{"restaurant_type": "pub"}
+    - slot{"party_size_number": "3"}
+    - slot{"city": "Kandy"}
+    - slot{"restaurant_type": "pub"}
+    - slot{"party_size_number": "3"}
+    - slot{"city": "Kandy"}
+    - slot{"requested_slot": "timeRange"}
+* form: inform{"timeRange": "midnight"}
+    - slot{"timeRange": "midnight"}
+    - form: reservation_form
+    - slot{"timeRange": "midnight"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+    - utter_ask_correctness
+* affirm
+    - action_reset_slot
+    - slot{"restaurant_type": null}
+    - slot{"party_size_number": null}
+    - slot{"city": null}
+    - slot{"timeRange": null}
+    - utter_did_that_help
+* affirm
+    - utter_goodbye
+* goodbye
+
+## interactive_story_6
+* greet
+    - utter_greet
+* mood_great
+    - utter_ask_happy_help
+* ask_whatismyname
+    - utter_not_knowing_name
+    - utter_ask_name
+* inform{"name": "Shafeek"}
+    - slot{"name": "Shafeek"}
+    - utter_ask_happy_help
+* book_reservation{"restaurant_type": "restaurant", "city": "Colombo", "party_size_number": "3", "timeRange": "midnight"}
+    - slot{"city": "Colombo"}
+    - slot{"party_size_number": "3"}
+    - slot{"restaurant_type": "restaurant"}
+    - slot{"timeRange": "midnight"}
+    - reservation_form
+    - form{"name": "reservation_form"}
+    - slot{"restaurant_type": "restaurant"}
+    - slot{"party_size_number": "3"}
+    - slot{"city": "Colombo"}
+    - slot{"timeRange": "midnight"}
+    - slot{"restaurant_type": "restaurant"}
+    - slot{"party_size_number": "3"}
+    - slot{"city": "Colombo"}
+    - slot{"timeRange": "midnight"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+    - utter_ask_correctness
+* affirm
+    - action_reset_slot
+    - slot{"restaurant_type": null}
+    - slot{"party_size_number": null}
+    - slot{"city": null}
+    - slot{"timeRange": null}
+    - utter_did_that_help
+* affirm
+    - utter_goodbye
+* goodbye
+
+## interactive_story_7
+* book_reservation{"restaurant_type": "restaurant", "party_size_number": "3", "city": "Allison", "timeRange": "midday"}
+    - slot{"city": "Allison"}
+    - slot{"party_size_number": "3"}
+    - slot{"restaurant_type": "restaurant"}
+    - slot{"timeRange": "midday"}
+    - reservation_form
+    - form{"name": "reservation_form"}
+    - slot{"restaurant_type": "restaurant"}
+    - slot{"party_size_number": "3"}
+    - slot{"city": "Allison"}
+    - slot{"timeRange": "midday"}
+    - slot{"restaurant_type": "restaurant"}
+    - slot{"party_size_number": "3"}
+    - slot{"city": "Allison"}
+    - slot{"timeRange": "midday"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+    - utter_ask_correctness
+* affirm
+    - action_reset_slot
+    - slot{"restaurant_type": null}
+    - slot{"party_size_number": null}
+    - slot{"city": null}
+    - slot{"timeRange": null}
+    - utter_did_that_help
+* affirm
+    - utter_happy
+* ask_whatismyname
+    - utter_not_knowing_name
+    - utter_ask_name
+* inform{"name": "Ken"}
+    - slot{"name": "Ken"}
+    - utter_ask_happy_help
+* ask_whatismyname
+    - utter_whatismyname
+* affirm
+    - utter_ask_happy_help
+* deny
+    - utter_happy
+    - utter_goodbye
+* goodbye
+
+## whatismyname_path
+* ask_whatismyname
+    - utter_not_knowing_name
+    - utter_ask_name
+* inform{"name": "John"}
+    - slot{"name": "John"}
+    - utter_ask_happy_help
+
+## inform_name_path
+* greet
+    - utter_greet
+* mood_great
+    - utter_ask_name
+* inform{"name": "Billa"}
+    - slot{"name": "Billa"}
+    - utter_ask_happy_help
